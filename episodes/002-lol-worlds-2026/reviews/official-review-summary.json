@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "revisionId": "v3-20261110",
+  "reviewStartedAtUtc": "2026-11-10T05:51:32Z",
+  "reviewCutoffUtc": "2026-11-10T06:04:34.584622+00:00",
+  "reviewStatus": "bounded_official_review_complete_with_explicit_unknowns",
+  "materialChangeFound": false,
+  "materialChangeFoundScope": "No changed pairing, format, patch, catalog PDF bytes or newly completed focal result in the checked sources; not a universal assertion that no private or unindexed notice exists",
+  "probabilityRelevantNewEvidence": [],
+  "newMatchResultsRequireStatisticalRefit": false,
+  "existingCounterevidenceReconfirmed": [
+    {
+      "fact": "Official GPR BLG1611/GEN1610 remains nearly level",
+      "newRelativeToV2": false,
+      "noDuplicateWeight": true
+    }
+  ],
+  "confirmations": {
+    "pairing": {
+      "confirmed": true,
+      "teams": [
+        "GEN",
+        "BLG"
+      ],
+      "sourceId": "v3-schedule-alternative"
+    },
+    "format": {
+      "confirmed": true,
+      "format": "BO5 single elimination final",
+      "sourceIds": [
+        "v3-schedule-alternative",
+        "v3-worlds-event-rules"
+      ]
+    },
+    "patch": {
+      "confirmed": true,
+      "value": "26.20",
+      "sourceIds": [
+        "v3-worlds-event-rules",
+        "v3-patch-26-20"
+      ]
+    },
+    "observedLineups": {
+      "status": "Priorv2 actual26map audit reused; fresh public organization pages consistent",
+      "BLG": [
+        "Bin",
+        "XUN",
+        "Knight",
+        "Viper",
+        "ON"
+      ],
+      "GEN": [
+        "Kiin",
+        "Canyon",
+        "Chovy",
+        "Ruler",
+        "Duro"
+      ],
+      "newMatchLineupsObserved": false,
+      "finalSubmittedLineupsConfirmed": false,
+      "healthConfirmed": false,
+      "sourceIds": [
+        "v3-gen-team",
+        "v3-blg-team",
+        "v3-gen-club-roster"
+      ]
+    },
+    "time": {
+      "confirmed": true,
+      "broadcastStartUtc": "2026-11-14T19:00:00Z",
+      "newYork": "2026-11-14T14:00:00-05:00",
+      "beijing": "2026-11-15T03:00:00+08:00",
+      "actualFirstGameStartConfirmed": false,
+      "sourceId": "v3-official-venue"
+    }
+  },
+  "officialRulesGaps": [
+    {
+      "id": "2026-fearless-operative-g5-reset",
+      "status": "open",
+      "newAttempts": "Fresh catalog and exact same two PDFs; 20+37pages extracted and text-searched, international pages18/36/37 visually inspected; bounded official English/Chinese searches. Prior YouTube/caption routes were read as historical failures and not repeated.",
+      "stillUnknown": "Full applicable Worlds2026 game-five/cross-series reset and standard-ban/exceptions definition. Historical2025 definitions and observed maps cannot alone establish operative2026 rules."
+    },
+    {
+      "id": "current-operative-rules-notices",
+      "status": "open_partial_recheck",
+      "confirmed": "Fresh catalog references same PDF URLs with null update fields, and both downloaded PDF byte hashes are unchanged.",
+      "stillUnknown": "Whether separate emergency or team-only restrictions exist; full public disabled-content and amendment coverage not established."
+    },
+    {
+      "id": "current-health-and-final-availability",
+      "status": "open",
+      "confirmed": "Public org roster lists remain consistent with the previously observed names; Gen.G club lists the core five roles.",
+      "stillUnknown": "Health, unannounced conditions, final submitted starters, replacements and actual RoFS result. No healthy/no-injury assertion inferred from empty search results."
+    }
+  ],
+  "currentCoverageLimits": [
+    "Official-domain indexed searches and specified public pages only; Weibo blocked by robots and broad Bilibili commentary excluded as non-authoritative",
+    "No full current social/medical bulletin coverage; stale Gen.G news index not treated as current notice feed",
+    "No complete current operational Fearless G5/reset, emergency disable list or submitted final starters",
+    "No new full VOD or scrim/training access",
+    "Catalog metadata, current org rosters and negative searches cannot prove absence of unseen notices"
+  ],
+  "tlBlgDateClarification": {
+    "officialUtc": "2026-10-25T00:00:00Z",
+    "converted": {
+      "UTC": "2026-10-25T00:00:00+00:00",
+      "America/New_York": "2026-10-24T20:00:00-04:00",
+      "America/Chicago": "2026-10-24T19:00:00-05:00",
+      "Asia/Shanghai": "2026-10-25T08:00:00+08:00"
+    },
+    "oldGolDate": "2026-10-24",
+    "compatibleWithNewYorkAndVenueCalendarDates": true,
+    "golWholeDatasetTimezoneProven": false,
+    "singleRowChanged": false,
+    "interpretation": "Calendar conversion explains compatibility; not an established UTC-vs-UTC error. Preserve per-source date basis and existing audit limitation."
+  },
+  "completedMatches": {
+    "officialCompletedMainEventSeries": 39,
+    "focalCompletedSeries": 12,
+    "focalMaps": 26,
+    "latestFocalResultSourceDate": "2026-11-08",
+    "newFocalResultsFound": false,
+    "fullRawJson": "official-worlds-39-completed-raw-events.json",
+    "summaryJson": "official-worlds-39-completed-summary.json"
+  },
+  "sources": [
+    {
+      "id": "v3-schedule-alternative",
+      "url": "https://lolesports.com/en-GB/leagues/worlds",
+      "title": "schedule-alternative",
+      "originalDate": null,
+      "retrievedAtUtc": "2026-11-10T05:56:11.341617+00:00",
+      "httpStatus": 200,
+      "sourceFile": "schedule-alternative.html",
+      "sourceSha256": "d742cbb1f6ed17ef01f89daec3e966199420bfd0e1ecb9a27059da376d14bc9f",
+      "textFile": "schedule-alternative-excerpt.txt",
+      "textSha256": "ffd4cffd8f25828df17b4d8edd6b4aa91ef1ae11d80d173d836e2441fd39aae9",
+      "scope": "Fresh actual HTML's public Apollo SSR exact JSON event objects, plus visible final row; all39 completed main-event series parsed and read. Original 39 full EventMatch objects separately preserved. No new focal result beyond Nov8. This source's UTC timestamps must not be mixed silently with a provider's unverified calendar dates.",
+      "actuallyRead": true
+    },
+    {
+      "id": "v3-official-venue",
+      "url": "https://lolesports.com/en-US/lolesports/news/worlds-2026-venue-event-policies",
+      "title": "official-venue",
+      "originalDate": "2026-09-22 (article indexed in official news)",
+      "retrievedAtUtc": "2026-11-10T05:53:30.399755+00:00",
+      "httpStatus": 200,
+      "sourceFile": "official-venue.html",
+      "sourceSha256": "4e56bd3c2e6b3d5eaafe9beccea7bde414e1d467d583b04f7ec77d503c3774c7",
+      "textFile": "official-venue-excerpt.txt",
+      "textSha256": "fd2cf5e9c52fdba05c0c402349caa1318378feb15dcc88c97800c43476260a21",
+      "scope": "Actually read venue introduction and Updated Worlds2026 Start Times; not exact first-game start and not a player-health or lineup notice.",
+      "actuallyRead": true
+    },
+    {
+      "id": "v3-official-primer",
+      "url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+      "title": "official-primer",
+      "originalDate": "2026-10-05",
+      "retrievedAtUtc": "2026-11-10T05:53:30.399755+00:00",
+      "httpStatus": 200,
+      "sourceFile": "official-primer.html",
+      "sourceSha256": "1a1aabc02d890b161607a902eef01c9637309cc7f5c0f00a71922098db51a6c9",
+      "textFile": "official-primer-excerpt.txt",
+      "textSha256": "7cebef44932e41b4a1167c89c4a63552d2a9110307453b8cb53bf5ac64942943",
+      "scope": "Actually read official event dates, locations, qualifying teams and rules link. Embedded format video not watched in this revision; no inherited video-caption failure falsely converted to a read.",
+      "actuallyRead": true
+    },
+    {
+      "id": "v3-official-library",
+      "url": "https://competitiveops.riotgames.com/en-US/library",
+      "title": "official-library",
+      "originalDate": null,
+      "retrievedAtUtc": "2026-11-10T05:53:30.400756+00:00",
+      "httpStatus": 200,
+      "sourceFile": "official-library.html",
+      "sourceSha256": "057adff4637bb5c9883083ce8bd736641accb46f17d2200a85022dbfef5f49b6",
+      "textFile": "official-library-excerpt.txt",
+      "textSha256": "ae55d176c479b0720b2d686463d90727ee4c6fba2f90d46c0d9a420e3b1bb775",
+      "scope": "Actually parsed the two relevant official article entries from fresh public inline catalog data, including URLs, displayed publication timestamps and null update fields. Catalog scope alone cannot exclude separately communicated emergency notices.",
+      "actuallyRead": true
+    },
+    {
+      "id": "v3-worlds-event-rules",
+      "url": "https://cdn.sanity.io/files/dsfx7636/news_live/faa5ce974e58615911fbee931c6123e2785a8b46.pdf",
+      "title": "worlds-event-rules",
+      "originalDate": "2026-08-31T18:37:00Z",
+      "retrievedAtUtc": "2026-11-10T05:53:30.400756+00:00",
+      "httpStatus": 200,
+      "sourceFile": "worlds-event-rules.pdf",
+      "sourceSha256": "3907cf8389be3a06ff895ce863fb02346d5c9eac9a025595a77793222aa35eab",
+      "textFile": "worlds-event-rules-excerpt.txt",
+      "textSha256": "c96165fa3370573760539b4af8ed32c608b868ebb611f1dad33a76bf9dadb6fc",
+      "scope": "20pages text extracted and term searched; actually read pages5,8–10,15–18 selected clauses, not a claim of complete human page-by-page audit. Rules allow amendments and disabled content; absence of a full public list remains unknown. Existing MSI/2025 template errors preserved.",
+      "actuallyRead": true
+    },
+    {
+      "id": "v3-international-rules",
+      "url": "https://cdn.sanity.io/files/dsfx7636/news_live/d29e446e0a0d0813a8caaae1d2817dd82cfe79c6.pdf",
+      "title": "international-rules",
+      "originalDate": "2026-07-27T21:54:00Z",
+      "retrievedAtUtc": "2026-11-10T05:53:31.810319+00:00",
+      "httpStatus": 200,
+      "sourceFile": "international-rules.pdf",
+      "sourceSha256": "0ece714f4124803884bffc546d770f528f4409a477dbf972b5fbef81de080d1b",
+      "textFile": "international-rules-excerpt.txt",
+      "textSha256": "aa32d9221ae29d075a6955348a9d724098d6419910cba3526fac1470ea11f184",
+      "scope": "37pages extracted and searched for Fearless/game5/fifth/reset; onlyFearless page18 matched. Pages18,36,37 additionally rendered locally and visually read. No access-protection bypass or repeated YouTube/caption route; prior exhausted routes not retried.",
+      "actuallyRead": true
+    },
+    {
+      "id": "v3-patch-26-20",
+      "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-20-notes/",
+      "title": "patch-26-20",
+      "originalDate": "2026-10-06T18:00:00Z",
+      "retrievedAtUtc": "2026-11-10T05:53:32.123157+00:00",
+      "httpStatus": 200,
+      "sourceFile": "patch-26-20.html",
+      "sourceSha256": "814efb94e7c9a687a05dd67fc2ae29818b74616a8a5b0d538064fda52035674f",
+      "textFile": "patch-26-20-excerpt.txt",
+      "textSha256": "33102474f6d1db47db6c97974798cf6f4d8b85345cfc6051728adc82ed8f9e09",
+      "scope": "Actually read introduction and displayed pro-focused champion changes, not all cosmetic/mode content. No quantitative patch adjustment invented.",
+      "actuallyRead": true
+    },
+    {
+      "id": "v3-gen-team",
+      "url": "https://lolesports.com/en-US/teams/geng",
+      "title": "gen-team",
+      "originalDate": null,
+      "retrievedAtUtc": "2026-11-10T05:53:32.605676+00:00",
+      "httpStatus": 200,
+      "sourceFile": "gen-team.html",
+      "sourceSha256": "d1c6a6a1884e8eac0cdb1b681bac061b80cccb279c413dc8aa96fd25f971d3e2",
+      "textFile": "gen-team-excerpt.txt",
+      "textSha256": "972625f392ac09740815789bc6a00c90cd73be2d9bd9b872f6b5d0c146a624ef",
+      "scope": "Actually read listed player headings and upcoming match. Broad organization roster is not the registered event roster, final starting five, replacement notice or medical clearance.",
+      "actuallyRead": true
+    },
+    {
+      "id": "v3-blg-team",
+      "url": "https://lolesports.com/en-GB/teams/bilibili-gaming",
+      "title": "blg-team",
+      "originalDate": null,
+      "retrievedAtUtc": "2026-11-10T05:53:33.105966+00:00",
+      "httpStatus": 200,
+      "sourceFile": "blg-team.html",
+      "sourceSha256": "f179975e74c724cff41b59336d1e4701ecb46104643a2ea1bd7641ed4c4ec709",
+      "textFile": "blg-team-excerpt.txt",
+      "textSha256": "f27af009543ac95966214f2982f8f378342a65f926753c29ae744ccc67c1a07b",
+      "scope": "Actually read listed player headings and upcoming match. Broad organization roster is not the registered event roster, final starting five, replacement notice or medical clearance.",
+      "actuallyRead": true
+    },
+    {
+      "id": "v3-gen-club-roster",
+      "url": "https://geng.gg/pages/league-of-legends",
+      "title": "gen-club-roster",
+      "originalDate": null,
+      "retrievedAtUtc": "2026-11-10T05:56:11.340111+00:00",
+      "httpStatus": 200,
+      "sourceFile": "gen-club-roster.html",
+      "sourceSha256": "971b043a3903050cd7519f55684aba46a75be5e53ef7a8ec5c7a7742174d7c03",
+      "textFile": "gen-club-roster-excerpt.txt",
+      "textSha256": "78e504012d54f7d4270f61e476647b2548eba30602c9f13d6d159fe14c0dc7ac",
+      "scope": "Actually read five player/role entries; no article publication date established. Listing alone does not verify health or final match submission.",
+      "actuallyRead": true
+    },
+    {
+      "id": "v3-official-gpr",
+      "url": "https://lolesports.com/en-GB/gpr/2026/current",
+      "title": "official-gpr",
+      "originalDate": "Displayed label: Updated: 09/11/26, 5:00 am (display timezone not established)",
+      "retrievedAtUtc": "2026-11-10T05:56:11.337970+00:00",
+      "httpStatus": 200,
+      "sourceFile": "official-gpr.html",
+      "sourceSha256": "c443a23e7292afbe8d0a5a69c5149fb686a8b735554791218f3c5e1f2e159e80",
+      "textFile": "official-gpr-excerpt.txt",
+      "textSha256": "620f759cc9c5252c1caaa4a03267b4c3163b411902a0a3034490106d764439d8",
+      "scope": "Actually read definition and target table rows; preserved fresh original HTML. Reconfirmed existing counterperspective, no new independent match or manual probability addition.",
+      "actuallyRead": true
+    },
+    {
+      "id": "v3-official-news",
+      "url": "https://lolesports.com/en-US/lolesports/news",
+      "title": "official-news",
+      "originalDate": null,
+      "retrievedAtUtc": "2026-11-10T05:53:33.591480+00:00",
+      "httpStatus": 200,
+      "sourceFile": "official-news.html",
+      "sourceSha256": "ef03b2fe9cc76aba28b9ebff69d796dd02197f6aed6e96601e8814feca95a4bf",
+      "textFile": "official-news-excerpt.txt",
+      "textSha256": "f2830212eea456aae61214321b727058dd955f81bc1584d5ac0ba5b497f0a258",
+      "scope": "Actually inspected live index visible headlines and bounded official-domain search results. This is incomplete coverage, not a proof no notice exists; social access and indexing limits remain.",
+      "actuallyRead": true
+    },
+    {
+      "id": "v3-gen-club-news",
+      "url": "https://geng.gg/blogs/news",
+      "title": "gen-club-news",
+      "originalDate": null,
+      "retrievedAtUtc": "2026-11-10T05:56:11.340111+00:00",
+      "httpStatus": 200,
+      "sourceFile": "gen-club-news.html",
+      "sourceSha256": "96b7806bfd6d306469d786313f997f27f620a830127b5efdcef61799f7e9a3f4",
+      "textFile": "gen-club-news-excerpt.txt",
+      "textSha256": "97807709fcad50e2649a0dabc72c252e327ff5809e1eb4c26c399ed20a4e4088",
+      "scope": "Read visible listing headlines only, not all articles, pagination or social channels; excluded as health clearance evidence.",
+      "actuallyRead": true
+    }
+  ],
+  "failedHttpAttempts": [
+    {
+      "id": "official-schedule",
+      "url": "https://lolesports.com/en-GB/lolesports/leagues/first_stand,lcs,msi,worlds",
+      "retrievedAtUtc": "2026-11-10T05:53:30.398755+00:00",
+      "outcome": "failed",
+      "error": "HTTP Error 502: Bad Gateway"
+    }
+  ],
+  "marketSourcesRead": false,
+  "marketPricesUsed": false,
+  "forecastStateModified": false,
+  "oldVersionsModified": false,
+  "newSubjectiveLlrOrProbabilityAdjustment": false
+}

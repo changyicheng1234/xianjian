@@ -1,0 +1,240 @@
+series_id,date_utc,event,team_a,team_b,wins_a,wins_b,bo,y,international,source_url,p_elo,p_bt,p_primary
+gol:73675,2026-01-28,LCK Cup 2026,BRION,DRX,2,3,5,0,False,https://gol.gg/game/stats/73675/page-summary/,0.47562265947253207,0.4815616828902664,0.47859217118139924
+gol:73680,2026-01-29,LCK Cup 2026,DNF,FOX,1,3,5,0,False,https://gol.gg/game/stats/73680/page-summary/,0.2551063082660777,0.24333117713321237,0.24921874269964506
+gol:73685,2026-01-30,LCK Cup 2026,KT,nongshimredforce,2,3,5,0,False,https://gol.gg/game/stats/73685/page-summary/,0.8520752132711406,0.8042192604463158,0.8281472368587282
+gol:73690,2026-01-31,LCK Cup 2026,DK,T1,0,3,5,0,False,https://gol.gg/game/stats/73690/page-summary/,0.15373547170737237,0.24456218990610176,0.19914883080673706
+gol:73695,2026-02-01,LCK Cup 2026,GEN,HLE,3,0,5,1,False,https://gol.gg/game/stats/73695/page-summary/,0.7620856598949792,0.7874659573019136,0.7747758085984464
+gol:74036,2026-02-03,CBLOL Cup 2026,leviatan,paingaming,3,1,5,1,False,https://gol.gg/game/stats/74036/page-summary/,0.28728438512053683,0.4638552781078545,0.37556983161419566
+gol:74165,2026-02-08,LCK Cup 2026,DRX,nongshimredforce,3,0,5,1,False,https://gol.gg/game/stats/74165/page-summary/,0.4123996191899147,0.4793622557262509,0.44588093745808277
+gol:74255,2026-02-09,LPL 2026 Split 1 Playoffs,TES,teamwe,3,2,5,1,False,https://gol.gg/game/stats/74255/page-summary/,0.8190794896196232,0.7403750700129506,0.7797272798162869
+gol:74260,2026-02-09,LPL 2026 Split 1 Playoffs,IG,ninjasinpyjamas,1,3,5,0,False,https://gol.gg/game/stats/74260/page-summary/,0.6063493446553276,0.4845743320568363,0.545461838356082
+gol:74265,2026-02-10,LPL 2026 Split 1 Playoffs,TT,lngesports,0,3,5,0,False,https://gol.gg/game/stats/74265/page-summary/,0.24625053483034323,0.11475177148621146,0.18050115315827736
+gol:74270,2026-02-10,LPL 2026 Split 1 Playoffs,OMG,edwardgaming,3,1,5,1,False,https://gol.gg/game/stats/74270/page-summary/,0.30376317640855016,0.21190102255331353,0.25783209948093183
+gol:74309,2026-02-11,LPL 2026 Split 1 Playoffs,IG,OMG,3,0,5,1,False,https://gol.gg/game/stats/74309/page-summary/,0.8044837201030831,0.6396171572650552,0.7220504386840692
+gol:74314,2026-02-11,LPL 2026 Split 1 Playoffs,lngesports,teamwe,1,3,5,0,False,https://gol.gg/game/stats/74314/page-summary/,0.46939073004694387,0.6352866368312425,0.5523386834390932
+gol:74177,2026-02-12,LCK Cup 2026,DNF,FOX,2,3,5,0,False,https://gol.gg/game/stats/74177/page-summary/,0.28812048506256527,0.295315495193259,0.2917179901279121
+gol:74222,2026-02-12,LCP 2026 Split 1 Playoffs,fukuokasoftbankhawksgaming,gamesports,3,0,5,1,False,https://gol.gg/game/stats/74222/page-summary/,0.2042432288300107,0.1817819792693653,0.193012604049688
+gol:74182,2026-02-13,LCK Cup 2026,DK,DRX,3,2,5,1,False,https://gol.gg/game/stats/74182/page-summary/,0.8083751982495302,0.7259572113367107,0.7671662047931205
+gol:74227,2026-02-13,LCP 2026 Split 1 Playoffs,ctbcflyingoyster,groundzerogaming,1,3,5,0,False,https://gol.gg/game/stats/74227/page-summary/,0.8039969167666694,0.6402297069370848,0.7221133118518771
+gol:74205,2026-02-14,CBLOL Cup 2026,leviatan,vivokeydstars,3,1,5,1,False,https://gol.gg/game/stats/74205/page-summary/,0.26676308928681985,0.37190045639692976,0.3193317728418748
+gol:74233,2026-02-14,LCS 2026 Lock-In,disguised,sentinels,2,3,5,0,False,https://gol.gg/game/stats/74233/page-summary/,0.3615275753075938,0.40370427966405054,0.3826159274858222
+gol:74417,2026-02-14,LCP 2026 Split 1 Playoffs,fukuokasoftbankhawksgaming,teamsecretwhales,1,3,5,0,False,https://gol.gg/game/stats/74417/page-summary/,0.18224718895757405,0.15731320246616315,0.1697801957118686
+gol:74452,2026-02-14,LCK Cup 2026,DK,GEN,1,3,5,0,False,https://gol.gg/game/stats/74452/page-summary/,0.06034443688586595,0.11570398217465463,0.0880242095302603
+gol:74238,2026-02-15,LCS 2026 Lock-In,cloud9,flyquest,3,0,5,1,False,https://gol.gg/game/stats/74238/page-summary/,0.35332249560871964,0.5001021689696153,0.4267123322891675
+gol:74422,2026-02-15,LCP 2026 Split 1 Playoffs,deepcrossgaming,groundzerogaming,3,1,5,1,False,https://gol.gg/game/stats/74422/page-summary/,0.613337382646206,0.6474671923757962,0.6304022875110011
+gol:74457,2026-02-15,LCK Cup 2026,FOX,T1,3,1,5,1,False,https://gol.gg/game/stats/74457/page-summary/,0.06098078453272681,0.1522933545126554,0.10663706952269111
+gol:74562,2026-02-15,CBLOL Cup 2026,furia,leviatan,3,0,5,1,False,https://gol.gg/game/stats/74562/page-summary/,0.7114516365918796,0.627051487620356,0.6692515621061178
+gol:74447,2026-02-19,LCK Cup 2026,DNF,DRX,3,1,5,1,False,https://gol.gg/game/stats/74447/page-summary/,0.4172413036154277,0.4251092158647749,0.4211752597401013
+gol:74594,2026-02-20,LCS 2026 Lock-In,TL,disguised,3,0,5,1,False,https://gol.gg/game/stats/74594/page-summary/,0.7002569978112314,0.5030751277216875,0.6016660627664594
+gol:74673,2026-02-20,LCK Cup 2026,DK,DNF,3,1,5,1,False,https://gol.gg/game/stats/74673/page-summary/,0.8393580390007541,0.7338306028795564,0.7865943209401552
+gol:74599,2026-02-21,LCS 2026 Lock-In,flyquest,lyon,0,3,5,0,False,https://gol.gg/game/stats/74599/page-summary/,0.8843153851510802,0.8395054231124762,0.8619104041317782
+gol:74678,2026-02-21,LCK Cup 2026,FOX,GEN,1,3,5,0,False,https://gol.gg/game/stats/74678/page-summary/,0.02905197139568015,0.11005805131837579,0.06955501135702796
+gol:74806,2026-02-21,CBLOL Cup 2026,loud,redcanids,3,1,5,1,False,https://gol.gg/game/stats/74806/page-summary/,0.4181487531930498,0.4770875163100983,0.4476181347515741
+gol:74604,2026-02-22,LCS 2026 Lock-In,cloud9,sentinels,3,0,5,1,False,https://gol.gg/game/stats/74604/page-summary/,0.7654713777940831,0.7847165312015618,0.7750939544978225
+gol:74754,2026-02-22,LCK Cup 2026,DK,T1,3,2,5,1,False,https://gol.gg/game/stats/74754/page-summary/,0.16765828517629963,0.2834339248174952,0.22554610499689742
+gol:74811,2026-02-22,CBLOL Cup 2026,furia,losgrandes,3,1,5,1,False,https://gol.gg/game/stats/74811/page-summary/,0.7552833450676681,0.4110067471570614,0.5831450461123648
+gol:74827,2026-02-23,LEC 2026 Versus Playoffs,G2,MKOI,3,0,5,1,False,https://gol.gg/game/stats/74827/page-summary/,0.6854195906800935,0.6212271296293735,0.6533233601547335
+gol:74427,2026-02-24,LPL 2026 Split 1 Playoffs,TES,jdgaming,2,3,5,0,False,https://gol.gg/game/stats/74427/page-summary/,0.644368425044333,0.5931059514772279,0.6187371882607804
+gol:74432,2026-02-24,LPL 2026 Split 1 Playoffs,AL,teamwe,3,0,5,1,False,https://gol.gg/game/stats/74432/page-summary/,0.8806282254915341,0.8216931302856404,0.8511606778885872
+gol:74437,2026-02-25,LPL 2026 Split 1 Playoffs,IG,weibogaming,0,3,5,0,False,https://gol.gg/game/stats/74437/page-summary/,0.5049809864364692,0.4460702742152096,0.4755256303258394
+gol:74442,2026-02-25,LPL 2026 Split 1 Playoffs,BLG,ninjasinpyjamas,3,0,5,1,False,https://gol.gg/game/stats/74442/page-summary/,0.7929493208987121,0.6999796549995646,0.7464644879491383
+gol:74579,2026-02-26,LCP 2026 Split 1 Playoffs,deepcrossgaming,teamsecretwhales,2,3,5,0,False,https://gol.gg/game/stats/74579/page-summary/,0.41714436366632607,0.5326432358416939,0.47489379975401
+gol:74904,2026-02-26,LPL 2026 Split 1 Playoffs,AL,jdgaming,2,3,5,0,False,https://gol.gg/game/stats/74904/page-summary/,0.7656848560417013,0.7370644718913629,0.7513746639665322
+gol:74574,2026-02-27,LCP 2026 Split 1 Playoffs,fukuokasoftbankhawksgaming,groundzerogaming,3,1,5,1,False,https://gol.gg/game/stats/74574/page-summary/,0.3556752206290886,0.2958630914876409,0.32576915605836476
+gol:74832,2026-02-27,LEC 2026 Versus Playoffs,KC,giantx,3,0,5,1,False,https://gol.gg/game/stats/74832/page-summary/,0.7216379856403358,0.6949933565456665,0.7083156710930012
+gol:74852,2026-02-27,LCS 2026 Lock-In,TL,lyon,1,3,5,0,False,https://gol.gg/game/stats/74852/page-summary/,0.6507795823062953,0.5093199849310351,0.5800497836186652
+gol:74935,2026-02-27,LPL 2026 Split 1 Playoffs,BLG,weibogaming,3,0,5,1,False,https://gol.gg/game/stats/74935/page-summary/,0.728939544499704,0.6724358378870106,0.7006876911933573
+gol:74822,2026-02-28,LCK Cup 2026,DK,FOX,0,3,5,0,False,https://gol.gg/game/stats/74822/page-summary/,0.678502938455685,0.5716385559950428,0.6250707472253638
+gol:74837,2026-02-28,CBLOL Cup 2026,furia,redcanids,1,3,5,0,False,https://gol.gg/game/stats/74837/page-summary/,0.49775275889966053,0.6022293364047029,0.5499910476521817
+gol:74914,2026-02-28,LPL 2026 Split 1 Playoffs,TES,teamwe,3,0,5,1,False,https://gol.gg/game/stats/74914/page-summary/,0.7943787744453381,0.7335296824973043,0.7639542284713212
+gol:74991,2026-02-28,LCP 2026 Split 1 Playoffs,deepcrossgaming,fukuokasoftbankhawksgaming,3,2,5,1,False,https://gol.gg/game/stats/74991/page-summary/,0.7424776689077904,0.7902270088898556,0.766352338898823
+gol:75006,2026-02-28,LCS 2026 Lock-In,lyon,sentinels,3,1,5,1,False,https://gol.gg/game/stats/75006/page-summary/,0.4757804950628319,0.6602554780014867,0.5680179865321593
+gol:75011,2026-02-28,LEC 2026 Versus Playoffs,KC,MKOI,3,2,5,1,False,https://gol.gg/game/stats/75011/page-summary/,0.5889764585541104,0.6404159613713455,0.614696209962728
+gol:74919,2026-03-01,LPL 2026 Split 1 Playoffs,IG,ninjasinpyjamas,3,1,5,1,False,https://gol.gg/game/stats/74919/page-summary/,0.5690779883776638,0.4908259796934836,0.5299519840355738
+gol:74996,2026-03-01,LCK Cup 2026,FOX,GEN,0,3,5,0,False,https://gol.gg/game/stats/74996/page-summary/,0.03693663960461763,0.14331598171562,0.09012631066011881
+gol:75001,2026-03-01,LCP 2026 Split 1 Playoffs,deepcrossgaming,teamsecretwhales,0,3,5,0,False,https://gol.gg/game/stats/75001/page-summary/,0.4036318755392057,0.4438751327997382,0.423753504169472
+gol:75048,2026-03-01,CBLOL Cup 2026,loud,redcanids,3,0,5,1,False,https://gol.gg/game/stats/75048/page-summary/,0.44335476580387495,0.5243908499751853,0.48387280788953013
+gol:75053,2026-03-01,LEC 2026 Versus Playoffs,G2,KC,3,2,5,1,False,https://gol.gg/game/stats/75053/page-summary/,0.6399454912117046,0.5804338565022692,0.610189673856987
+gol:75058,2026-03-01,LCS 2026 Lock-In,cloud9,lyon,1,3,5,0,False,https://gol.gg/game/stats/75058/page-summary/,0.796804159782128,0.7623713957219919,0.7795877777520599
+gol:75063,2026-03-02,LPL 2026 Split 1 Playoffs,TES,weibogaming,2,3,5,0,False,https://gol.gg/game/stats/75063/page-summary/,0.6771326013788856,0.6085362665224676,0.6428344339506766
+gol:75068,2026-03-03,LPL 2026 Split 1 Playoffs,AL,IG,3,1,5,1,False,https://gol.gg/game/stats/75068/page-summary/,0.7964101856981193,0.8041305116739307,0.800270348686025
+gol:75073,2026-03-04,LPL 2026 Split 1 Playoffs,BLG,jdgaming,3,2,5,1,False,https://gol.gg/game/stats/75073/page-summary/,0.7005209013267722,0.6680221355238051,0.6842715184252887
+gol:75196,2026-03-05,LPL 2026 Split 1 Playoffs,AL,weibogaming,1,3,5,0,False,https://gol.gg/game/stats/75196/page-summary/,0.7764402266789908,0.7272424779463368,0.7518413523126638
+gol:75226,2026-03-07,LPL 2026 Split 1 Playoffs,jdgaming,weibogaming,3,0,5,1,False,https://gol.gg/game/stats/75226/page-summary/,0.5269759968713621,0.5063714075137958,0.5166737021925789
+gol:75280,2026-03-08,LPL 2026 Split 1 Playoffs,BLG,jdgaming,3,1,5,1,False,https://gol.gg/game/stats/75280/page-summary/,0.6742785962731188,0.6371804432689433,0.6557295197710311
+gol:75432,2026-03-16,2026 First Stand,BLG,FOX,3,2,5,1,True,https://gol.gg/game/stats/75432/page-summary/,0.8906505966890205,0.7205382858358125,0.8055944412624165
+gol:75437,2026-03-16,2026 First Stand,G2,teamsecretwhales,3,0,5,1,True,https://gol.gg/game/stats/75437/page-summary/,0.6189894691654946,0.5207091217470781,0.5698492954562864
+gol:75545,2026-03-17,2026 First Stand,GEN,jdgaming,3,0,5,1,True,https://gol.gg/game/stats/75545/page-summary/,0.8741341449851238,0.8533601209513059,0.8637471329682148
+gol:75550,2026-03-17,2026 First Stand,loud,lyon,2,3,5,0,True,https://gol.gg/game/stats/75550/page-summary/,0.6415119845339097,0.4700064892966922,0.5557592369153009
+gol:75555,2026-03-18,2026 First Stand,BLG,G2,3,0,5,1,True,https://gol.gg/game/stats/75555/page-summary/,0.5272208322744264,0.4827724053337918,0.5049966188041091
+gol:75560,2026-03-18,2026 First Stand,FOX,teamsecretwhales,3,0,5,1,True,https://gol.gg/game/stats/75560/page-summary/,0.2464752416814125,0.46764669729463765,0.35706096948802507
+gol:75563,2026-03-19,2026 First Stand,GEN,lyon,3,0,5,1,True,https://gol.gg/game/stats/75563/page-summary/,0.9552133079234028,0.8744711452071452,0.914842226565274
+gol:75568,2026-03-19,2026 First Stand,jdgaming,loud,3,0,5,1,True,https://gol.gg/game/stats/75568/page-summary/,0.5960276796756326,0.5482349074091508,0.5721312935423917
+gol:75571,2026-03-20,2026 First Stand,FOX,G2,0,3,5,0,True,https://gol.gg/game/stats/75571/page-summary/,0.1723598488413818,0.46411125777967677,0.3182355533105293
+gol:75576,2026-03-20,2026 First Stand,jdgaming,lyon,3,1,5,1,True,https://gol.gg/game/stats/75576/page-summary/,0.7281699387060437,0.5987818085065238,0.6634758736062838
+gol:75580,2026-03-21,2026 First Stand,G2,GEN,3,0,5,1,True,https://gol.gg/game/stats/75580/page-summary/,0.20060197601474133,0.18299752663267727,0.1917997513237093
+gol:75585,2026-03-21,2026 First Stand,BLG,jdgaming,3,0,5,1,True,https://gol.gg/game/stats/75585/page-summary/,0.689208557097442,0.6677065965259725,0.6784575768117073
+gol:75588,2026-03-22,2026 First Stand,BLG,G2,3,1,5,1,True,https://gol.gg/game/stats/75588/page-summary/,0.54870965418516,0.5310756822486985,0.5398926682169293
+gol:78032,2026-05-09,CBLOL 2026 Split 1 Playoffs,loud,vivokeydstars,3,1,5,1,False,https://gol.gg/game/stats/78032/page-summary/,0.4965932197414581,0.6328568030160192,0.5647250113787387
+gol:78037,2026-05-10,CBLOL 2026 Split 1 Playoffs,fluxow7m,losgrandes,3,2,5,1,False,https://gol.gg/game/stats/78037/page-summary/,0.5487588406313993,0.44910756699943943,0.4989332038154194
+gol:78125,2026-05-16,CBLOL 2026 Split 1 Playoffs,fluxow7m,redcanids,1,3,5,0,False,https://gol.gg/game/stats/78125/page-summary/,0.24942122763286614,0.2893928686447628,0.2694070481388145
+gol:78130,2026-05-17,CBLOL 2026 Split 1 Playoffs,furia,loud,3,0,5,1,False,https://gol.gg/game/stats/78130/page-summary/,0.5406705911763828,0.501561053363039,0.521115822269711
+gol:78120,2026-05-23,CBLOL 2026 Split 1 Playoffs,losgrandes,vivokeydstars,3,0,5,1,False,https://gol.gg/game/stats/78120/page-summary/,0.32095337801547213,0.5382030979925937,0.42957823800403294
+gol:78282,2026-05-23,LCP 2026 Split 2 Playoffs,ctbcflyingoyster,mvkesports,2,3,5,0,False,https://gol.gg/game/stats/78282/page-summary/,0.6622881321969195,0.41389177342645833,0.5380899528116889
+gol:78292,2026-05-23,LEC 2026 Spring Playoffs,G2,KC,3,1,5,1,False,https://gol.gg/game/stats/78292/page-summary/,0.673286354869823,0.6476094956326741,0.6604479252512485
+gol:78359,2026-05-23,LPL 2026 Split 2 Playoffs,lngesports,teamwe,2,3,5,0,False,https://gol.gg/game/stats/78359/page-summary/,0.6001306150495622,0.7234020264101748,0.6617663207298685
+gol:78364,2026-05-23,LPL 2026 Split 2 Playoffs,IG,TT,0,3,5,0,False,https://gol.gg/game/stats/78364/page-summary/,0.8507777216099005,0.8079588715208882,0.8293682965653943
+gol:78676,2026-05-23,LCS 2026 Spring Playoffs,cloud9,flyquest,3,2,5,1,False,https://gol.gg/game/stats/78676/page-summary/,0.5337069590615147,0.7276635409962604,0.6306852500288875
+gol:78287,2026-05-24,LCP 2026 Split 2 Playoffs,deepcrossgaming,fukuokasoftbankhawksgaming,3,0,5,1,False,https://gol.gg/game/stats/78287/page-summary/,0.6285022606221192,0.5488327011288386,0.5886674808754789
+gol:78297,2026-05-24,LEC 2026 Spring Playoffs,MKOI,teamvitality,3,0,5,1,False,https://gol.gg/game/stats/78297/page-summary/,0.5800396982914903,0.48130949715353377,0.530674597722512
+gol:78369,2026-05-24,LPL 2026 Split 2 Playoffs,edwardgaming,ninjasinpyjamas,3,2,5,1,False,https://gol.gg/game/stats/78369/page-summary/,0.3175688727630447,0.3197890944077276,0.31867898358538616
+gol:78374,2026-05-24,LPL 2026 Split 2 Playoffs,lgdgaming,weibogaming,3,2,5,1,False,https://gol.gg/game/stats/78374/page-summary/,0.18289845510719493,0.2080771682921545,0.19548781169967472
+gol:78681,2026-05-24,LCS 2026 Spring Playoffs,TL,lyon,2,3,5,0,False,https://gol.gg/game/stats/78681/page-summary/,0.5130152796050137,0.3721536807394934,0.44258448017225355
+gol:78817,2026-05-24,CBLOL 2026 Split 1 Playoffs,furia,redcanids,3,0,5,1,False,https://gol.gg/game/stats/78817/page-summary/,0.44632470832744714,0.46840691171724985,0.4573658100223485
+gol:78822,2026-05-25,CBLOL 2026 Split 1 Playoffs,losgrandes,loud,3,2,5,1,False,https://gol.gg/game/stats/78822/page-summary/,0.3447297911449683,0.48286271535290026,0.4137962532489343
+gol:78837,2026-05-25,LEC 2026 Spring Playoffs,G2,MKOI,3,2,5,1,False,https://gol.gg/game/stats/78837/page-summary/,0.7073574197232269,0.674741503309553,0.6910494615163899
+gol:78807,2026-05-29,LCP 2026 Split 2 Playoffs,mvkesports,teamsecretwhales,0,3,5,0,False,https://gol.gg/game/stats/78807/page-summary/,0.28236767964227005,0.3137796790130886,0.29807367932767936
+gol:78852,2026-05-29,LPL 2026 Split 2 Playoffs,TT,jdgaming,1,3,5,0,False,https://gol.gg/game/stats/78852/page-summary/,0.0886149394841773,0.17554340734214058,0.13207917341315895
+gol:78857,2026-05-29,LPL 2026 Split 2 Playoffs,TES,lgdgaming,3,0,5,1,False,https://gol.gg/game/stats/78857/page-summary/,0.8898340129417776,0.7877534614202888,0.8387937371810332
+gol:78812,2026-05-30,LCP 2026 Split 2 Playoffs,deepcrossgaming,gamesports,3,1,5,1,False,https://gol.gg/game/stats/78812/page-summary/,0.43591421240032774,0.47194657177709887,0.45393039208871333
+gol:78827,2026-05-30,LEC 2026 Spring Playoffs,KC,natusvincere,3,1,5,1,False,https://gol.gg/game/stats/78827/page-summary/,0.7277552763393645,0.7251079637708446,0.7264316200551046
+gol:78842,2026-05-30,LCS 2026 Spring Playoffs,flyquest,sentinels,3,0,5,1,False,https://gol.gg/game/stats/78842/page-summary/,0.7770748652985142,0.677741195767259,0.7274080305328866
+gol:78862,2026-05-30,LPL 2026 Split 2 Playoffs,AL,edwardgaming,3,0,5,1,False,https://gol.gg/game/stats/78862/page-summary/,0.8737893275944079,0.8010242217279027,0.8374067746611553
+gol:78867,2026-05-30,LPL 2026 Split 2 Playoffs,BLG,teamwe,1,3,5,0,False,https://gol.gg/game/stats/78867/page-summary/,0.9508742547758121,0.9489264654292726,0.9499003601025424
+gol:78905,2026-05-30,CBLOL 2026 Split 1 Playoffs,fluxow7m,losgrandes,2,3,5,0,False,https://gol.gg/game/stats/78905/page-summary/,0.5033930278937312,0.4017147464923765,0.45255388719305384
+gol:78832,2026-05-31,LEC 2026 Spring Playoffs,giantx,teamvitality,3,0,5,1,False,https://gol.gg/game/stats/78832/page-summary/,0.39197874151261036,0.31445682768024835,0.3532177845964294
+gol:78847,2026-05-31,LCS 2026 Spring Playoffs,TL,shopifyrebellion,3,0,5,1,False,https://gol.gg/game/stats/78847/page-summary/,0.7372190790382719,0.7854756878118584,0.7613473834250651
+gol:79102,2026-05-31,LCP 2026 Split 2 Playoffs,deepcrossgaming,teamsecretwhales,2,3,5,0,False,https://gol.gg/game/stats/79102/page-summary/,0.3269324801383976,0.31281247731934453,0.31987247872887103
+gol:79122,2026-05-31,LPL 2026 Split 2 Playoffs,TES,jdgaming,3,1,5,1,False,https://gol.gg/game/stats/79122/page-summary/,0.5666623402954517,0.5284444980582891,0.5475534191768704
+gol:79132,2026-05-31,CBLOL 2026 Split 1 Playoffs,losgrandes,redcanids,3,0,5,1,False,https://gol.gg/game/stats/79132/page-summary/,0.2654650169093123,0.413867417944468,0.3396662174268902
+gol:79127,2026-06-01,LPL 2026 Split 2 Playoffs,AL,teamwe,0,3,5,0,False,https://gol.gg/game/stats/79127/page-summary/,0.882037609843795,0.8447152067483764,0.8633764082960858
+gol:79167,2026-06-01,LEC 2026 Spring Playoffs,KC,giantx,3,0,5,1,False,https://gol.gg/game/stats/79167/page-summary/,0.7211585404068808,0.7052372851685861,0.7131979127877335
+gol:79112,2026-06-02,LPL 2026 Split 2 Playoffs,TT,lgdgaming,2,3,5,0,False,https://gol.gg/game/stats/79112/page-summary/,0.41243658747721784,0.4812007387903493,0.4468186631337836
+gol:79117,2026-06-03,LPL 2026 Split 2 Playoffs,BLG,edwardgaming,3,0,5,1,False,https://gol.gg/game/stats/79117/page-summary/,0.9316587247549243,0.9047617665214042,0.9182102456381642
+gol:79107,2026-06-05,LCP 2026 Split 2 Playoffs,gamesports,mvkesports,3,0,5,1,False,https://gol.gg/game/stats/79107/page-summary/,0.6135390633161568,0.548447714091186,0.5809933887036713
+gol:79230,2026-06-05,LPL 2026 Split 2 Playoffs,AL,lgdgaming,3,0,5,1,False,https://gol.gg/game/stats/79230/page-summary/,0.9049804556808964,0.8340846176549865,0.8695325366679414
+gol:79147,2026-06-06,LCK 2026 Road to MSI,BRION,DK,0,3,5,0,False,https://gol.gg/game/stats/79147/page-summary/,0.16252553787156893,0.22429039854675298,0.19340796820916095
+gol:79152,2026-06-06,CBLOL 2026 Split 1 Playoffs,furia,losgrandes,3,1,5,1,False,https://gol.gg/game/stats/79152/page-summary/,0.7096887439191617,0.6038105558688401,0.6567496498940009
+gol:79157,2026-06-06,LCS 2026 Spring Playoffs,TL,flyquest,3,1,5,1,False,https://gol.gg/game/stats/79157/page-summary/,0.3041472116898021,0.40961863149921857,0.3568829215945103
+gol:79180,2026-06-06,LEC 2026 Spring Playoffs,KC,MKOI,3,0,5,1,False,https://gol.gg/game/stats/79180/page-summary/,0.5442831486912953,0.5396399418243351,0.5419615452578153
+gol:79235,2026-06-06,LPL 2026 Split 2 Playoffs,BLG,jdgaming,3,1,5,1,False,https://gol.gg/game/stats/79235/page-summary/,0.7462827084071222,0.7262138478392706,0.7362482781231964
+gol:79265,2026-06-06,LCP 2026 Split 2 Playoffs,deepcrossgaming,gamesports,3,2,5,1,False,https://gol.gg/game/stats/79265/page-summary/,0.45367999674358306,0.5050777227476362,0.4793788597456096
+gol:79162,2026-06-07,LCS 2026 Spring Playoffs,cloud9,lyon,0,3,5,0,False,https://gol.gg/game/stats/79162/page-summary/,0.7323735834211623,0.6557865139985517,0.6940800487098571
+gol:79240,2026-06-07,LPL 2026 Split 2 Playoffs,TES,teamwe,3,0,5,1,False,https://gol.gg/game/stats/79240/page-summary/,0.8397193387151262,0.7915289229494463,0.8156241308322862
+gol:79270,2026-06-07,LCK 2026 Road to MSI,DK,KT,2,3,5,0,False,https://gol.gg/game/stats/79270/page-summary/,0.4528484292164013,0.49542262500686024,0.47413552711163076
+gol:79280,2026-06-07,LCP 2026 Split 2 Playoffs,deepcrossgaming,teamsecretwhales,1,3,5,0,False,https://gol.gg/game/stats/79280/page-summary/,0.3370890159001501,0.3345642856224443,0.3358266507612972
+gol:79285,2026-06-07,LEC 2026 Spring Playoffs,G2,KC,3,2,5,1,False,https://gol.gg/game/stats/79285/page-summary/,0.6407552496961187,0.6023509461355908,0.6215530979158548
+gol:79290,2026-06-08,LPL 2026 Split 2 Playoffs,AL,BLG,0,3,5,0,False,https://gol.gg/game/stats/79290/page-summary/,0.3398238622614483,0.31641761603050783,0.32812073914597806
+gol:79275,2026-06-12,LCK 2026 Road to MSI,HLE,T1,3,1,5,1,False,https://gol.gg/game/stats/79275/page-summary/,0.4450708600772341,0.43807700116242304,0.4415739306198286
+gol:79295,2026-06-13,LCS 2026 Spring Playoffs,TL,cloud9,3,0,5,1,False,https://gol.gg/game/stats/79295/page-summary/,0.33312979090379846,0.3747080976615403,0.35391894428266935
+gol:79333,2026-06-13,LPL 2026 Split 2 Playoffs,BLG,teamwe,3,2,5,1,False,https://gol.gg/game/stats/79333/page-summary/,0.9331225497213914,0.9154465163425264,0.9242845330319589
+gol:79438,2026-06-13,LCK 2026 Road to MSI,GEN,KT,3,0,5,1,False,https://gol.gg/game/stats/79438/page-summary/,0.8678611775595645,0.8277362499822131,0.8477987137708888
+gol:79479,2026-06-14,LCK 2026 Road to MSI,GEN,T1,2,3,5,0,False,https://gol.gg/game/stats/79479/page-summary/,0.6766910984358305,0.6702894069711267,0.6734902527034786
+gol:79494,2026-06-14,LCS 2026 Spring Playoffs,TL,lyon,0,3,5,0,False,https://gol.gg/game/stats/79494/page-summary/,0.538168563497577,0.4542442204443093,0.4962063919709432
+gol:79523,2026-06-14,LPL 2026 Split 2 Playoffs,BLG,TES,3,0,5,1,False,https://gol.gg/game/stats/79523/page-summary/,0.6586031903954495,0.6567470104201918,0.6576751004078206
+gol:79526,2026-06-28,MSI 2026,T1,TL,3,0,5,1,True,https://gol.gg/game/stats/79526/page-summary/,0.819619830888296,0.7740287386490854,0.7968242847686907
+gol:79531,2026-06-28,MSI 2026,KC,deepcrossgaming,3,0,5,1,True,https://gol.gg/game/stats/79531/page-summary/,0.6606808034597983,0.7272583047069787,0.6939695540833886
+gol:79534,2026-06-29,MSI 2026,KC,T1,0,3,5,0,True,https://gol.gg/game/stats/79534/page-summary/,0.3052246365649202,0.3933697979536773,0.34929721725929874
+gol:79539,2026-06-29,MSI 2026,TL,deepcrossgaming,3,0,5,1,True,https://gol.gg/game/stats/79539/page-summary/,0.5125241864169164,0.5572352164537695,0.534879701435343
+gol:79542,2026-06-30,MSI 2026,KC,TL,0,3,5,0,True,https://gol.gg/game/stats/79542/page-summary/,0.6459037520207973,0.64525442571967,0.6455790888702336
+gol:79574,2026-07-01,MSI 2026,T1,TL,3,0,5,1,True,https://gol.gg/game/stats/79574/page-summary/,0.8171506861309294,0.7684972976079696,0.7928239918694495
+gol:79603,2026-07-03,MSI 2026,HLE,teamsecretwhales,3,0,5,1,True,https://gol.gg/game/stats/79603/page-summary/,0.6477792838948994,0.7617951715463236,0.7047872277206115
+gol:79608,2026-07-03,MSI 2026,G2,TES,3,2,5,1,True,https://gol.gg/game/stats/79608/page-summary/,0.5759066078760773,0.601768219273382,0.5888374135747296
+gol:79613,2026-07-04,MSI 2026,furia,lyon,0,3,5,0,True,https://gol.gg/game/stats/79613/page-summary/,0.5743499119070239,0.4328734764036036,0.5036116941553137
+gol:79618,2026-07-04,MSI 2026,BLG,T1,3,2,5,1,True,https://gol.gg/game/stats/79618/page-summary/,0.5149877270833949,0.40142294431978365,0.4582053357015893
+gol:79686,2026-07-05,MSI 2026,TES,teamsecretwhales,1,3,5,0,True,https://gol.gg/game/stats/79686/page-summary/,0.5631703474689694,0.6474469653783177,0.6053086564236436
+gol:79696,2026-07-05,MSI 2026,G2,HLE,0,3,5,0,True,https://gol.gg/game/stats/79696/page-summary/,0.4522945244056555,0.3744649975976511,0.4133797610016533
+gol:79691,2026-07-06,MSI 2026,T1,furia,3,0,5,1,True,https://gol.gg/game/stats/79691/page-summary/,0.8087743755984361,0.8642444204949296,0.8365093980466829
+gol:79701,2026-07-06,MSI 2026,BLG,lyon,3,0,5,1,True,https://gol.gg/game/stats/79701/page-summary/,0.8377547359486313,0.6235605358097472,0.7306576358791892
+gol:79741,2026-07-08,MSI 2026,lyon,teamsecretwhales,3,0,5,1,True,https://gol.gg/game/stats/79741/page-summary/,0.35488848586423616,0.5859596556319663,0.4704240707481012
+gol:79746,2026-07-08,MSI 2026,G2,T1,3,1,5,1,True,https://gol.gg/game/stats/79746/page-summary/,0.3549682677560115,0.25282151358437616,0.3038948906701938
+gol:79751,2026-07-09,MSI 2026,BLG,HLE,3,1,5,1,True,https://gol.gg/game/stats/79751/page-summary/,0.5779477324428144,0.46724629109433713,0.5225970117685758
+gol:79776,2026-07-10,MSI 2026,G2,lyon,0,3,5,0,True,https://gol.gg/game/stats/79776/page-summary/,0.7283338317588293,0.5359464537568358,0.6321401427578326
+gol:79792,2026-07-11,MSI 2026,HLE,lyon,3,2,5,1,True,https://gol.gg/game/stats/79792/page-summary/,0.7486432335962376,0.5871672840736389,0.6679052588349383
+gol:79840,2026-07-12,MSI 2026,BLG,HLE,2,3,5,0,True,https://gol.gg/game/stats/79840/page-summary/,0.6120036762921196,0.5429048662025618,0.5774542712473407
+gol:80050,2026-07-19,Esports World Cup 2026,DK,KC,3,0,5,1,True,https://gol.gg/game/stats/80050/page-summary/,0.40937480080367095,0.5754932970999057,0.49243404895178833
+gol:80860,2026-08-02,LCP 2026 Split 3,ctbcflyingoyster,teamsecretwhales,0,3,5,0,False,https://gol.gg/game/stats/80860/page-summary/,0.44089132280979215,0.2883243218591234,0.36460782233445777
+gol:80863,2026-08-06,LCP 2026 Split 3,fukuokasoftbankhawksgaming,groundzerogaming,0,3,5,0,False,https://gol.gg/game/stats/80863/page-summary/,0.520024455559816,0.6015486210713221,0.560786538315569
+gol:81200,2026-08-07,LCP 2026 Split 3,detonationfocusme,gamesports,0,3,5,0,False,https://gol.gg/game/stats/81200/page-summary/,0.13533256186150283,0.1264979803118592,0.130915271086681
+gol:81205,2026-08-08,LCP 2026 Split 3,deepcrossgaming,mvkesports,2,3,5,0,False,https://gol.gg/game/stats/81205/page-summary/,0.5347748754788271,0.4908413080609079,0.5128080917698675
+gol:81210,2026-08-09,LCP 2026 Split 3,ctbcflyingoyster,groundzerogaming,3,1,5,1,False,https://gol.gg/game/stats/81210/page-summary/,0.7678005860246182,0.688359146783793,0.7280798664042056
+gol:81365,2026-08-13,LCP 2026 Split 3,deepcrossgaming,gamesports,1,3,5,0,False,https://gol.gg/game/stats/81365/page-summary/,0.425760061021289,0.4483720756966784,0.4370660683589837
+gol:81619,2026-08-14,LCP 2026 Split 3,ctbcflyingoyster,mvkesports,3,2,5,1,False,https://gol.gg/game/stats/81619/page-summary/,0.6441213518665315,0.48752342390121634,0.565822387883874
+gol:81624,2026-08-15,LCP 2026 Split 3,detonationfocusme,groundzerogaming,0,3,5,0,False,https://gol.gg/game/stats/81624/page-summary/,0.2833249857311724,0.2513583379055863,0.2673416618183794
+gol:81657,2026-08-16,LCP 2026 Split 3,ctbcflyingoyster,teamsecretwhales,3,2,5,1,False,https://gol.gg/game/stats/81657/page-summary/,0.3981611980109645,0.2647129112872787,0.3314370546491216
+gol:81698,2026-08-20,LCP 2026 Split 3,ctbcflyingoyster,mvkesports,3,0,5,1,False,https://gol.gg/game/stats/81698/page-summary/,0.6610096242405654,0.564980144293702,0.6129948842671338
+gol:82022,2026-08-21,LCP 2026 Split 3,gamesports,teamsecretwhales,1,3,5,0,False,https://gol.gg/game/stats/82022/page-summary/,0.36769360261773,0.3139782679099633,0.34083593526384665
+gol:82073,2026-08-22,LCP 2026 Split 3,gamesports,mvkesports,2,3,5,0,False,https://gol.gg/game/stats/82073/page-summary/,0.612876711672186,0.5766780842360991,0.5947773979541426
+gol:82104,2026-08-23,LCP 2026 Split 3,ctbcflyingoyster,teamsecretwhales,0,3,5,0,False,https://gol.gg/game/stats/82104/page-summary/,0.436389034924124,0.3592072775140038,0.3977981562190639
+gol:82129,2026-08-26,LCK 2026 Season Play-In,BRION,KT,2,3,5,0,False,https://gol.gg/game/stats/82129/page-summary/,0.1252247044406809,0.19442980966941997,0.15982725705505044
+gol:82134,2026-08-27,LCK 2026 Season Play-In,FOX,nongshimredforce,3,1,5,1,False,https://gol.gg/game/stats/82134/page-summary/,0.5961693883888499,0.5558886309031202,0.576029009645985
+gol:82168,2026-08-28,LPL 2026 Grand Finals,edwardgaming,ninjasinpyjamas,0,3,5,0,False,https://gol.gg/game/stats/82168/page-summary/,0.19396697227421375,0.15398445364729166,0.1739757129607527
+gol:82173,2026-08-28,LPL 2026 Grand Finals,IG,TT,3,0,5,1,False,https://gol.gg/game/stats/82173/page-summary/,0.8048843778774925,0.7221053363661356,0.7634948571218141
+gol:82306,2026-08-28,LCK 2026 Season Play-In,BRION,FOX,2,3,5,0,False,https://gol.gg/game/stats/82306/page-summary/,0.36637347933242465,0.4145702739945994,0.390471876663512
+gol:82139,2026-08-29,LCP 2026 Split 3,ctbcflyingoyster,mvkesports,3,1,5,1,False,https://gol.gg/game/stats/82139/page-summary/,0.6652982198263078,0.6034290345624393,0.6343636271943736
+gol:82178,2026-08-29,LPL 2026 Grand Finals,TES,lgdgaming,2,3,5,0,False,https://gol.gg/game/stats/82178/page-summary/,0.8104070287218882,0.7317745296617602,0.7710907791918242
+gol:82396,2026-08-29,LCK 2026 Season Playoffs,FOX,T1,2,3,5,0,False,https://gol.gg/game/stats/82396/page-summary/,0.07400760752915582,0.13046991466297275,0.10223876109606428
+gol:82183,2026-08-30,LPL 2026 Grand Finals,jdgaming,teamwe,1,3,5,0,False,https://gol.gg/game/stats/82183/page-summary/,0.7217291524752003,0.6950612908603785,0.7083952216677893
+gol:82383,2026-08-30,LCK 2026 Season Playoffs,DK,KT,0,3,5,0,False,https://gol.gg/game/stats/82383/page-summary/,0.644073358811543,0.6602559233581619,0.6521646410848525
+gol:82401,2026-08-30,LCP 2026 Split 3,ctbcflyingoyster,teamsecretwhales,0,3,5,0,False,https://gol.gg/game/stats/82401/page-summary/,0.39683780801121654,0.30938663243130793,0.3531122202212622
+gol:82414,2026-09-01,LCK 2026 Season Playoffs,GEN,KT,3,0,5,1,False,https://gol.gg/game/stats/82414/page-summary/,0.863320475022108,0.7953847966105515,0.8293526358163297
+gol:82419,2026-09-02,LCK 2026 Season Playoffs,HLE,T1,3,2,5,1,False,https://gol.gg/game/stats/82419/page-summary/,0.5519395441595984,0.5409587818260102,0.5464491629928043
+gol:82409,2026-09-03,LCK 2026 Season Playoffs,DK,FOX,3,2,5,1,False,https://gol.gg/game/stats/82409/page-summary/,0.8386695371243246,0.7876107636938925,0.8131401504091085
+gol:82434,2026-09-03,LPL 2026 Grand Finals,BLG,teamwe,3,1,5,1,False,https://gol.gg/game/stats/82434/page-summary/,0.9083748664518443,0.8793641435927858,0.8938695050223151
+gol:82439,2026-09-04,LPL 2026 Grand Finals,AL,lgdgaming,3,1,5,1,False,https://gol.gg/game/stats/82439/page-summary/,0.8244706328689818,0.7307368626445463,0.7776037477567641
+gol:82620,2026-09-04,LCK 2026 Season Playoffs,DK,KT,3,1,5,1,False,https://gol.gg/game/stats/82620/page-summary/,0.5869933436239254,0.589819311180328,0.5884063274021267
+gol:82424,2026-09-05,LPL 2026 Grand Finals,IG,TES,3,2,5,1,False,https://gol.gg/game/stats/82424/page-summary/,0.3582576096405991,0.3974191737697563,0.3778383917051777
+gol:82429,2026-09-05,LPL 2026 Grand Finals,jdgaming,ninjasinpyjamas,0,3,5,0,False,https://gol.gg/game/stats/82429/page-summary/,0.5193269870373722,0.4482065879297708,0.4837667874835715
+gol:82444,2026-09-05,CBLOL 2026 Split 2 Playoffs,paingaming,vivokeydstars,3,1,5,1,False,https://gol.gg/game/stats/82444/page-summary/,0.36642658444915466,0.2892047905503991,0.32781568749977685
+gol:82466,2026-09-05,LEC 2026 Summer Playoffs,G2,teamvitality,3,0,5,1,False,https://gol.gg/game/stats/82466/page-summary/,0.7261775133956584,0.6821596172073624,0.7041685653015104
+gol:82471,2026-09-05,LEC 2026 Summer Playoffs,KC,giantx,3,1,5,1,False,https://gol.gg/game/stats/82471/page-summary/,0.8262656811533854,0.8104512194423327,0.818358450297859
+gol:82625,2026-09-05,LCK 2026 Season Playoffs,GEN,HLE,3,1,5,1,False,https://gol.gg/game/stats/82625/page-summary/,0.6551260009309208,0.6339678963300132,0.6445469486304669
+gol:82449,2026-09-06,CBLOL 2026 Split 2 Playoffs,furia,redcanids,3,0,5,1,False,https://gol.gg/game/stats/82449/page-summary/,0.5732266789168488,0.6953646076479024,0.6342956432823756
+gol:82692,2026-09-06,LCK 2026 Season Playoffs,DK,T1,1,3,5,0,False,https://gol.gg/game/stats/82692/page-summary/,0.35685199125786055,0.4202815008612532,0.3885667460595569
+gol:82715,2026-09-06,LPL 2026 Grand Finals,IG,teamwe,3,1,5,1,False,https://gol.gg/game/stats/82715/page-summary/,0.6066205041305438,0.6045588065428906,0.6055896553367173
+gol:82720,2026-09-06,LPL 2026 Grand Finals,lgdgaming,ninjasinpyjamas,3,2,5,1,False,https://gol.gg/game/stats/82720/page-summary/,0.2618125279381252,0.23739887619765193,0.24960570206788857
+gol:82730,2026-09-06,LEC 2026 Summer Playoffs,G2,KC,3,1,5,1,False,https://gol.gg/game/stats/82730/page-summary/,0.47208359025609276,0.46456269020370333,0.46832314022989807
+gol:82725,2026-09-07,LPL 2026 Grand Finals,AL,BLG,0,3,5,0,False,https://gol.gg/game/stats/82725/page-summary/,0.2873235401455894,0.2839911444402601,0.2856573422929247
+gol:82793,2026-09-08,LPL 2026 Grand Finals,IG,lgdgaming,3,0,5,1,False,https://gol.gg/game/stats/82793/page-summary/,0.6634427231002351,0.6160194143857965,0.6397310687430158
+gol:82735,2026-09-11,LEC 2026 Summer Playoffs,giantx,natusvincere,2,3,5,0,False,https://gol.gg/game/stats/82735/page-summary/,0.5107878419671735,0.5145446832121815,0.5126662625896775
+gol:82740,2026-09-12,LEC 2026 Summer Playoffs,MKOI,teamvitality,3,2,5,1,False,https://gol.gg/game/stats/82740/page-summary/,0.5144988643343454,0.46332045071142314,0.4889096575228843
+gol:82745,2026-09-12,LCK 2026 Season Playoffs,HLE,T1,3,1,5,1,False,https://gol.gg/game/stats/82745/page-summary/,0.5404003859669438,0.5275191195503256,0.5339597527586347
+gol:82755,2026-09-12,CBLOL 2026 Split 2 Playoffs,furia,losgrandes,1,3,5,0,False,https://gol.gg/game/stats/82755/page-summary/,0.6098897528006062,0.5122281459528524,0.5610589493767293
+gol:82765,2026-09-12,LCS 2026 Summer Playoffs,cloud9,shopifyrebellion,3,0,5,1,False,https://gol.gg/game/stats/82765/page-summary/,0.847193283101321,0.8186910936314643,0.8329421883663927
+gol:82836,2026-09-12,LPL 2026 Grand Finals,AL,IG,3,2,5,1,False,https://gol.gg/game/stats/82836/page-summary/,0.6454970188641034,0.5565158594019611,0.6010064391330323
+gol:82760,2026-09-13,CBLOL 2026 Split 2 Playoffs,loud,paingaming,3,1,5,1,False,https://gol.gg/game/stats/82760/page-summary/,0.6953819367517066,0.8221934554303224,0.7587876960910145
+gol:82770,2026-09-13,LCS 2026 Summer Playoffs,flyquest,sentinels,3,0,5,1,False,https://gol.gg/game/stats/82770/page-summary/,0.7131420850079748,0.5813969940018574,0.6472695395049162
+gol:82962,2026-09-13,LCK 2026 Season Playoffs,GEN,HLE,3,1,5,1,False,https://gol.gg/game/stats/82962/page-summary/,0.6619013250095969,0.6414789834591934,0.6516901542343951
+gol:82967,2026-09-13,LPL 2026 Grand Finals,AL,BLG,3,1,5,1,False,https://gol.gg/game/stats/82967/page-summary/,0.2538973159740744,0.2507743846397141,0.2523358503068942
+gol:83014,2026-09-17,LPL 2026 Regional Finals,IG,TES,1,3,5,0,False,https://gol.gg/game/stats/83014/page-summary/,0.42450837042862793,0.49273834502774944,0.4586233577281887
+gol:82972,2026-09-18,LEC 2026 Summer Playoffs,MKOI,natusvincere,3,1,5,1,False,https://gol.gg/game/stats/82972/page-summary/,0.5992474145475742,0.5438820589413513,0.5715647367444627
+gol:82987,2026-09-18,LCS 2026 Summer Playoffs,sentinels,shopifyrebellion,2,3,5,0,False,https://gol.gg/game/stats/82987/page-summary/,0.6479271336360078,0.6408356918233734,0.6443814127296906
+gol:83019,2026-09-18,LPL 2026 Regional Finals,jdgaming,teamwe,3,1,5,1,False,https://gol.gg/game/stats/83019/page-summary/,0.6586266378075509,0.6289222796891215,0.6437744587483363
+gol:82750,2026-09-19,CBLOL 2026 Split 2 Playoffs,redcanids,vivokeydstars,3,0,5,1,False,https://gol.gg/game/stats/82750/page-summary/,0.5232254595314475,0.4888942694571265,0.506059864494287
+gol:82992,2026-09-19,LCS 2026 Summer Playoffs,cloud9,lyon,3,1,5,1,False,https://gol.gg/game/stats/82992/page-summary/,0.48120528422074027,0.2902787176029102,0.3857420009118252
+gol:83064,2026-09-19,LPL 2026 Regional Finals,IG,jdgaming,3,1,5,1,False,https://gol.gg/game/stats/83064/page-summary/,0.4668061073639776,0.499727611482024,0.4832668594230008
+gol:83074,2026-09-19,LEC 2026 Summer Playoffs,KC,MKOI,0,3,5,0,False,https://gol.gg/game/stats/83074/page-summary/,0.7359449992126746,0.7471801154650954,0.7415625573388851
+gol:82997,2026-09-20,LCS 2026 Summer Playoffs,TL,flyquest,3,0,5,1,False,https://gol.gg/game/stats/82997/page-summary/,0.4939448091475473,0.6725334779308142,0.5832391435391807
+gol:83077,2026-09-20,CBLOL 2026 Split 2 Playoffs,paingaming,redcanids,1,3,5,0,False,https://gol.gg/game/stats/83077/page-summary/,0.3547905668375101,0.34138002781635185,0.34808529732693094
+gol:83082,2026-09-20,LEC 2026 Summer Playoffs,G2,MKOI,3,0,5,1,False,https://gol.gg/game/stats/83082/page-summary/,0.7162888263585612,0.7077801835286515,0.7120345049436063
+gol:83095,2026-09-25,LCS 2026 Summer Playoffs,flyquest,shopifyrebellion,2,3,5,0,False,https://gol.gg/game/stats/83095/page-summary/,0.8232857481778978,0.7314766686151918,0.7773812083965448
+gol:83085,2026-09-26,CBLOL 2026 Split 2 Playoffs,furia,redcanids,3,2,5,1,False,https://gol.gg/game/stats/83085/page-summary/,0.5617134234827869,0.6723696211865426,0.6170415223346648
+gol:83238,2026-09-26,LCS 2026 Summer Playoffs,lyon,shopifyrebellion,3,1,5,1,False,https://gol.gg/game/stats/83238/page-summary/,0.83957445320419,0.9030979921580105,0.8713362226811002
+gol:83090,2026-09-27,CBLOL 2026 Split 2 Playoffs,losgrandes,loud,3,2,5,1,False,https://gol.gg/game/stats/83090/page-summary/,0.43351523055914,0.5273405294737065,0.4804278800164232
+gol:83243,2026-09-27,LCS 2026 Summer Playoffs,TL,cloud9,3,1,5,1,False,https://gol.gg/game/stats/83243/page-summary/,0.47595074144208405,0.5535740722511164,0.5147624068466002
+gol:83292,2026-10-03,LCS 2026 Summer Playoffs,cloud9,lyon,1,3,5,0,False,https://gol.gg/game/stats/83292/page-summary/,0.4972839374702898,0.3617359770047139,0.42950995723750185
+gol:83297,2026-10-03,CBLOL 2026 Split 2 Playoffs,furia,loud,3,0,5,1,False,https://gol.gg/game/stats/83297/page-summary/,0.516957824833133,0.49186600680001386,0.5044119158165734
+gol:83476,2026-10-04,LCS 2026 Summer Playoffs,TL,lyon,3,1,5,1,False,https://gol.gg/game/stats/83476/page-summary/,0.49407144696546845,0.4571972579895355,0.47563435247750196
+gol:83442,2026-10-10,CBLOL 2026 Split 2 Playoffs,furia,losgrandes,2,3,5,0,False,https://gol.gg/game/stats/83442/page-summary/,0.5850644289598613,0.49054723952489204,0.5378058342423767
+gol:83593,2026-10-15,Worlds 2026 Play-In,furia,mvkesports,0,3,5,0,True,https://gol.gg/game/stats/83593/page-summary/,0.6633592799184505,0.7417980585365662,0.7025786692275083
+gol:83598,2026-10-15,Worlds 2026 Play-In,KC,cloud9,3,2,5,1,True,https://gol.gg/game/stats/83598/page-summary/,0.6105902317138715,0.5821670195452876,0.5963786256295796
+gol:83623,2026-10-16,Worlds 2026 Play-In,cloud9,furia,1,3,5,0,True,https://gol.gg/game/stats/83623/page-summary/,0.5717583696185186,0.6223715482312343,0.5970649589248764
+gol:83628,2026-10-16,Worlds 2026 Play-In,KC,mvkesports,3,0,5,1,True,https://gol.gg/game/stats/83628/page-summary/,0.7676181684199176,0.7409127704485126,0.754265469434215
+gol:83631,2026-10-17,Worlds 2026 Play-In,furia,mvkesports,1,3,5,0,True,https://gol.gg/game/stats/83631/page-summary/,0.6398830089517313,0.6363374511942755,0.6381102300730035
+gol:83635,2026-10-18,Worlds 2026 Play-In,KC,mvkesports,3,0,5,1,True,https://gol.gg/game/stats/83635/page-summary/,0.7780728603096314,0.7635044543584957,0.7707886573340635
+gol:83694,2026-11-03,Worlds 2026 Main Event,IG,TES,3,1,5,1,True,https://gol.gg/game/stats/83694/page-summary/,0.4173430724054508,0.4766760494306136,0.44700956091803223
+gol:83699,2026-11-04,Worlds 2026 Main Event,GEN,lyon,3,0,5,1,True,https://gol.gg/game/stats/83699/page-summary/,0.8507960280491881,0.8249077414813217,0.837851884765255
+gol:83704,2026-11-05,Worlds 2026 Main Event,BLG,DK,3,0,5,1,True,https://gol.gg/game/stats/83704/page-summary/,0.700546806894146,0.563171279058871,0.6318590429765085
+gol:83709,2026-11-06,Worlds 2026 Main Event,KC,T1,1,3,5,0,True,https://gol.gg/game/stats/83709/page-summary/,0.4419427246677905,0.36554595928307404,0.4037443419754323
+gol:83713,2026-11-07,Worlds 2026 Main Event,GEN,IG,3,0,5,1,True,https://gol.gg/game/stats/83713/page-summary/,0.8795014253394314,0.8595216718890086,0.86951154861422
+gol:83718,2026-11-08,Worlds 2026 Main Event,BLG,T1,3,1,5,1,True,https://gol.gg/game/stats/83718/page-summary/,0.6056000347143974,0.527738892749515,0.5666694637319563

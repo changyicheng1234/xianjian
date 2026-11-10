@@ -1,0 +1,292 @@
+{
+  "lockedAtUtc": "2026-11-09T13:17:32.420508+00:00",
+  "selectionUsed": "Raw chronological 2025 BO5 log loss only",
+  "calibrationUsed": "Selected model's 2025 out-of-time BO5 predictions; .5*(slope-1)^2 fixed regularization, slope in [0,3], no intercept",
+  "calibrationTrainingIsNotValidation": true,
+  "holdoutUsedForSelection": false,
+  "targetProbabilityExaminedBeforeSelection": false,
+  "chosen": {
+    "elo": {
+      "name": "elo-k16-hNone",
+      "family": "elo",
+      "k": 16,
+      "halfLife": null,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.20610295283307947,
+        "logLoss": 0.6039093366801683,
+        "accuracy": 0.6872037914691943
+      },
+      "calibrationSlope": 0.9715450697976559,
+      "blendWeight": 0.5
+    },
+    "bt": {
+      "name": "bt-h90-r1",
+      "family": "bt",
+      "halfLife": 90,
+      "ridge": 1,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.20548141515143203,
+        "logLoss": 0.6011765144512281,
+        "accuracy": 0.6824644549763034
+      },
+      "calibrationSlope": 0.908124152045535,
+      "blendWeight": 0.5
+    }
+  },
+  "candidates": [
+    {
+      "name": "elo-k16-h90",
+      "family": "elo",
+      "k": 16,
+      "halfLife": 90,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.2273330758613029,
+        "logLoss": 0.6470979302495456,
+        "accuracy": 0.6729857819905213
+      }
+    },
+    {
+      "name": "elo-k16-h180",
+      "family": "elo",
+      "k": 16,
+      "halfLife": 180,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.21691727008760028,
+        "logLoss": 0.625519084209265,
+        "accuracy": 0.6777251184834123
+      }
+    },
+    {
+      "name": "elo-k16-h365",
+      "family": "elo",
+      "k": 16,
+      "halfLife": 365,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.21024599976161526,
+        "logLoss": 0.6112977005671615,
+        "accuracy": 0.6872037914691943
+      }
+    },
+    {
+      "name": "elo-k16-hNone",
+      "family": "elo",
+      "k": 16,
+      "halfLife": null,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.20610295283307947,
+        "logLoss": 0.6039093366801683,
+        "accuracy": 0.6872037914691943
+      }
+    },
+    {
+      "name": "elo-k32-h90",
+      "family": "elo",
+      "k": 32,
+      "halfLife": 90,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.2218018969780162,
+        "logLoss": 0.6350461592617037,
+        "accuracy": 0.6635071090047393
+      }
+    },
+    {
+      "name": "elo-k32-h180",
+      "family": "elo",
+      "k": 32,
+      "halfLife": 180,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.2124246673812714,
+        "logLoss": 0.6147897903311336,
+        "accuracy": 0.6919431279620853
+      }
+    },
+    {
+      "name": "elo-k32-h365",
+      "family": "elo",
+      "k": 32,
+      "halfLife": 365,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.2083321480960984,
+        "logLoss": 0.6056726240519849,
+        "accuracy": 0.6824644549763034
+      }
+    },
+    {
+      "name": "elo-k32-hNone",
+      "family": "elo",
+      "k": 32,
+      "halfLife": null,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.20805858595500779,
+        "logLoss": 0.6095509125221183,
+        "accuracy": 0.6635071090047393
+      }
+    },
+    {
+      "name": "elo-k64-h90",
+      "family": "elo",
+      "k": 64,
+      "halfLife": 90,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.2225218331895813,
+        "logLoss": 0.636811563058919,
+        "accuracy": 0.6255924170616114
+      }
+    },
+    {
+      "name": "elo-k64-h180",
+      "family": "elo",
+      "k": 64,
+      "halfLife": 180,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.21620522883329535,
+        "logLoss": 0.622987309207603,
+        "accuracy": 0.6492890995260664
+      }
+    },
+    {
+      "name": "elo-k64-h365",
+      "family": "elo",
+      "k": 64,
+      "halfLife": 365,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.21486866237984306,
+        "logLoss": 0.6214059437328135,
+        "accuracy": 0.6540284360189573
+      }
+    },
+    {
+      "name": "elo-k64-hNone",
+      "family": "elo",
+      "k": 64,
+      "halfLife": null,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.2168842507748352,
+        "logLoss": 0.6356389733497787,
+        "accuracy": 0.6824644549763034
+      }
+    },
+    {
+      "name": "bt-h90-r1",
+      "family": "bt",
+      "halfLife": 90,
+      "ridge": 1,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.20548141515143203,
+        "logLoss": 0.6011765144512281,
+        "accuracy": 0.6824644549763034
+      }
+    },
+    {
+      "name": "bt-h90-r4",
+      "family": "bt",
+      "halfLife": 90,
+      "ridge": 4,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.20939680038112773,
+        "logLoss": 0.6090729210391407,
+        "accuracy": 0.6872037914691943
+      }
+    },
+    {
+      "name": "bt-h90-r16",
+      "family": "bt",
+      "halfLife": 90,
+      "ridge": 16,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.2246703276101304,
+        "logLoss": 0.6419054467507049,
+        "accuracy": 0.6777251184834123
+      }
+    },
+    {
+      "name": "bt-h180-r1",
+      "family": "bt",
+      "halfLife": 180,
+      "ridge": 1,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.2079274405751634,
+        "logLoss": 0.6121458509461777,
+        "accuracy": 0.6777251184834123
+      }
+    },
+    {
+      "name": "bt-h180-r4",
+      "family": "bt",
+      "halfLife": 180,
+      "ridge": 4,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.20729936495208343,
+        "logLoss": 0.6053874428459839,
+        "accuracy": 0.6682464454976303
+      }
+    },
+    {
+      "name": "bt-h180-r16",
+      "family": "bt",
+      "halfLife": 180,
+      "ridge": 16,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.21563280683948688,
+        "logLoss": 0.6230992724627419,
+        "accuracy": 0.6682464454976303
+      }
+    },
+    {
+      "name": "bt-h365-r1",
+      "family": "bt",
+      "halfLife": 365,
+      "ridge": 1,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.21095297861698603,
+        "logLoss": 0.6232938350975604,
+        "accuracy": 0.6872037914691943
+      }
+    },
+    {
+      "name": "bt-h365-r4",
+      "family": "bt",
+      "halfLife": 365,
+      "ridge": 4,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.20907481701794003,
+        "logLoss": 0.6113249473141193,
+        "accuracy": 0.6777251184834123
+      }
+    },
+    {
+      "name": "bt-h365-r16",
+      "family": "bt",
+      "halfLife": 365,
+      "ridge": 16,
+      "raw2025": {
+        "n": 211,
+        "brier": 0.21160045992880844,
+        "logLoss": 0.6143467279030673,
+        "accuracy": 0.6919431279620853
+      }
+    }
+  ]
+}

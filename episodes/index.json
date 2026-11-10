@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "episodes": [
+    {
+      "id": "002",
+      "slug": "002-lol-worlds-2026",
+      "title": "2026 League of Legends World Championship final",
+      "directory": "episodes/002-lol-worlds-2026",
+      "probabilities": {
+        "GEN": 0.6650239320065033,
+        "BLG": 0.33497606799349666
+      },
+      "frozenAtUtc": "2026-11-10T06:09:44.366004+00:00",
+      "predictionSha256": "006e9ed53f80dedc9db28e8e889701db1a66ca5d30e842a06b843991e233d404",
+      "releaseTag": "episode-002-20261110-v3",
+      "fullResearchChecksPassed": false,
+      "publicPublicationTimestampSource": "GitHub Releases API published_at; not frozenAtUtc",
+      "result": "unresolved_at_publication"
+    }
+  ]
+}

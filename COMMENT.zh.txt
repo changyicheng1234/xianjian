@@ -1,0 +1,3 @@
+本期预测资料：https://github.com/changyicheng1234/ai-prediction-evidence
+第002期下载：https://github.com/changyicheng1234/ai-prediction-evidence/releases/tag/episode-002-20261110-v3
+包含报告、证据来源、冻结概率、复算方法及市场快照。后续修正和赛后复盘另存，原预测保留。

@@ -1,0 +1,614 @@
+{
+  "schemaVersion": 1,
+  "completedAtUtc": "2026-11-10T05:57:46.899092+00:00",
+  "purpose": "Targeted independent challenge of fixed v2 outputs; not a rerun of native full review and not a model replacement",
+  "planSha256": "4526f8b9beda60767fb13bf09efb240175495b9733731cf3f61861475e399d1f",
+  "draws": 2000,
+  "seed": 20261110,
+  "results": {
+    "all239": {
+      "n": 239,
+      "nEventBlocks": 25,
+      "events": [
+        "2026 First Stand",
+        "CBLOL 2026 Split 1 Playoffs",
+        "CBLOL 2026 Split 2 Playoffs",
+        "CBLOL Cup 2026",
+        "Esports World Cup 2026",
+        "LCK 2026 Road to MSI",
+        "LCK 2026 Season Play-In",
+        "LCK 2026 Season Playoffs",
+        "LCK Cup 2026",
+        "LCP 2026 Split 1 Playoffs",
+        "LCP 2026 Split 2 Playoffs",
+        "LCP 2026 Split 3",
+        "LCS 2026 Lock-In",
+        "LCS 2026 Spring Playoffs",
+        "LCS 2026 Summer Playoffs",
+        "LEC 2026 Spring Playoffs",
+        "LEC 2026 Summer Playoffs",
+        "LEC 2026 Versus Playoffs",
+        "LPL 2026 Grand Finals",
+        "LPL 2026 Regional Finals",
+        "LPL 2026 Split 1 Playoffs",
+        "LPL 2026 Split 2 Playoffs",
+        "MSI 2026",
+        "Worlds 2026 Main Event",
+        "Worlds 2026 Play-In"
+      ],
+      "fixedMetrics": {
+        "elo": {
+          "brier": 0.2275232797867917,
+          "logLoss": 0.6511030659248491
+        },
+        "bt": {
+          "brier": 0.2212224556152974,
+          "logLoss": 0.6361707122705131
+        },
+        "primary": {
+          "brier": 0.22230794187321914,
+          "logLoss": 0.6384887377404511
+        },
+        "eloRaw": {
+          "brier": 0.2280690171366987,
+          "logLoss": 0.6530791440935366
+        },
+        "btRaw": {
+          "brier": 0.22194108335714277,
+          "logLoss": 0.6393858171014963
+        },
+        "coinflip": {
+          "brier": 0.25,
+          "logLoss": 0.6931471805599453
+        }
+      },
+      "pairedDifferences": {
+        "primary_minus_elo": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": -0.005215337913572558,
+            "descriptiveBlockPercentile95": [
+              -0.011314460987807506,
+              0.0001725709181391606
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.9695
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": -0.012614328184398048,
+            "descriptiveBlockPercentile95": [
+              -0.027268162031792408,
+              0.0003721447638893792
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.97
+          }
+        },
+        "primary_minus_bt": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": 0.0010854862579217778,
+            "descriptiveBlockPercentile95": [
+              -0.0038549282755913484,
+              0.006602856983796141
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.358
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": 0.0023180254699379484,
+            "descriptiveBlockPercentile95": [
+              -0.008923821471727496,
+              0.014786656716617937
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.3795
+          }
+        },
+        "primary_minus_coinflip": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": -0.02769205812678084,
+            "descriptiveBlockPercentile95": [
+              -0.04384262889112658,
+              -0.0120247217438131
+            ],
+            "fractionBootstrapDifferenceBelowZero": 1.0
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": -0.05465844281949414,
+            "descriptiveBlockPercentile95": [
+              -0.09495555169267304,
+              -0.014963742237715398
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.9975
+          }
+        },
+        "elo_minus_eloRaw": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": -0.0005457373499069483,
+            "descriptiveBlockPercentile95": [
+              -0.0010070489465956113,
+              -5.041947831029046e-05
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.9845
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": -0.0019760781686873436,
+            "descriptiveBlockPercentile95": [
+              -0.0038796784215002936,
+              -0.00017643416824621324
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.983
+          }
+        },
+        "bt_minus_btRaw": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": -0.0007186277418453691,
+            "descriptiveBlockPercentile95": [
+              -0.002144750985104365,
+              0.0007654695463930311
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.831
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": -0.0032151048309831255,
+            "descriptiveBlockPercentile95": [
+              -0.008812612248790153,
+              0.001613144882546921
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.8905
+          }
+        }
+      },
+      "calibrationDiagnostics": {
+        "elo": {
+          "diagnosticSlope": 0.6484530352218343,
+          "descriptiveBlockPercentile95": [
+            0.45203882052316047,
+            0.9731695409489375
+          ],
+          "bootstrapAtDeclaredBoundFraction": 0.0,
+          "nIdentifiedBootstrapDraws": 2000,
+          "method": "Unpenalized zero-intercept symmetric slope fitted to 2026 only for diagnostics; not applied to target or saved model",
+          "favoriteReliability": [
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "nUniqueSeries": 71,
+              "meanFavoriteProbability": 0.5495628654613482,
+              "observedFavoriteWinFraction": 0.5633802816901409
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "nUniqueSeries": 66,
+              "meanFavoriteProbability": 0.647880249330586,
+              "observedFavoriteWinFraction": 0.5303030303030303
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "nUniqueSeries": 50,
+              "meanFavoriteProbability": 0.7424742663345343,
+              "observedFavoriteWinFraction": 0.7
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "nUniqueSeries": 40,
+              "meanFavoriteProbability": 0.8419208847640209,
+              "observedFavoriteWinFraction": 0.775
+            },
+            {
+              "lower": 0.9,
+              "upper": 1,
+              "nUniqueSeries": 12,
+              "meanFavoriteProbability": 0.9361906483230039,
+              "observedFavoriteWinFraction": 0.8333333333333334
+            }
+          ]
+        },
+        "bt": {
+          "diagnosticSlope": 0.8181556913810795,
+          "descriptiveBlockPercentile95": [
+            0.5674465350858071,
+            1.2179057820053347
+          ],
+          "bootstrapAtDeclaredBoundFraction": 0.0,
+          "nIdentifiedBootstrapDraws": 2000,
+          "method": "Unpenalized zero-intercept symmetric slope fitted to 2026 only for diagnostics; not applied to target or saved model",
+          "favoriteReliability": [
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "nUniqueSeries": 88,
+              "meanFavoriteProbability": 0.5436715000340403,
+              "observedFavoriteWinFraction": 0.6022727272727273
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "nUniqueSeries": 64,
+              "meanFavoriteProbability": 0.6476734537675561,
+              "observedFavoriteWinFraction": 0.703125
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "nUniqueSeries": 52,
+              "meanFavoriteProbability": 0.7450483298015356,
+              "observedFavoriteWinFraction": 0.6538461538461539
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "nUniqueSeries": 31,
+              "meanFavoriteProbability": 0.8404235835504495,
+              "observedFavoriteWinFraction": 0.7741935483870968
+            },
+            {
+              "lower": 0.9,
+              "upper": 1,
+              "nUniqueSeries": 4,
+              "meanFavoriteProbability": 0.9180581851128033,
+              "observedFavoriteWinFraction": 0.75
+            }
+          ]
+        },
+        "primary": {
+          "diagnosticSlope": 0.7688539283297047,
+          "descriptiveBlockPercentile95": [
+            0.5372959661207197,
+            1.162501916800213
+          ],
+          "bootstrapAtDeclaredBoundFraction": 0.0,
+          "nIdentifiedBootstrapDraws": 2000,
+          "method": "Unpenalized zero-intercept symmetric slope fitted to 2026 only for diagnostics; not applied to target or saved model",
+          "favoriteReliability": [
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "nUniqueSeries": 81,
+              "meanFavoriteProbability": 0.5479572337216114,
+              "observedFavoriteWinFraction": 0.5555555555555556
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "nUniqueSeries": 69,
+              "meanFavoriteProbability": 0.6463051284508003,
+              "observedFavoriteWinFraction": 0.6231884057971014
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "nUniqueSeries": 47,
+              "meanFavoriteProbability": 0.7448791803177103,
+              "observedFavoriteWinFraction": 0.723404255319149
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "nUniqueSeries": 35,
+              "meanFavoriteProbability": 0.8396226075341796,
+              "observedFavoriteWinFraction": 0.7714285714285715
+            },
+            {
+              "lower": 0.9,
+              "upper": 1,
+              "nUniqueSeries": 7,
+              "meanFavoriteProbability": 0.9227902619700761,
+              "observedFavoriteWinFraction": 0.8571428571428571
+            }
+          ]
+        }
+      },
+      "familyProbabilityCorrelation": 0.9067604864704362,
+      "familyErrorCorrelation": 0.9818587264894777,
+      "familyWinnerAgreement": 0.8493723849372385
+    },
+    "international46": {
+      "n": 46,
+      "nEventBlocks": 5,
+      "events": [
+        "2026 First Stand",
+        "Esports World Cup 2026",
+        "MSI 2026",
+        "Worlds 2026 Main Event",
+        "Worlds 2026 Play-In"
+      ],
+      "fixedMetrics": {
+        "elo": {
+          "brier": 0.2074384021960779,
+          "logLoss": 0.5930058584679329
+        },
+        "bt": {
+          "brier": 0.2082602526053493,
+          "logLoss": 0.6027584363460973
+        },
+        "primary": {
+          "brier": 0.20472004749639036,
+          "logLoss": 0.5915155789992379
+        },
+        "eloRaw": {
+          "brier": 0.207715643581868,
+          "logLoss": 0.5931297825003815
+        },
+        "btRaw": {
+          "brier": 0.2077837281914116,
+          "logLoss": 0.60144414861902
+        },
+        "coinflip": {
+          "brier": 0.25,
+          "logLoss": 0.6931471805599451
+        }
+      },
+      "pairedDifferences": {
+        "primary_minus_elo": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": -0.0027183546996875844,
+            "descriptiveBlockPercentile95": [
+              -0.011886718775542792,
+              0.006845382990862845
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.7135
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": -0.0014902794686947678,
+            "descriptiveBlockPercentile95": [
+              -0.02070167042392361,
+              0.020290068643636104
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.542
+          }
+        },
+        "primary_minus_bt": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": -0.0035402051089590517,
+            "descriptiveBlockPercentile95": [
+              -0.01116094766924371,
+              0.005926242374899082
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.833
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": -0.01124285734685918,
+            "descriptiveBlockPercentile95": [
+              -0.028932674416337758,
+              0.008514027274255405
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.913
+          }
+        },
+        "primary_minus_coinflip": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": -0.0452799525036097,
+            "descriptiveBlockPercentile95": [
+              -0.07811857685905817,
+              -0.01753859959171846
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.987
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": -0.10163160156070723,
+            "descriptiveBlockPercentile95": [
+              -0.17699408606946584,
+              -0.042053941681851094
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.987
+          }
+        },
+        "elo_minus_eloRaw": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": -0.00027724138579007405,
+            "descriptiveBlockPercentile95": [
+              -0.0008476515434717461,
+              0.00040309835815990485
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.8525
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": -0.00012392403244880653,
+            "descriptiveBlockPercentile95": [
+              -0.0015631911246787589,
+              0.0018777376304072422
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.622
+          }
+        },
+        "bt_minus_btRaw": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": 0.0004765244139377766,
+            "descriptiveBlockPercentile95": [
+              -0.0027296155305526412,
+              0.002963108360599422
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.2755
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": 0.0013142877270771877,
+            "descriptiveBlockPercentile95": [
+              -0.005991069784324118,
+              0.007614641788097276
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.2945
+          }
+        }
+      },
+      "calibrationDiagnostics": {
+        "elo": {
+          "diagnosticSlope": 0.9867278317454264,
+          "descriptiveBlockPercentile95": [
+            0.7177459878013082,
+            1.5467264704439998
+          ],
+          "bootstrapAtDeclaredBoundFraction": 0.0005,
+          "nIdentifiedBootstrapDraws": 2000,
+          "method": "Unpenalized zero-intercept symmetric slope fitted to 2026 only for diagnostics; not applied to target or saved model",
+          "favoriteReliability": [
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "nUniqueSeries": 14,
+              "meanFavoriteProbability": 0.5601177090475976,
+              "observedFavoriteWinFraction": 0.6428571428571429
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "nUniqueSeries": 14,
+              "meanFavoriteProbability": 0.6443163351126959,
+              "observedFavoriteWinFraction": 0.5
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "nUniqueSeries": 8,
+              "meanFavoriteProbability": 0.7505384527485814,
+              "observedFavoriteWinFraction": 0.625
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "nUniqueSeries": 9,
+              "meanFavoriteProbability": 0.8451135527541862,
+              "observedFavoriteWinFraction": 1.0
+            },
+            {
+              "lower": 0.9,
+              "upper": 1,
+              "nUniqueSeries": 1,
+              "meanFavoriteProbability": 0.9552133079234028,
+              "observedFavoriteWinFraction": 1.0
+            }
+          ]
+        },
+        "bt": {
+          "diagnosticSlope": 1.1738127779657503,
+          "descriptiveBlockPercentile95": [
+            0.6456023118742138,
+            2.1321523909347917
+          ],
+          "bootstrapAtDeclaredBoundFraction": 0.005,
+          "nIdentifiedBootstrapDraws": 2000,
+          "method": "Unpenalized zero-intercept symmetric slope fitted to 2026 only for diagnostics; not applied to target or saved model",
+          "favoriteReliability": [
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "nUniqueSeries": 21,
+              "meanFavoriteProbability": 0.5520871368347936,
+              "observedFavoriteWinFraction": 0.6666666666666666
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "nUniqueSeries": 10,
+              "meanFavoriteProbability": 0.6311064987298197,
+              "observedFavoriteWinFraction": 0.6
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "nUniqueSeries": 9,
+              "meanFavoriteProbability": 0.7495012853450409,
+              "observedFavoriteWinFraction": 0.7777777777777778
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "nUniqueSeries": 6,
+              "meanFavoriteProbability": 0.8489179288985057,
+              "observedFavoriteWinFraction": 0.8333333333333334
+            },
+            {
+              "lower": 0.9,
+              "upper": 1,
+              "nUniqueSeries": 0,
+              "meanFavoriteProbability": null,
+              "observedFavoriteWinFraction": null
+            }
+          ]
+        },
+        "primary": {
+          "diagnosticSlope": 1.1892009809783843,
+          "descriptiveBlockPercentile95": [
+            0.7522138310923481,
+            1.9189587462455648
+          ],
+          "bootstrapAtDeclaredBoundFraction": 0.0005,
+          "nIdentifiedBootstrapDraws": 2000,
+          "method": "Unpenalized zero-intercept symmetric slope fitted to 2026 only for diagnostics; not applied to target or saved model",
+          "favoriteReliability": [
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "nUniqueSeries": 19,
+              "meanFavoriteProbability": 0.5549960596897967,
+              "observedFavoriteWinFraction": 0.5789473684210527
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "nUniqueSeries": 13,
+              "meanFavoriteProbability": 0.6560243687468841,
+              "observedFavoriteWinFraction": 0.5384615384615384
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "nUniqueSeries": 7,
+              "meanFavoriteProbability": 0.7503894194619611,
+              "observedFavoriteWinFraction": 0.8571428571428571
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "nUniqueSeries": 6,
+              "meanFavoriteProbability": 0.8369024423888467,
+              "observedFavoriteWinFraction": 0.8333333333333334
+            },
+            {
+              "lower": 0.9,
+              "upper": 1,
+              "nUniqueSeries": 1,
+              "meanFavoriteProbability": 0.914842226565274,
+              "observedFavoriteWinFraction": 1.0
+            }
+          ]
+        }
+      },
+      "familyProbabilityCorrelation": 0.8065060250554248,
+      "familyErrorCorrelation": 0.9688965757061256,
+      "familyWinnerAgreement": 0.8478260869565217
+    }
+  },
+  "crossRegionCoverage": {
+    "nLCKLPLBO5": 8,
+    "uniqueTeams": [
+      "BLG",
+      "DK",
+      "FOX",
+      "GEN",
+      "HLE",
+      "IG",
+      "T1",
+      "jdgaming"
+    ],
+    "BLGAppearances": 6,
+    "GENAppearances": 2,
+    "nativeSeriesIds": [
+      "gol:75432",
+      "gol:75545",
+      "gol:79618",
+      "gol:79751",
+      "gol:79840",
+      "gol:83704",
+      "gol:83713",
+      "gol:83718"
+    ]
+  },
+  "targetProbabilityGeneratedOrChanged": false,
+  "warnings": [
+    "These are retrospective diagnostics of already observed 2026 outcomes",
+    "No diagnostic 2026 slope is used to recalculate the target",
+    "Block percentile ranges are descriptive; events share teams",
+    "Few international event blocks limit precision",
+    "Diagnostic ranges are not target confidence intervals"
+  ],
+  "inputHashesUnchangedAfterRun": true
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "stage": "Written before new v3 diagnostic computations; v2 forecast and aggregate metrics already known",
+  "purpose": "Challenge calibration and ensemble interpretation without selecting new parameters or generating a changed target forecast",
+  "input": "deliverables/20261109T144101Z-v2/calculations: fixed 239 held-out 2026 BO5 predictions and raw selected-family predictions",
+  "subsets": [
+    "all 239 BO5s",
+    "46 international main-event BO5s defined by original league identity"
+  ],
+  "models": [
+    "fixed calibrated Elo",
+    "fixed calibrated BT",
+    "fixed equal blend"
+  ],
+  "diagnostics": [
+    "Fixed-forecast Brier/logloss and paired differences: blend versus each component and coinflip, calibrated versus raw within each component",
+    "One-parameter unpenalized symmetric logistic slope fit to 2026 only as a diagnostic, not applied to the target",
+    "Error/probability correlation of fixed family forecasts",
+    "One-row-per-series favorite reliability bins [0.5,0.6),[0.6,0.7),[0.7,0.8),[0.8,0.9),[0.9,1]"
+  ],
+  "uncertainty": {
+    "unit": "whole event string",
+    "draws": 2000,
+    "seed": 20261110,
+    "slopeBounds": [
+      -5,
+      10
+    ],
+    "method": "Empirical 2.5/97.5 percentiles of tournament-block resamples; descriptive, with cross-event team dependence and few international blocks retained as limitations",
+    "notTargetConfidenceInterval": true
+  },
+  "decisionBoundary": "No change solely because a selected subset or alternative component has a nicer score. A strong diagnostic problem may justify a separately preregistered model-development revision with its own evaluation, not immediate 2026 recalibration of the target.",
+  "noNewTargetProbability": true,
+  "noMarketOrOtherForecasterProbabilityInputs": true,
+  "writeScope": "revisions/v3-20261110/method-review only"
+}

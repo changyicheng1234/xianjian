@@ -1,0 +1,50 @@
+[
+  {
+    "date": "2024-03-25 00:00:00",
+    "teams": [
+      "rogue",
+      "skgaming"
+    ],
+    "seriesIds": [
+      "gol:57277",
+      "gol:57447"
+    ],
+    "reason": "Independently checked ordinary match and separate tiebreaker; both retained, day-batched prediction."
+  },
+  {
+    "date": "2024-06-30 00:00:00",
+    "teams": [
+      "MKOI",
+      "rogue"
+    ],
+    "seriesIds": [
+      "gol:59828",
+      "gol:60157"
+    ],
+    "reason": "Independently checked ordinary match and separate tiebreaker; both retained, day-batched prediction."
+  },
+  {
+    "date": "2025-03-26 00:00:00",
+    "teams": [
+      "edwardgaming",
+      "teamwe"
+    ],
+    "seriesIds": [
+      "gol:65096",
+      "gol:65359"
+    ],
+    "reason": "Independently checked ordinary match and separate tiebreaker; both retained, day-batched prediction."
+  },
+  {
+    "date": "2025-03-28 00:00:00",
+    "teams": [
+      "royalnevergiveup",
+      "ultraprime"
+    ],
+    "seriesIds": [
+      "gol:65108",
+      "gol:65360"
+    ],
+    "reason": "Independently checked ordinary match and separate tiebreaker; both retained, day-batched prediction."
+  }
+]

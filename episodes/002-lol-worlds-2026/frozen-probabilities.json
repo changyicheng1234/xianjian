@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 3,
+  "episodeId": "002-lol-worlds-2026",
+  "question": "2026英雄联盟全球总决赛，Gen.G与BLG谁获胜？",
+  "status": "episode_point_estimate_frozen_incomplete_full_review",
+  "isFinalPrediction": false,
+  "isFinalModelEstimateForThisRevision": true,
+  "isFinalPredictionMeaning": "Full native factual review has not passed; the episode point estimate is finalized separately.",
+  "informationCutoffUtc": "2026-11-09T13:00:34Z",
+  "matchDataInformationCutoffUtc": "2026-11-09T13:00:34Z",
+  "lastIncludedMatchSourceDate": "2026-11-08",
+  "reviewCutoffUtc": "2026-11-10T06:04:34.584622+00:00",
+  "outcomeCondition": "以Gen.G与BLG正常完成指定2026全球总决赛BO5，并产生唯一官方冠军为条件；取消、无官方冠军或未决不自动记作任何一方输。",
+  "model": {
+    "requested": "gpt-6.1-sol",
+    "effort": "high",
+    "actualNativeCallsVerified": 14,
+    "actualModelAndEffortVerified": true,
+    "source": "Immutable v2 actual-call verification, supplemented by observed v3 root turn context. Targeted v3 reviews did not rerun the native engine.",
+    "noFallback": true
+  },
+  "probabilities": {
+    "BLG": 0.33497606799349666,
+    "GEN": 0.6650239320065033
+  },
+  "displayPercentOneDecimal": {
+    "BLG": 33.5,
+    "GEN": 66.5
+  },
+  "videoRoundedWholePercent": {
+    "BLG": 33,
+    "GEN": 67
+  },
+  "nativeEngineStatus": "insufficient_evidence",
+  "fullResearchChecksPassed": false,
+  "quantitativeForecastComplete": true,
+  "decision": "Retain the fixed v2 model output after new official verification and targeted calibration diagnostics; no numerical defect or material new fact justifies a replacement.",
+  "evidence": [
+    {
+      "id": "worlds-record",
+      "heading": "本届表现：先看稳定性",
+      "body": "Gen.G系列赛5–0、小局10–1；BLG系列赛5–2、小局11–4。对手不同，不能直接比较原始胜率。",
+      "sourceIds": [
+        "v3-schedule-alternative"
+      ],
+      "numbers": {
+        "GEN": {
+          "seriesWins": 5,
+          "seriesLosses": 0,
+          "mapWins": 10,
+          "mapLosses": 1
+        },
+        "BLG": {
+          "seriesWins": 5,
+          "seriesLosses": 2,
+          "mapWins": 11,
+          "mapLosses": 4
+        }
+      }
+    },
+    {
+      "id": "opposition",
+      "heading": "漂亮比分，也要看对手",
+      "body": "BLG淘汰赛3–0 DK、3–1 T1；Gen.G分别3–0 LYON与IG。本届Gen.G只有3个不同对手，BLG有7个。",
+      "sourceIds": [
+        "v3-schedule-alternative"
+      ]
+    },
+    {
+      "id": "domestic",
+      "heading": "近期国内BO5提供补充",
+      "body": "Gen.G近期国内三个BO5全胜、小局9–2；BLG同期2–1、小局7–4。赛区和对手不同，由模型估计相对实力，不能把原始比分直接当同难度比较。",
+      "sourceIds": [
+        "v2-lck-playoffs",
+        "v2-lpl-finals"
+      ]
+    },
+    {
+      "id": "no-new-result",
+      "heading": "本轮复核没有新增赛果",
+      "body": "11月10日重新取得的官方完整赛表，与原模型纳入的双方12个系列、26小局一致，最后已赛仍为11月8日。",
+      "sourceIds": [
+        "v3-schedule-alternative"
+      ]
+    }
+  ],
+  "method": {
+    "name": "Opponent-adjusted Elo / time-weighted Bradley–Terry, calibrated equal blend",
+    "trainingWindow": "2024–2026; latest included source date 2026-11-08",
+    "seriesCount": 3432,
+    "mapCount": 8157,
+    "tuningBO5Count": 211,
+    "holdoutBO5Count": 239,
+    "calibrationSummary": "在2025年211场逐时BO5预测上选配置、拟合对称校准；组合权重事先固定各50%。2026赛果更新实力，2026检验结果不用于重选配置或重调斜率。",
+    "steps": [
+      "读取原始历史赛果，按预定范围筛选并去重。",
+      "用Elo估计相对实力；另一个模型对旧比赛按90天半衰期降权。",
+      "两种模型分别转换为BO5概率并作2025年校准。",
+      "两种模型各占50%，得出本期概率。",
+      "以239场2026年BO5作历史按时间回放检验；本轮再检查过度自信与误差相关。"
+    ],
+    "components": [
+      {
+        "name": "Elo",
+        "GEN": 0.6437534380878888,
+        "BLG": 0.3562465619121112,
+        "weight": 0.5
+      },
+      {
+        "name": "Bradley–Terry",
+        "GEN": 0.6862944259251179,
+        "BLG": 0.3137055740748821,
+        "weight": 0.5
+      }
+    ],
+    "holdout": {
+      "n": 239,
+      "brier": 0.22230794187321914,
+      "coinFlipBrier": 0.25,
+      "logLoss": 0.6384887377404511,
+      "internationalN": 46,
+      "internationalBrier": 0.20472004749639033,
+      "isRetrospective": true,
+      "isProspectiveSeasonRecord": false
+    },
+    "limitations": [
+      "两个模型共享数据、误差高度相关，不能称作两份独立证据。",
+      "总体存在偏自信信号；国际样本只有46场、5个赛事块，不能确定适用于本场的修正幅度。",
+      "完整当届无畏征召第五局与重置细则、紧急通知覆盖和最终首发健康仍有未解。",
+      "源日期时区与历史各时点可获得的来源版本未全部重建。",
+      "未单独拟合选手健康、版本BP和局间适应；没有本场校准置信区间，不能保证命中。"
+    ]
+  },
+  "counterevidence": [
+    {
+      "heading": "BLG的晋级路径和国际上限",
+      "body": "BLG刚淘汰DK与T1，且夺得2026 First Stand冠军；Gen.G本届有重复对手。",
+      "sourceIds": [
+        "v3-schedule-alternative",
+        "v2-fst"
+      ]
+    },
+    {
+      "heading": "官方实力榜提供不同视角",
+      "body": "11月9日快照为BLG1611、Gen.G1610，几乎持平；它不是官方决赛获胜概率。11月10日复验相同，未重复加权。",
+      "sourceIds": [
+        "v3-official-gpr"
+      ]
+    },
+    {
+      "heading": "模型幅度可能过强",
+      "body": "本轮239场总体诊断提示可能过度自信，国际子集方向不同且样本薄弱；没有将诊断斜率套用到本场。",
+      "sourceIds": [
+        "v3-method-review"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "v3-schedule-alternative",
+      "title": "LoL Esports官方Worlds赛程与原始39事件",
+      "url": "https://lolesports.com/en-GB/leagues/worlds",
+      "date": null
+    },
+    {
+      "id": "v3-official-venue",
+      "title": "Worlds 2026场馆与直播时间",
+      "url": "https://lolesports.com/en-US/lolesports/news/worlds-2026-venue-event-policies",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "v3-worlds-event-rules",
+      "title": "2026 World Championship Event Specific Ruleset",
+      "url": "https://cdn.sanity.io/files/dsfx7636/news_live/faa5ce974e58615911fbee931c6123e2785a8b46.pdf",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "v3-official-gpr",
+      "title": "官方全球实力榜（不等于决赛胜率）",
+      "url": "https://lolesports.com/en-GB/gpr/2026/current",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "v2-lck-playoffs",
+      "title": "2026 LCK季后赛原始结果表",
+      "url": "https://gol.gg/tournament/tournament-matchlist/LCK%202026%20Season%20Playoffs/",
+      "date": null
+    },
+    {
+      "id": "v2-lpl-finals",
+      "title": "2026 LPL年终赛原始结果表",
+      "url": "https://gol.gg/tournament/tournament-matchlist/LPL%202026%20Grand%20Finals/",
+      "date": null
+    },
+    {
+      "id": "v2-fst",
+      "title": "2026 First Stand原始结果表",
+      "url": "https://gol.gg/tournament/tournament-matchlist/2026%20First%20Stand/",
+      "date": null
+    },
+    {
+      "id": "v3-method-review",
+      "title": "本轮固定预测校准与误差诊断",
+      "url": null,
+      "date": "2026-11-10",
+      "localPath": "method-review/method-review.json"
+    }
+  ],
+  "blindness": {
+    "pristineZeroExposureClaim": false,
+    "priorCoordinatorExposureDisclosed": true,
+    "pricesUsedAsInputsOrSelectionTargets": false,
+    "newMarketReadingOnlyAfterThisFreeze": true
+  },
+  "openNativeHighGaps": [
+    {
+      "id": "2026-fearless-operative-g5-reset",
+      "targetIds": [
+        "question"
+      ],
+      "question": "2026全球总决赛决赛实际生效的无畏征召规则，如何规定第五局、跨系列重置、常规禁用延续及例外？",
+      "whyMaterial": "本轮成功读取专项规则文本及国际通则第4.5节，后者提供误选误禁处理，仍未取得完整的2026决赛第五局及重置定义。若第五局继续累计禁用，或第五局解除此前限制，可用英雄集合和历史系列可比性会不同；既定模型没有经验证的规则交互修正，不能猜测影响方向。需协调器补取明确适用于本届决赛的官方条文或书面说明。",
+      "query": "site:lolesports.com \"2026\" \"Worlds\" \"Fearless\" \"Game 5\" reset; site:competitiveops.riotgames.com \"2026\" \"World Championship\" \"Fearless Draft\"; 2026 全球总决赛 无畏征召 第五局 重置 官方规则",
+      "keywords": [
+        "Worlds 2026",
+        "Fearless Draft",
+        "Game 5",
+        "reset"
+      ],
+      "priority": "high",
+      "raisedRound": 1,
+      "status": "open",
+      "attempts": []
+    },
+    {
+      "id": "current-operative-rules-notices",
+      "targetIds": [
+        "question"
+      ],
+      "question": "截至2026-11-09T13:00:34Z，公开可核验的2026全球总决赛规则目录或修订通知是否替代已读专项规则v1.0、国际通则v1.1，或增加决赛适用的紧急禁用条款？",
+      "whyMaterial": "本轮已读2026-11-09T12:37:32.688999+00:00获取的目录元数据，仍指向原两份PDF，更新字段为null；这补足目录读取，但不能排除单独发布的紧急通知。专项规则第5.1及6.2明确允许禁用和修订。若存在改变英雄可用性或选人条件的通知，历史表现对决赛的适用说明可能改变；目录字段为空不能证明没有变更。",
+      "query": "site:lolesports.com \"Worlds 2026\" \"competitive ruling\" \"November\"; site:competitiveops.riotgames.com \"2026\" \"World Championship\" amendment disabled; 2026 全球总决赛 11月9日 紧急禁用 规则修订 官方",
+      "keywords": [
+        "Worlds 2026",
+        "rules revision",
+        "competitive operations",
+        "disabled champions"
+      ],
+      "priority": "high",
+      "raisedRound": 1,
+      "status": "open",
+      "attempts": []
+    },
+    {
+      "id": "v2-frozen-validation-implementation-audit",
+      "targetIds": [
+        "question"
+      ],
+      "question": "既定模型能否提供可审阅的冻结配置及逐场2026年预测审计表，确认模型选择、校准、混合权重和各场训练输入均未使用其预测时点之后的信息？",
+      "whyMaterial": "本轮明确区分了历史前瞻冻结与11月9日锁定，并注意到目标记录isFrozen=false。缺少的是配置实际使用沿革、逐场训练截止、输入历史可用版本及最终目标冻结绑定。如果只是使用当时可得结果的回溯评估，应修正验证措辞；如果存在后补信息或排序泄漏，应修复输入并重跑。两种情况对验证可信度及潜在目标输出的影响不同，不能猜测数值修正。",
+      "query": "协调器补交本次运行绑定的配置沿革、逐场2026预测和训练截止、来源修订记录、最终目标冻结清单；公开核对：Worlds 2026 Team Liquid Bilibili Gaming October 24 October 25 UTC official match time",
+      "keywords": [
+        "League of Legends",
+        "temporal validation",
+        "frozen calibration",
+        "match timestamps"
+      ],
+      "priority": "high",
+      "raisedRound": 6,
+      "status": "open",
+      "attempts": []
+    }
+  ],
+  "frozen": true,
+  "frozenAtUtc": "2026-11-10T06:09:44.366004+00:00",
+  "episodeProbabilityFinalized": true,
+  "selectedForEpisode": true,
+  "revisionId": "v3-20261110",
+  "inputLockSha256": "d49f03cb84e14cfbe331176d5e47789614b3d5eeeabea8c6a8390c37a914940a"
+}

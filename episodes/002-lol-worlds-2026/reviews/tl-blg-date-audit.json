@@ -1,0 +1,468 @@
+{
+  "sourceUrl": "https://lolesports.com/en-GB/leagues/worlds",
+  "sourceHtmlSha256": "d742cbb1f6ed17ef01f89daec3e966199420bfd0e1ecb9a27059da376d14bc9f",
+  "eventId": "115660540726095035",
+  "exactOfficialStartTime": "2026-10-25T00:00:00Z",
+  "timeZoneConversions": {
+    "UTC": "2026-10-25T00:00:00+00:00",
+    "America/New_York": "2026-10-24T20:00:00-04:00",
+    "America/Chicago": "2026-10-24T19:00:00-05:00",
+    "Asia/Shanghai": "2026-10-25T08:00:00+08:00"
+  },
+  "priorGolRecordedDate": "2026-10-24",
+  "canPriorDateBeExplainedByUtcVersusNewYorkDate": true,
+  "officialEvent": {
+    "__typename": "EventMatch",
+    "blockName": "Swiss",
+    "id": "115660540726095035",
+    "league": {
+      "__typename": "League",
+      "displayPriority": {
+        "__typename": "Priority",
+        "position": 0,
+        "status": "force_selected"
+      },
+      "id": "98767975604431411",
+      "image": "http://static.lolesports.com/leagues/1592594612171_WorldsDarkBG.png",
+      "name": "Worlds",
+      "slug": "worlds"
+    },
+    "match": {
+      "__typename": "Match",
+      "flags": [
+        "hasVod"
+      ],
+      "games": [
+        {
+          "__typename": "Game",
+          "id": "115660540726095036",
+          "number": 1,
+          "state": "completed",
+          "vods": [
+            {
+              "__typename": "MainVod",
+              "endMillis": 38220000,
+              "id": "117499015922427996",
+              "parameter": "2909504551",
+              "startMillis": 34920000,
+              "firstFrameTime": "2026-10-24T14:45:31.882Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "German (Germany)",
+                "locale": "de-DE",
+                "translatedName": "Deutsch"
+              },
+              "offset": 0,
+              "provider": "twitch",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": null,
+              "id": "117498919782294887",
+              "parameter": "o5dfRPbQWio",
+              "startMillis": null,
+              "firstFrameTime": "2026-10-25T00:27:36.039Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "English (North America)",
+                "locale": "en-US",
+                "translatedName": "English (North America)"
+              },
+              "offset": 0,
+              "provider": "youtube",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": null,
+              "id": "117500313048308632",
+              "parameter": "2iYZeOCv7dg",
+              "startMillis": null,
+              "firstFrameTime": "2026-10-25T00:18:39.675Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "Spanish (Spain)",
+                "locale": "es-ES",
+                "translatedName": "Español (España)"
+              },
+              "offset": 0,
+              "provider": "youtube",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": null,
+              "id": "117498919782294888",
+              "parameter": "Yu4gMQr6vbg",
+              "startMillis": null,
+              "firstFrameTime": "2026-10-25T00:20:29.090Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "Spanish (Mexico)",
+                "locale": "es-MX",
+                "translatedName": "Español (Latinoamérica)"
+              },
+              "offset": 0,
+              "provider": "youtube",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": null,
+              "id": "117501904652932213",
+              "parameter": "WI080ne_b44",
+              "startMillis": null,
+              "firstFrameTime": null,
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "French (France)",
+                "locale": "fr-FR",
+                "translatedName": "Français"
+              },
+              "offset": 0,
+              "provider": "youtube",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 33840000,
+              "id": "117499042714613975",
+              "parameter": "2909563030",
+              "startMillis": 30540000,
+              "firstFrameTime": "2026-10-24T16:00:11.804Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "Hungarian (Hungary)",
+                "locale": "hu-HU",
+                "translatedName": "Magyar"
+              },
+              "offset": 0,
+              "provider": "twitch",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 30960000,
+              "id": "117499067638741346",
+              "parameter": "QYJU-f2Fs3w",
+              "startMillis": 27660000,
+              "firstFrameTime": "2026-10-24T16:39:31.601Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "Japanese (Japan)",
+                "locale": "ja-JP",
+                "translatedName": "日本語"
+              },
+              "offset": 0,
+              "provider": "youtube",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": null,
+              "id": "117499100533730270",
+              "parameter": "210749949",
+              "startMillis": null,
+              "firstFrameTime": "2026-10-25T00:09:31.254Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "Korean (Korea)",
+                "locale": "ko-KR",
+                "translatedName": "한국어"
+              },
+              "offset": 0,
+              "provider": "afreecatv",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 31560000,
+              "id": "117499122641514761",
+              "parameter": "V2xIn2s2plA",
+              "startMillis": 28260000,
+              "firstFrameTime": "2026-10-24T16:29:29.329Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "Polish (Poland)",
+                "locale": "pl-PL",
+                "translatedName": "Polski"
+              },
+              "offset": 0,
+              "provider": "youtube",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 32340000,
+              "id": "117499151922999626",
+              "parameter": "JYxj9mm_EzM",
+              "startMillis": 29040000,
+              "firstFrameTime": "2026-10-24T16:17:03.193Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "Portuguese (Brazil)",
+                "locale": "pt-BR",
+                "translatedName": "Português (Brasil)"
+              },
+              "offset": 0,
+              "provider": "youtube",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 30300000,
+              "id": "117499174964080978",
+              "parameter": "y8zGR7oMRgM",
+              "startMillis": 27000000,
+              "firstFrameTime": "2026-10-24T16:58:14.079Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "Serbian",
+                "locale": "sr-SR",
+                "translatedName": "Srpski"
+              },
+              "offset": 0,
+              "provider": "youtube",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 31560000,
+              "id": "117499197338943951",
+              "parameter": "g1WbZcfJanY",
+              "startMillis": 28260000,
+              "firstFrameTime": "2026-10-24T16:29:34.708Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "Thai (Thailand)",
+                "locale": "th-TH",
+                "translatedName": "ภาษาไทย"
+              },
+              "offset": 0,
+              "provider": "youtube",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 31980000,
+              "id": "117499217395340337",
+              "parameter": "2909589416",
+              "startMillis": 28800000,
+              "firstFrameTime": "2026-10-24T16:31:20.994Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "Turkish (Turkey)",
+                "locale": "tr-TR",
+                "translatedName": "Türkçe"
+              },
+              "offset": 0,
+              "provider": "twitch",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": null,
+              "id": "117499267998614019",
+              "parameter": "QYIktB5ji9g",
+              "startMillis": null,
+              "firstFrameTime": "2026-10-25T00:16:48.991Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "Vietnamese (Vietnam)",
+                "locale": "vi-VN",
+                "translatedName": "Tiếng Việt"
+              },
+              "offset": 0,
+              "provider": "youtube",
+              "type": "main"
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 32220000,
+              "id": "117499238808289783",
+              "parameter": "Ioaxv9V3CQY",
+              "startMillis": 28920000,
+              "firstFrameTime": "2026-10-24T16:19:33.658Z",
+              "mediaLocale": {
+                "__typename": "MediaLocale",
+                "englishName": "Chinese (Republic of China)",
+                "locale": "zh-TW",
+                "translatedName": "繁體中文"
+              },
+              "offset": 0,
+              "provider": "youtube",
+              "type": "main"
+            }
+          ],
+          "recaps": [
+            {
+              "__typename": "MainVod",
+              "endMillis": 38220000,
+              "id": "117499015922427996",
+              "parameter": "2909504551",
+              "startMillis": 34920000
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": null,
+              "id": "117498919782294887",
+              "parameter": "o5dfRPbQWio",
+              "startMillis": null
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": null,
+              "id": "117500313048308632",
+              "parameter": "2iYZeOCv7dg",
+              "startMillis": null
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": null,
+              "id": "117498919782294888",
+              "parameter": "Yu4gMQr6vbg",
+              "startMillis": null
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": null,
+              "id": "117501904652932213",
+              "parameter": "WI080ne_b44",
+              "startMillis": null
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 33840000,
+              "id": "117499042714613975",
+              "parameter": "2909563030",
+              "startMillis": 30540000
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 30960000,
+              "id": "117499067638741346",
+              "parameter": "QYJU-f2Fs3w",
+              "startMillis": 27660000
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": null,
+              "id": "117499100533730270",
+              "parameter": "210749949",
+              "startMillis": null
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 31560000,
+              "id": "117499122641514761",
+              "parameter": "V2xIn2s2plA",
+              "startMillis": 28260000
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 32340000,
+              "id": "117499151922999626",
+              "parameter": "JYxj9mm_EzM",
+              "startMillis": 29040000
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 30300000,
+              "id": "117499174964080978",
+              "parameter": "y8zGR7oMRgM",
+              "startMillis": 27000000
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 31560000,
+              "id": "117499197338943951",
+              "parameter": "g1WbZcfJanY",
+              "startMillis": 28260000
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 31980000,
+              "id": "117499217395340337",
+              "parameter": "2909589416",
+              "startMillis": 28800000
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": null,
+              "id": "117499267998614019",
+              "parameter": "QYIktB5ji9g",
+              "startMillis": null
+            },
+            {
+              "__typename": "MainVod",
+              "endMillis": 32220000,
+              "id": "117499238808289783",
+              "parameter": "Ioaxv9V3CQY",
+              "startMillis": 28920000
+            }
+          ]
+        }
+      ],
+      "id": "115660540726095035",
+      "state": "completed",
+      "strategy": {
+        "__typename": "MatchStrategy",
+        "count": 1,
+        "type": "bestOf"
+      },
+      "type": "normal"
+    },
+    "matchTeams": [
+      {
+        "__typename": "MatchTeam",
+        "code": "TLAW",
+        "homeLeague": {
+          "__typename": "HomeLeague",
+          "image": "http://static.lolesports.com/leagues/1706356907418_LCSNew-01-FullonDark.png",
+          "regionSlug": "na"
+        },
+        "id": "115660540726095035:98926509885559666",
+        "image": "http://static.lolesports.com/teams/1769357207762_TLAlienware_Minimal_Bug-White.png",
+        "lightImage": null,
+        "name": "Team Liquid Alienware",
+        "result": {
+          "__typename": "TeamResult",
+          "gameWins": 0,
+          "outcome": "loss"
+        },
+        "teamId": "98926509885559666"
+      },
+      {
+        "__typename": "MatchTeam",
+        "code": "BLG",
+        "homeLeague": {
+          "__typename": "HomeLeague",
+          "image": "http://static.lolesports.com/leagues/1592516115322_LPL-01-FullonDark.png",
+          "regionSlug": "cn"
+        },
+        "id": "115660540726095035:99566404853854212",
+        "image": "http://static.lolesports.com/teams/1682322954525_Bilibili_Gaming_logo_20211.png",
+        "lightImage": null,
+        "name": "BILIBILI GAMING",
+        "result": {
+          "__typename": "TeamResult",
+          "gameWins": 1,
+          "outcome": "win"
+        },
+        "teamId": "99566404853854212"
+      }
+    ],
+    "startTime": "2026-10-25T00:00:00Z",
+    "state": "completed",
+    "streams": [],
+    "tournament": {
+      "__typename": "Tournament",
+      "id": "115660540725177488",
+      "name": "2026",
+      "state": "inProgress"
+    },
+    "type": "match"
+  },
+  "interpretation": "Official timestamp date conversion is explicit. GoL's standalone date field has no established timezone here; do not relabel it UTC or silently change a single row in a mixed date-basis dataset. Treat unresolved source-date discrepancy as an audit issue."
+}

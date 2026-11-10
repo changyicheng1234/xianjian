@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-11-10T06:04:09.067494+00:00",
+  "revisionId": "v3-20261110",
+  "decision": "retain_current_probability",
+  "numericalErrorFound": false,
+  "recommendedProbabilities": {
+    "BLG": 0.33497606799349666,
+    "GEN": 0.6650239320065033
+  },
+  "reportPercentOneDecimal": {
+    "BLG": 33.5,
+    "GEN": 66.5
+  },
+  "videoWholePercent": {
+    "BLG": 33,
+    "GEN": 67
+  },
+  "probabilitySource": "Unchanged v2 frozen conditional model estimate, not new 2026 diagnostic recalibration",
+  "matchDataInformationCutoffUtc": "2026-11-09T13:00:34Z",
+  "fullResearchChecksPassed": false,
+  "reviewType": "targeted_independent_method_challenge_not_a_new_native_full_review",
+  "nativeReviewRoundsPerformedInThisTask": 0,
+  "previousNativeStatusPreserved": "insufficient_evidence",
+  "previousNativeRounds": 14,
+  "oldProvisionalRoundsRemainArchived": 15,
+  "nativeGapStatusModified": false,
+  "weightsOrCalibrationChanged": false,
+  "oldFrozenArtifactsModified": false,
+  "marketOrOtherForecasterProbabilityRead": false,
+  "coordinatorEarlierExposureNotErased": true,
+  "decisionRationale": [
+    "No confirmed data/arithmetic/implementation defect was established in the frozen version reviewed",
+    "Full-sample diagnostic calibration signals possible overconfidence, especially Elo; international diagnostics differ and are too sparse to identify a unique defensible target correction",
+    "Paired loss differences do not establish stable blending benefit or justify switching to BT from 2026 performance",
+    "2026-only training deletion is an initialization/history stress, not equivalently calibrated and validated replacement policy",
+    "Preserve the fixed point estimate with narrower claims rather than using a fitted 2026 diagnostic slope to erase calibration concerns"
+  ],
+  "diagnostics": {
+    "planWrittenBeforeNewComputations": true,
+    "v2ForecastAndMetricsAlreadyKnownWhenPlanWritten": true,
+    "inputIntegrityChecksPassed": true,
+    "bootstrapDraws": 2000,
+    "bootstrapSeed": 20261110,
+    "bootstrapInterpretation": "Descriptive event-block resampling only. Cross-event teams remain dependent; percentile ranges are not target intervals and bootstrap fractions are not posterior probabilities or formal p-values.",
+    "subsets": {
+      "all239": {
+        "n": 239,
+        "eventBlocks": 25,
+        "primaryDiagnosticSlope": 0.7688539283297047,
+        "primarySlopeDescriptiveBlock95": [
+          0.5372959661207197,
+          1.162501916800213
+        ],
+        "eloDiagnosticSlope": 0.6484530352218343,
+        "eloSlopeDescriptiveBlock95": [
+          0.45203882052316047,
+          0.9731695409489375
+        ],
+        "familyErrorCorrelation": 0.9818587264894777,
+        "blendMinusBT": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": 0.0010854862579217778,
+            "descriptiveBlockPercentile95": [
+              -0.0038549282755913484,
+              0.006602856983796141
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.358
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": 0.0023180254699379484,
+            "descriptiveBlockPercentile95": [
+              -0.008923821471727496,
+              0.014786656716617937
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.3795
+          }
+        },
+        "blendMinusCoinflip": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": -0.02769205812678084,
+            "descriptiveBlockPercentile95": [
+              -0.04384262889112658,
+              -0.0120247217438131
+            ],
+            "fractionBootstrapDifferenceBelowZero": 1.0
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": -0.05465844281949414,
+            "descriptiveBlockPercentile95": [
+              -0.09495555169267304,
+              -0.014963742237715398
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.9975
+          }
+        },
+        "favorite06to07Bin": {
+          "lower": 0.6,
+          "upper": 0.7,
+          "nUniqueSeries": 69,
+          "meanFavoriteProbability": 0.6463051284508003,
+          "observedFavoriteWinFraction": 0.6231884057971014
+        }
+      },
+      "international46": {
+        "n": 46,
+        "eventBlocks": 5,
+        "primaryDiagnosticSlope": 1.1892009809783843,
+        "primarySlopeDescriptiveBlock95": [
+          0.7522138310923481,
+          1.9189587462455648
+        ],
+        "eloDiagnosticSlope": 0.9867278317454264,
+        "eloSlopeDescriptiveBlock95": [
+          0.7177459878013082,
+          1.5467264704439998
+        ],
+        "familyErrorCorrelation": 0.9688965757061256,
+        "blendMinusBT": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": -0.0035402051089590517,
+            "descriptiveBlockPercentile95": [
+              -0.01116094766924371,
+              0.005926242374899082
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.833
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": -0.01124285734685918,
+            "descriptiveBlockPercentile95": [
+              -0.028932674416337758,
+              0.008514027274255405
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.913
+          }
+        },
+        "blendMinusCoinflip": {
+          "brier": {
+            "meanDifferenceLeftMinusRight": -0.0452799525036097,
+            "descriptiveBlockPercentile95": [
+              -0.07811857685905817,
+              -0.01753859959171846
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.987
+          },
+          "logLoss": {
+            "meanDifferenceLeftMinusRight": -0.10163160156070723,
+            "descriptiveBlockPercentile95": [
+              -0.17699408606946584,
+              -0.042053941681851094
+            ],
+            "fractionBootstrapDifferenceBelowZero": 0.987
+          }
+        },
+        "favorite06to07Bin": {
+          "lower": 0.6,
+          "upper": 0.7,
+          "nUniqueSeries": 13,
+          "meanFavoriteProbability": 0.6560243687468841,
+          "observedFavoriteWinFraction": 0.5384615384615384
+        }
+      }
+    },
+    "crossRegionCoverage": {
+      "nLCKLPLBO5": 8,
+      "uniqueTeams": [
+        "BLG",
+        "DK",
+        "FOX",
+        "GEN",
+        "HLE",
+        "IG",
+        "T1",
+        "jdgaming"
+      ],
+      "BLGAppearances": 6,
+      "GENAppearances": 2,
+      "nativeSeriesIds": [
+        "gol:75432",
+        "gol:75545",
+        "gol:79618",
+        "gol:79751",
+        "gol:79840",
+        "gol:83704",
+        "gol:83713",
+        "gol:83718"
+      ]
+    },
+    "globalOverconfidenceSignal": true,
+    "overconfidenceForThisTargetProven": false,
+    "diagnostic2026SlopeAppliedToTarget": false,
+    "fullDetails": "calibration-diagnostics.json",
+    "crossRegionAnnotationMatchesFrozenArtifact": true
+  },
+  "trainingHistoryStress": {
+    "fullHistoryBLG": 0.33497606799349666,
+    "remove2024BLG": 0.34479229996873306,
+    "only2026BLG": 0.37934834124754135,
+    "interpretation": "These are previously declared fixed-policy stress values. Resetting history changes initialization, opponent paths and regional anchors; existing calibration slopes are reused, so these are not replacement validated forecasts."
+  },
+  "questionsAddressedByThisIndependentReview": [
+    {
+      "nativeGapId": "v2-holdout-calibration-blend-diagnostics",
+      "addressed": "Missing-record portion now has paired event-block losses, error correlation, diagnostic slopes and one-row-per-series reliability tables",
+      "notEstablished": "Stable ensemble gains, universal calibration improvement or accurate target probability",
+      "originalNativeGapStatusUnchanged": true
+    },
+    {
+      "nativeGapId": "v2-target-holdout-bt-refit-policy-alignment",
+      "addressed": "Archived implementation and execution audit use daily strict pre-source-date BT refits for both historical replay and the target; month-start output is stale-information sensitivity only",
+      "notEstablished": "Actual historical source availability and exact UTC completion order",
+      "originalNativeGapStatusUnchanged": true
+    },
+    {
+      "nativeGapId": "v2-2025-candidate-selection-calibration-ledger",
+      "addressed": "Existing direct-file independent audit recomputes all 21 raw-2025 candidates and selected calibration objective",
+      "notEstablished": "Independent validation on the reused 2025 development sample, or season-start preregistration",
+      "originalNativeGapStatusUnchanged": true
+    }
+  ],
+  "remainingLimitations": [
+    "Potential global overconfidence; no demonstrated target-specific probability calibration",
+    "Only 46 international BO5s across 5 event blocks and 8 LCK-LPL BO5s, with BLG in 6 and GEN in 2",
+    "Shared data and highly correlated family errors; equal blending is not independent evidence",
+    "Old roster and patch drift, incomplete entity continuity and unmodeled health/draft interactions",
+    "Raw BO5 link uses a working constant-map-strength assumption; calibration does not prove map independence or Fearless equivalence",
+    "Historical source-date timezone/as-available versions unverified; November 9 registration is not season-long prospective preregistration",
+    "Complete current Fearless Game 5/reset and comprehensive operative-notice coverage remain factual gaps unless separate V3 evidence resolves them",
+    "No new factual refresh was independently obtained by this methods task; apply any separately verified material new fact through a versioned review",
+    "Not a pristine zero-exposure blind process; no superiority over market or true single-event accuracy is proved"
+  ],
+  "videoMayClaim": [
+    "Targeted new review retains approximately GEN67/BLG33 as a conditional historical-result model estimate",
+    "Both prespecified model families favor GEN but share source data",
+    "239 chronological historical-replay BO5s and 46 international main-event BO5s have the reported fixed metrics",
+    "Model/sensitivity precision is limited and original source-data cutoff remains explicit"
+  ],
+  "videoMustNotClaim": [
+    "Precise true probability or guaranteed win",
+    "Two independent AIs or proven stable blending gains",
+    "2026 season-long prospectively preregistered forecast record",
+    "Native full review newly passed or another six native rounds were performed",
+    "Calibrated target confidence interval or zero market exposure"
+  ],
+  "repairOrReassessmentTriggers": [
+    "A verified incorrect result, duplicate or target/future-label contamination",
+    "A confirmed timestamp/order error affecting eligible training history",
+    "A verified material change in the specified event, participants, roster applicability or rules, requiring a separately documented update rather than arbitrary percentage shifts"
+  ],
+  "reviewedFiles": [
+    {
+      "path": "deliverables/20261109T144101Z-v2/frozen-probabilities.json",
+      "sha256": "c5e163cbdf56255e263bb4d3d88ebb376701fd88a0357ef176de98f2105cad20"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/prediction-report.zh.md",
+      "sha256": "030b1fc96fe24926e8372fc2647806155e00d4f233cae7a0ec6a6a5b135406cf"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/prediction-report.en.md",
+      "sha256": "289e04b29c421c748fed391199c8c129b7f0ee6190112cea4a481d8b7be4c266"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/engine-state.json",
+      "sha256": "0864ff2497434fde0b817eda9b60c80f4b5ad4ddc166e96ad24bed1a7ff47590"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/calculations/model_pipeline.py",
+      "sha256": "9ff4faadad7e36ad482d6f932b027e052cc130c2694ae9fbc5160c65e50f0216"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/calculations/model-input-series.csv",
+      "sha256": "12baafb7bf3d15fc1caa18e02ac5bd5e243c9033a68290f27c6ff64ece6860af"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/calculations/model-selection.json",
+      "sha256": "a294f49d4c94b70fac17fc659f6e82fc85fbaeed051ac4e85ca8b1dcee5118ce"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/calculations/holdout-predictions.csv",
+      "sha256": "a86765d8b5cb40680ec189d0d6ed3c12bbb5931b5b0bb2962d425095a926753a"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/calculations/all-candidate-out-of-time-predictions.csv",
+      "sha256": "66c5cc12f91bf35bbc320d01535392fa6859f85a0a41b40fec6afffdd309c4ce"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/calculations/holdout-metrics.json",
+      "sha256": "2923f7672b90b2d4d36fdbc1241906948d8f440e1ff8c49e1ec55e414e1a1dbe"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/calculations/target-calculation.json",
+      "sha256": "423f33735c49653a8a3f1f5b3119cfba6337cfaa768762493aeb01e09715bd96"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/method-audit/final-output-verification.json",
+      "sha256": "57ff575e14a1cadaa8370f9c00ac4486bbfb71e366f301cc7ba9af71585cff9b"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/method-audit/final-release-review.json",
+      "sha256": "f3b405042814f4074264a17bea31498281eb6f19b07f00912a54314d2a927fcf"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/robustness/training-input-stress-tests.json",
+      "sha256": "81fd9a4a8f31e397d62176f73690aa94e261bfff47021d58e1f69eef54be265a"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/robustness/parameter-sensitivity.json",
+      "sha256": "d8179db1a8e84f2bbbeef093ae38c1b294b43a1204fd2755f94e02ee61c02118"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/robustness/2026-subgroup-metrics.json",
+      "sha256": "8c50f5e45d9881eb81474608fdfe2b5d999f72d5d2ede2080a4670804bbbaee4"
+    },
+    {
+      "path": "revisions/v3-20261110/method-review/diagnostic-plan.json",
+      "sha256": "4526f8b9beda60767fb13bf09efb240175495b9733731cf3f61861475e399d1f"
+    },
+    {
+      "path": "revisions/v3-20261110/method-review/calibration-diagnostics.py",
+      "sha256": "b3f47fdfa7f09cc125b37a62aa6a0bf3bcf456cf3606ae38782f0e78b63cf6e9"
+    },
+    {
+      "path": "revisions/v3-20261110/method-review/diagnostic-run-start.json",
+      "sha256": "8e5c269ac67cec5d6d3e52c375c038b5a7a575dec7843d1912c52e85f33866c7"
+    },
+    {
+      "path": "revisions/v3-20261110/method-review/calibration-diagnostics.json",
+      "sha256": "db68992ea9aa19eda004b729667578d724e13ac1aadfea961aa9517a7ea318b6"
+    },
+    {
+      "path": "revisions/v2-20261109/robustness/2026-subgroup-annotated-predictions.csv",
+      "sha256": "b8357675679d08eec500db6d7d92af4733deb2cde0da44fd10abbd180a384597"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/robustness/2026-subgroup-annotated-predictions.csv",
+      "sha256": "b8357675679d08eec500db6d7d92af4733deb2cde0da44fd10abbd180a384597"
+    },
+    {
+      "path": "deliverables/20261109T144101Z-v2/delivery-hashes.json",
+      "sha256": "526b1210af432669062f5c7f7ff864907989efc3a60c55b3749901e3df8f72e0"
+    }
+  ]
+}

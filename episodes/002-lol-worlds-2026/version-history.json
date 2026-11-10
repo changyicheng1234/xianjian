@@ -1,0 +1,29 @@
+{
+  "publicationTiming": "These are local research timestamps. First public GitHub evidence must be taken from the actual release published_at and commit timestamps; earlier public availability is not asserted.",
+  "versions": [
+    {
+      "version": "v1-provisional",
+      "frozenAtUtc": "2026-11-09T11:36:55.421090+00:00",
+      "BLG": 0.4789187552118193,
+      "GEN": 0.5210812447881807,
+      "status": "provisional_insufficient_evidence",
+      "method": "Uncalibrated heuristic LLR; replaced by the empirical model"
+    },
+    {
+      "version": "v2",
+      "frozenAtUtc": "2026-11-09T14:41:01.615172+00:00",
+      "BLG": 0.33497606799349666,
+      "GEN": 0.6650239320065033,
+      "status": "conditional_model_estimate_incomplete_full_review",
+      "method": "Calibrated fixed Elo/BT equal blend"
+    },
+    {
+      "version": "v3-selected-for-episode",
+      "frozenAtUtc": "2026-11-10T06:09:44.366004+00:00",
+      "BLG": 0.33497606799349666,
+      "GEN": 0.6650239320065033,
+      "status": "episode_point_estimate_finalized_incomplete_full_review",
+      "method": "Retained after fresh official and calibration-risk review"
+    }
+  ]
+}

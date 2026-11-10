@@ -1,0 +1,82 @@
+[
+  {
+    "lower": 0.0,
+    "upper": 0.1,
+    "orientedRows": 7,
+    "meanPredicted": 0.07720973802992392,
+    "observedFraction": 0.14285714285714285,
+    "warning": "Two complementary rows per original series; not independent observations."
+  },
+  {
+    "lower": 0.1,
+    "upper": 0.2,
+    "orientedRows": 35,
+    "meanPredicted": 0.16037739246582047,
+    "observedFraction": 0.22857142857142856,
+    "warning": "Two complementary rows per original series; not independent observations."
+  },
+  {
+    "lower": 0.2,
+    "upper": 0.30000000000000004,
+    "orientedRows": 47,
+    "meanPredicted": 0.25512081968228983,
+    "observedFraction": 0.2765957446808511,
+    "warning": "Two complementary rows per original series; not independent observations."
+  },
+  {
+    "lower": 0.30000000000000004,
+    "upper": 0.4,
+    "orientedRows": 69,
+    "meanPredicted": 0.3536948715491998,
+    "observedFraction": 0.37681159420289856,
+    "warning": "Two complementary rows per original series; not independent observations."
+  },
+  {
+    "lower": 0.4,
+    "upper": 0.5,
+    "orientedRows": 81,
+    "meanPredicted": 0.4520427662783885,
+    "observedFraction": 0.4444444444444444,
+    "warning": "Two complementary rows per original series; not independent observations."
+  },
+  {
+    "lower": 0.5,
+    "upper": 0.6,
+    "orientedRows": 81,
+    "meanPredicted": 0.5479572337216114,
+    "observedFraction": 0.5555555555555556,
+    "warning": "Two complementary rows per original series; not independent observations."
+  },
+  {
+    "lower": 0.6000000000000001,
+    "upper": 0.7000000000000001,
+    "orientedRows": 69,
+    "meanPredicted": 0.6463051284508002,
+    "observedFraction": 0.6231884057971014,
+    "warning": "Two complementary rows per original series; not independent observations."
+  },
+  {
+    "lower": 0.7000000000000001,
+    "upper": 0.8,
+    "orientedRows": 47,
+    "meanPredicted": 0.7448791803177103,
+    "observedFraction": 0.723404255319149,
+    "warning": "Two complementary rows per original series; not independent observations."
+  },
+  {
+    "lower": 0.8,
+    "upper": 0.9,
+    "orientedRows": 35,
+    "meanPredicted": 0.8396226075341796,
+    "observedFraction": 0.7714285714285715,
+    "warning": "Two complementary rows per original series; not independent observations."
+  },
+  {
+    "lower": 0.9,
+    "upper": 1.0,
+    "orientedRows": 7,
+    "meanPredicted": 0.9227902619700761,
+    "observedFraction": 0.8571428571428571,
+    "warning": "Two complementary rows per original series; not independent observations."
+  }
+]

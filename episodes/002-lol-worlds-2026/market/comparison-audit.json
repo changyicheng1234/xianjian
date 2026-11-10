@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-11-10T06:21:23.274842+00:00",
+  "status": "pass_with_scope_qualifications",
+  "comparisonUsableForVideo": true,
+  "marketId": "6889027",
+  "eventId": "1345375",
+  "wholeMatchGrandFinalMoneylineVerified": true,
+  "notGame1HandicapOrTotal": true,
+  "selectedMarketMatchesRawGammaExactly": true,
+  "sourceHashesAllMatch": true,
+  "freezeSha256": "006e9ed53f80dedc9db28e8e889701db1a66ca5d30e842a06b843991e233d404",
+  "comparisonInputSha256": "a5b9e2b2d4b36490cbe02dca1608082ef9083392a1e9c1f7693bb979b0a4ecb7",
+  "freezeBeforeEveryRecordedRetrievalAndBookTimestamp": true,
+  "frozenAtUtc": "2026-11-10T06:09:44.366004+00:00",
+  "bookObservedAtUtc": "2026-11-10T06:11:55.101000+00:00",
+  "secondsFreezeToBookObservation": 130.734996,
+  "books": {
+    "BLG": {
+      "outcome": "Bilibili Gaming",
+      "tokenId": "16388722763196015839509607354163150962461372365537908671209962968986315674834",
+      "bid": 0.37,
+      "ask": 0.38,
+      "midpoint": 0.375,
+      "GammaPrice": 0.375,
+      "observedAtUtc": "2026-11-10T06:11:55.101000+00:00"
+    },
+    "GEN": {
+      "outcome": "Gen.G",
+      "tokenId": "48974242814467521111377166073091419940430166730559094118660552642380044929668",
+      "bid": 0.62,
+      "ask": 0.63,
+      "midpoint": 0.625,
+      "GammaPrice": 0.625,
+      "observedAtUtc": "2026-11-10T06:11:55.101000+00:00"
+    }
+  },
+  "midpointsComplementary": true,
+  "normalized": false,
+  "aiProbabilitiesMatchFrozenFile": true,
+  "aiMinusMarketPercentagePointsRecomputed": {
+    "BLG": -4.002393200650333,
+    "GEN": 4.002393200650333
+  },
+  "sameOutcomeCondition": false,
+  "rawContractSettlementIdentical": false,
+  "normalCompletionOutcomeEquivalent": true,
+  "normalCompletionEquivalenceScope": "Unambiguous normal completion on the original schedule or inside the contract postponement window; not arbitrary late postponed completion",
+  "allPossibleNormalCompletionsEquivalent": false,
+  "settlementDifferences": {
+    "cancelledOrTie": "Market pays 50-50; AI estimate excludes these from normal completion.",
+    "postponement": "Market rescheduled-start deadline is 2026-11-28 23:59 ET, subject to the announced-reschedule rule; otherwise pays 50-50 even if played later. AI condition has no corresponding expiry.",
+    "forfeitAfterStart": "Market settles winner; AI condition specifies normal completion.",
+    "withdrawalBeforeStart": "Market pays 50-50; AI does not label this a normal-completion defeat.",
+    "resolutionSource": "Market names GoL then credible-report/video fallback after two hours, not an identical official-champion condition."
+  },
+  "requiredVideoClarifications": [
+    "Use AI66.5/33.5 versus midpoint62.5/37.5 for the 4.0-percentage-point comparison; 67 minus62.5 is4.5, not4.0.",
+    "Label quote timestamp and bid/ask midpoint; ask prices38/63 are not the adopted values.",
+    "Normal completion equivalence requires the contract window; cancellation/postponement/forfeit settlement differs.",
+    "A price difference is not proven accuracy, a conditional-market probability estimate, or a net-of-fees trading edge.",
+    "Replace the draft verdict placeholder with the already frozen values, not new prediction generation."
+  ],
+  "videoFactReview": {
+    "draftScenes": 9,
+    "draftDurationSeconds": 96,
+    "independentModelsClaimFound": false,
+    "prospectiveSeasonRecordClaimFound": false,
+    "accuracyGuaranteeFound": false,
+    "nativeFullReviewPassClaimFound": false,
+    "preserveSharedDataAndRetrospectiveLabels": true,
+    "additionalNotes": [
+      "Label0.2223 as Brier, lower is better; not a hit rate.",
+      "Frozen report's same-settlement-question shorthand is superseded for comparison scope by this audit's explicit settlement distinctions; do not copy it as all-state identity.",
+      "Keep prior coordinator exposure disclosed; this snapshot's post-freeze timing does not establish pristine blindness.",
+      "A single final supplies one scored observation, not proof of general superiority."
+    ]
+  },
+  "forecastModelOrWeightsModified": false,
+  "comparisonInputModified": false,
+  "freezeFileModified": false,
+  "noNewMarketRequestByAuditor": true,
+  "reviewedFiles": [
+    {
+      "path": "deliverables/20261110T060944Z-v3/frozen-probabilities.json",
+      "sha256": "006e9ed53f80dedc9db28e8e889701db1a66ca5d30e842a06b843991e233d404"
+    },
+    {
+      "path": "revisions/v3-20261110/post-freeze-market/market-comparison.json",
+      "sha256": "a5b9e2b2d4b36490cbe02dca1608082ef9083392a1e9c1f7693bb979b0a4ecb7"
+    },
+    {
+      "path": "revisions/v3-20261110/post-freeze-market/BLG-book.json",
+      "sha256": "ebf7db506241af8b13b9e2eca8e7a62772b74ba412ec6d11832a6ef4f81dd2f6"
+    },
+    {
+      "path": "revisions/v3-20261110/post-freeze-market/BLG-midpoint.json",
+      "sha256": "4eb7b478f22cb79968728459676138f047dbbefb064e4c06fa9532126b7bc1f3"
+    },
+    {
+      "path": "revisions/v3-20261110/post-freeze-market/event-page.html",
+      "sha256": "26c73fa94f2cf668952ed1efdef89ebc70ec79b221c0befa8e315e8a74bf3858"
+    },
+    {
+      "path": "revisions/v3-20261110/post-freeze-market/gamma-event.json",
+      "sha256": "a558e5bfe1df5a1d082fec79af890fb82c5944b32923eafd5c182288f752e0f2"
+    },
+    {
+      "path": "revisions/v3-20261110/post-freeze-market/GEN-book.json",
+      "sha256": "6a60aa7e7f64dca86eb1e8ffdbc0f91b203fccbe000ee59aa5b9a10951052d1a"
+    },
+    {
+      "path": "revisions/v3-20261110/post-freeze-market/GEN-midpoint.json",
+      "sha256": "8426f2d49369416ea46b6edf6b038ad47a7a2f16b4da5308ad4b831b116c6b68"
+    },
+    {
+      "path": "revisions/v3-20261110/post-freeze-market/http-records-clob.json",
+      "sha256": "b9363de0136da2fb85a77895c18be445f031fd50bb2d29ee77f161bb7b4161cd"
+    },
+    {
+      "path": "revisions/v3-20261110/post-freeze-market/http-records-initial.json",
+      "sha256": "70d70ef1cefdf88c29c55d945398e9283a449d1cbe4528752cbb127156073d06"
+    },
+    {
+      "path": "revisions/v3-20261110/post-freeze-market/selected-match-winner-market.json",
+      "sha256": "135a94552c787efb59f7b187e6730a397d06a7867a3ff482c8ca11a057f58d5f"
+    },
+    {
+      "path": "revisions/v3-20261110/episode-content-plan.json",
+      "sha256": "e3c5bffa63e7d7398dbee553a5ea2ab35176058e673303638991aab499d61d35"
+    },
+    {
+      "path": "deliverables/20261110T060944Z-v3/prediction-report.zh.md",
+      "sha256": "a43c9572f624fd00881488c3d26a511280701b18be05bb396462bb2dee1689bf"
+    },
+    {
+      "path": "deliverables/20261110T060944Z-v3/video-brief.md",
+      "sha256": "39a1e46bc8afc9a0810f388944f0bd80f5bed5a67afb88dbdbd5c685ec964471"
+    }
+  ]
+}

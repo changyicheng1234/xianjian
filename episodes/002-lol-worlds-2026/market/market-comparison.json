@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "predictionFreezeSha256": "006e9ed53f80dedc9db28e8e889701db1a66ca5d30e842a06b843991e233d404",
+  "predictionFile": "[local-path-omitted]/frozen-probabilities.json",
+  "frozenAtUtc": "2026-11-10T06:09:44.366004+00:00",
+  "observedAtUtc": "2026-11-10T06:11:55.101000+00:00",
+  "snapshotCompiledAtUtc": "2026-11-10T06:13:23.193643+00:00",
+  "eventTitle": "LoL: Bilibili Gaming vs Gen.G (BO5) - Worlds Playoffs",
+  "eventId": "1345375",
+  "marketId": "6889027",
+  "marketSlug": "lol-blg-gen-2026-11-14",
+  "sportsMarketType": "moneyline",
+  "marketGroup": "Match Winner",
+  "sameOutcomeCondition": false,
+  "normalCompletionOutcomeEquivalent": true,
+  "comparisonPermittedWithConditionDisclosure": true,
+  "rawContractSettlementIdentical": false,
+  "probabilities": {
+    "BLG": 0.375,
+    "GEN": 0.625
+  },
+  "aiProbabilities": {
+    "BLG": 0.33497606799349666,
+    "GEN": 0.6650239320065033
+  },
+  "displayPercentOneDecimal": {
+    "BLG": 37.5,
+    "GEN": 62.5
+  },
+  "differenceAiMinusMarketPercentagePoints": {
+    "BLG": -4.002393200650333,
+    "GEN": 4.002393200650333
+  },
+  "quoteType": "CLOB best-bid/ask midpoint independently verified against both books and Gamma outcomePrices",
+  "quoteTypeDisplay": "买卖中间价｜未归一化",
+  "normalized": false,
+  "books": {
+    "BLG": {
+      "bid": 0.37,
+      "ask": 0.38,
+      "mid": 0.375,
+      "bookTimestamp": "1794291115101"
+    },
+    "GEN": {
+      "bid": 0.62,
+      "ask": 0.63,
+      "mid": 0.625,
+      "bookTimestamp": "1794291115101"
+    }
+  },
+  "sourceUrl": "https://polymarket.com/event/lol-blg-gen-2026-11-14",
+  "apiSourceUrl": "https://gamma-api.polymarket.com/events?slug=lol-blg-gen-2026-11-14",
+  "notes": [
+    "本版AI概率在北京时间11月10日14:09:44冻结；市场快照在冻结后取得，没有倒灌预测。",
+    "比较对象是整场BO5的Match Winner市场，不是单局、让局或总局数市场。",
+    "市场买卖中间价为BLG37.5%、Gen.G62.5%，与Gamma outcomePrices一致；未作归一化。",
+    "正常完赛时，两者指向同一个系列赛胜者；合约取消/平局按50–50，延期与弃权规则也有差别，因此并非全情景完全相同的结算条件。",
+    "网页买入按钮显示BLG38¢、Gen.G63¢，是买价显示；本片采用0.37/0.38和0.62/0.63的中间价，避免把买卖价差当概率和超过100%的矛盾。",
+    "AI与市场中间价对Gen.G的显示差为约4.0个百分点；这只是两种估计的对照，不证明谁更准确或存在交易机会。"
+  ],
+  "forecastModifiedAfterMarketRead": false,
+  "sourceHashes": {
+    "BLG-book.json": "ebf7db506241af8b13b9e2eca8e7a62772b74ba412ec6d11832a6ef4f81dd2f6",
+    "BLG-midpoint.json": "4eb7b478f22cb79968728459676138f047dbbefb064e4c06fa9532126b7bc1f3",
+    "event-page.html": "26c73fa94f2cf668952ed1efdef89ebc70ec79b221c0befa8e315e8a74bf3858",
+    "gamma-event.json": "a558e5bfe1df5a1d082fec79af890fb82c5944b32923eafd5c182288f752e0f2",
+    "GEN-book.json": "6a60aa7e7f64dca86eb1e8ffdbc0f91b203fccbe000ee59aa5b9a10951052d1a",
+    "GEN-midpoint.json": "8426f2d49369416ea46b6edf6b038ad47a7a2f16b4da5308ad4b831b116c6b68",
+    "http-records-clob.json": "b9363de0136da2fb85a77895c18be445f031fd50bb2d29ee77f161bb7b4161cd",
+    "http-records-initial.json": "70d70ef1cefdf88c29c55d945398e9283a449d1cbe4528752cbb127156073d06",
+    "selected-match-winner-market.json": "135a94552c787efb59f7b187e6730a397d06a7867a3ff482c8ca11a057f58d5f"
+  }
+}

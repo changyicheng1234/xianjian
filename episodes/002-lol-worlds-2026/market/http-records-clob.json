@@ -1,0 +1,48 @@
+{
+  "records": [
+    {
+      "id": "BLG-midpoint",
+      "url": "https://clob.polymarket.com/midpoint?token_id=16388722763196015839509607354163150962461372365537908671209962968986315674834",
+      "retrievedAtUtc": "2026-11-10T06:11:53.587509+00:00",
+      "httpStatus": 200,
+      "serverDate": "Tue, 10 Nov 2026 06:11:55 GMT",
+      "sha256": "4eb7b478f22cb79968728459676138f047dbbefb064e4c06fa9532126b7bc1f3",
+      "file": "BLG-midpoint.json",
+      "mid": "0.375"
+    },
+    {
+      "id": "BLG-book",
+      "url": "https://clob.polymarket.com/book?token_id=16388722763196015839509607354163150962461372365537908671209962968986315674834",
+      "retrievedAtUtc": "2026-11-10T06:11:53.587509+00:00",
+      "httpStatus": 200,
+      "serverDate": "Tue, 10 Nov 2026 06:11:55 GMT",
+      "sha256": "ebf7db506241af8b13b9e2eca8e7a62772b74ba412ec6d11832a6ef4f81dd2f6",
+      "file": "BLG-book.json",
+      "bestBid": 0.37,
+      "bestAsk": 0.38,
+      "bookTimestamp": "1794291115101"
+    },
+    {
+      "id": "GEN-midpoint",
+      "url": "https://clob.polymarket.com/midpoint?token_id=48974242814467521111377166073091419940430166730559094118660552642380044929668",
+      "retrievedAtUtc": "2026-11-10T06:11:53.587509+00:00",
+      "httpStatus": 200,
+      "serverDate": "Tue, 10 Nov 2026 06:11:55 GMT",
+      "sha256": "8426f2d49369416ea46b6edf6b038ad47a7a2f16b4da5308ad4b831b116c6b68",
+      "file": "GEN-midpoint.json",
+      "mid": "0.625"
+    },
+    {
+      "id": "GEN-book",
+      "url": "https://clob.polymarket.com/book?token_id=48974242814467521111377166073091419940430166730559094118660552642380044929668",
+      "retrievedAtUtc": "2026-11-10T06:11:53.587509+00:00",
+      "httpStatus": 200,
+      "serverDate": "Tue, 10 Nov 2026 06:11:55 GMT",
+      "sha256": "6a60aa7e7f64dca86eb1e8ffdbc0f91b203fccbe000ee59aa5b9a10951052d1a",
+      "file": "GEN-book.json",
+      "bestBid": 0.62,
+      "bestAsk": 0.63,
+      "bookTimestamp": "1794291115101"
+    }
+  ]
+}

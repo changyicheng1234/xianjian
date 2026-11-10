@@ -1,0 +1,34 @@
+{
+  "computedAtUtc": "2026-11-09T13:17:32.967138+00:00",
+  "informationCutoffUtc": "2026-11-09T13:00:34Z",
+  "isFrozen": false,
+  "BLG": 0.33497606799349666,
+  "GenG": 0.6650239320065033,
+  "components": {
+    "elo": {
+      "rawBO5": 0.35228223351136556,
+      "BLGrating": 1737.127992351336,
+      "GENrating": 1793.3028808349998,
+      "calibratedBLG": 0.3562465619121112
+    },
+    "bt": {
+      "rawBO5": 0.29691043401502326,
+      "calibratedBLG": 0.3137055740748821,
+      "BLGstrength": 1.3415483250271576,
+      "GENstrength": 1.7972963437211271,
+      "fit": {
+        "nSeries": 3432,
+        "nTeams": 100,
+        "success": true,
+        "iterations": 22,
+        "objective": 583.4119935962227
+      }
+    }
+  },
+  "samePolicyStartOfMonthBT": 0.30850895873513373,
+  "samePolicyBlend": 0.33237776032362243,
+  "selectionSha256": "a294f49d4c94b70fac17fc659f6e82fc85fbaeed051ac4e85ca8b1dcee5118ce",
+  "interpretation": "A reproducible model estimate, not a guaranteed result or calibrated target confidence interval. Final review of dataset coverage, aliases and methodology remains required.",
+  "rosterPatchDraftAdjustment": 0,
+  "selectionAndCalibrationMarketInput": false
+}
