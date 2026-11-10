@@ -1,4 +1,8 @@
-# EpisodeNNN: Question
+# AI Prediction JournalNNN: Question
+
+Save as docs/issue-NNN.md and index by year/month on the homepage. Normally publish an article containing5–10 sources and a frozen record. PDF is optional; retain full data/code/diagnostics locally.
+
+[← All episodes](../README.en.md)
 
 Question and resolution:
 
@@ -12,10 +16,12 @@ Probabilities:
 
 Evidence and countercase:
 
-Method/evaluation: retrospective or prospective, sample and metric.
+Brief accessible method; if citing evaluation, label retrospective/prospective, population and metric.
 
 Gaps:
 
 Post-freeze market quote, timestamp and convention:
+
+Key sources: original link, date and one-line relevance, including support and counterevidence.
 
 Keep corrections and post-event reviews separate; retain original forecast.

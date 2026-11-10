@@ -1,19 +1,26 @@
-# AI预测证据库
+# AI预测记录
 
-保存AI预测视频对应的报告、公开来源、冻结概率和复算资料，供观众核查和赛后复盘。
+用AI预测真实事件，公开关键依据，留下原始判断，等待结果检验。
 
-**[第002期：2026英雄联盟全球总决赛](episodes/002-lol-worlds-2026/README.md)** · [本期资料包](https://github.com/changyicheng1234/ai-prediction-evidence/releases/tag/episode-002-20261110-v3) · [English](README.en.md)
+点击下面的标题即可直接阅读，每期包含预测概率、主要理由、反证和关键来源。
 
-| 期号 | 问题 | 视频采用的AI概率 |
-| --- | --- | --- |
-|002|Gen.G与BLG谁赢得2026全球总决赛？|Gen.G66.5%，BLG33.5%|
+## 2026
 
-每期README/PDF解释结论与依据；sources.csv提供原文链接、日期和实际阅读范围；冻结JSON、历史预测表及脚本供复算；Release提供完整下载包。
+**十一月**
 
-**时间必须分清：** 比赛数据截止、本地冻结、市场报价与GitHub实际公开时间分别记录。本地冻结时间不能证明当时已在互联网公开；公开时间核对Release的published_at与实际提交记录。
+- 第002期：[2026全球总决赛：Gen.G还是BLG？](docs/issue-002.md)（11月10日）
 
-第002期完整审核仍有未解项。239场历史检验是现在按日期重建的回放，不是当时逐场公开的战绩。早期暂存GEN52.1%/BLG47.9%和后续方法更换保留在版本历史，未隐藏。
+---
 
-本库只放整理后的研究资料和事实输入，不放交易配置、账户凭据、内部模型会话、完整第三方网页/PDF或视频素材。
+[English](README.en.md) · [反馈与纠错](https://github.com/changyicheng1234/ai-prediction-evidence/issues)
 
-[归档规则](ARCHIVING.md) · [来源说明](PROVENANCE.md) · [下一期模板](templates/episode.zh.md) · [机器可读期目](episodes/index.json)
+<details>
+<summary>资料与归档说明</summary>
+
+以后每期默认只公开中文报告、5—10条关键来源和预测冻结记录。完整数据、代码及详细诊断保留本地，需要时另行整理技术附录。
+
+第002期已发布的完整资料包作为历史归档保留，下载链接放在该期文章末尾。本地冻结时间与GitHub实际公开时间分别记录，不能混为一谈。
+
+[归档规则](ARCHIVING.md) · [来源说明](PROVENANCE.md) · [期目索引](episodes/index.json) · [下一期模板](templates/episode.zh.md)
+
+</details>

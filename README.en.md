@@ -1,15 +1,26 @@
-# AI Prediction Evidence
+# AI Prediction Journal
 
-Public reports, source references, frozen probabilities and reproducibility materials for an AI prediction video series.
+AI forecasts of real events, with key evidence and original estimates preserved for later evaluation.
 
-**[Episode002: Worlds2026](episodes/002-lol-worlds-2026/README.en.md)** · [Download](https://github.com/changyicheng1234/ai-prediction-evidence/releases/tag/episode-002-20261110-v3) · [中文](README.md)
+Click an episode to read its probabilities, main reasons, counterevidence and sources directly on GitHub.
 
-Selected estimate: GEN66.5%, BLG33.5%. Episode READMEs/PDFs explain the reasoning, sources.csv records links/dates/reading scope, and JSON/code/prediction tables support checking. Releases provide downloadable snapshots.
+## 2026
 
-Match-data cutoff, local freeze, quote time and actual GitHub publication are distinct. Local timestamps do not establish prior internet availability. Verify actual release published_at and commit records.
+**November**
 
-Full factual review remains incomplete. The239-match check is a retrospective replay, not a prospectively published record. Earlier provisional GEN52.1/BLG47.9 and the method replacement are disclosed in version history.
+- Episode002: [Worlds2026: Gen.G or BLG?](docs/issue-002.en.md) (November10)
 
-Only curated research and factual inputs are included. Credentials, trading configuration, internal model sessions, full third-party HTML/PDF bodies and video assets are excluded.
+---
 
-See ARCHIVING.en.md, PROVENANCE.en.md, templates/episode.en.md and episodes/index.json.
+[中文](README.md) · [Corrections](https://github.com/changyicheng1234/ai-prediction-evidence/issues)
+
+<details>
+<summary>Evidence and archiving</summary>
+
+Future episodes default to a Chinese report,5–10 key sources and a frozen prediction record. Full datasets, code and detailed diagnostics stay local unless a separate technical appendix is prepared.
+
+Episode002's existing full package remains archived; its download link is at the end of the article. Local freeze time and actual GitHub publication are distinct.
+
+See ARCHIVING.en.md, PROVENANCE.en.md, episodes/index.json and templates/episode.en.md.
+
+</details>

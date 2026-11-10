@@ -15,7 +15,10 @@
       "releaseTag": "episode-002-20261110-v3",
       "fullResearchChecksPassed": false,
       "publicPublicationTimestampSource": "GitHub Releases API published_at; not frozenAtUtc",
-      "result": "unresolved_at_publication"
+      "result": "unresolved_at_publication",
+      "articlePath": "docs/issue-002.md",
+      "articlePathEnglish": "docs/issue-002.en.md",
+      "keySourceCount": 7
     }
   ]
 }
