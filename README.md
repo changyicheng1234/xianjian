@@ -12,7 +12,7 @@
 
 ---
 
-[English](README.en.md) · [反馈与纠错](https://github.com/changyicheng1234/ai-prediction-evidence/issues)
+[English](docs/README.en.md) · [反馈与纠错](https://github.com/changyicheng1234/ai-prediction-evidence/issues)
 
 <details>
 <summary>资料与归档说明</summary>
@@ -21,6 +21,6 @@
 
 第002期已发布的完整资料包作为历史归档保留，下载链接放在该期文章末尾。本地冻结时间与GitHub实际公开时间分别记录，不能混为一谈。
 
-[归档规则](ARCHIVING.md) · [来源说明](PROVENANCE.md) · [期目索引](episodes/index.json) · [下一期模板](templates/episode.zh.md)
+[归档规则](docs/about/ARCHIVING.md) · [来源说明](docs/about/PROVENANCE.md) · [期目索引](episodes/index.json) · [下一期模板](docs/templates/episode.zh.md)
 
 </details>

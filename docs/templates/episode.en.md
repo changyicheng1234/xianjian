@@ -2,7 +2,7 @@
 
 Save as docs/issue-NNN.md and index by year/month on the homepage. Normally publish an article containing5–10 sources and a frozen record. PDF is optional; retain full data/code/diagnostics locally.
 
-[← All episodes](../README.en.md)
+[← All episodes](https://github.com/changyicheng1234/ai-prediction-evidence/blob/main/docs/README.en.md)
 
 Question and resolution:
 

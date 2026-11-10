@@ -16,4 +16,4 @@ Local times, hashes and commit times alone do not prove first public availabilit
 
 Retain relevant source dates and reading scope, distinguishing excerpts from full reading. A smaller package must still disclose the strongest countercase, material gaps and revisions. Exclude credentials, internal sessions and full third-party article/HTML/PDF bodies. Issues should identify episode, file, source and correction.
 
-Use templates/ and episodes/index.json for later episodes and website integration. Preserve incomplete-review labels.
+Use docs/templates/ and episodes/index.json for later episodes and website integration. Preserve incomplete-review labels.

@@ -1,6 +1,6 @@
 # AI Prediction Journal002: Worlds2026, Gen.G or BLG?
 
-[← All episodes](../README.en.md) · [中文](issue-002.md)
+[← All episodes](README.en.md) · [中文](issue-002.md)
 
 **Selected estimate: GEN66.5%, BLG33.5%.**
 
@@ -71,4 +71,4 @@ Existing technical archives remain available; future episodes use a concise repo
 
 </details>
 
-[← All episodes](../README.en.md)
+[← All episodes](README.en.md)
