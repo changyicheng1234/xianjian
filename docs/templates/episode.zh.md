@@ -1,8 +1,8 @@
-# AI预测记录（第NNN期）：题目
+# 先见系列（第NNN期）：题目
 
 保存为docs/issue-NNN.md，首页按年/月加入标题链接。默认只需这篇含5—10条关键来源的文章及一份预测冻结记录；PDF可选，完整数据、代码与详细诊断留本地。
 
-[← 返回目录](https://github.com/changyicheng1234/ai-prediction-evidence)
+[← 返回目录](https://github.com/changyicheng1234/xianjian)
 
 预测问题：
 

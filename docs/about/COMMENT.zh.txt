@@ -1,5 +1,5 @@
 本期AI预测的主要依据与来源（直接阅读）：
-https://github.com/changyicheng1234/ai-prediction-evidence/blob/main/docs/issue-002.md
+https://github.com/changyicheng1234/xianjian/blob/main/docs/issue-002.md
 
 历期目录：
-https://github.com/changyicheng1234/ai-prediction-evidence
+https://github.com/changyicheng1234/xianjian

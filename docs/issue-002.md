@@ -1,4 +1,4 @@
-# AI预测记录（第002期）：2026全球总决赛，Gen.G还是BLG？
+# 先见系列（第002期）：2026全球总决赛，Gen.G还是BLG？
 
 [← 返回目录](../README.md) · [English](issue-002.en.md)
 
@@ -73,7 +73,7 @@ BLG刚刚以3–0淘汰DK、3–1淘汰T1，今年还拿过First Stand冠军。G
 - [中文报告PDF](../episodes/002-lol-worlds-2026/report.zh.pdf)
 - [冻结概率JSON](../episodes/002-lol-worlds-2026/frozen-probabilities.json)
 - [版本历史](../episodes/002-lol-worlds-2026/version-history.json)
-- [第002期完整历史资料包](https://github.com/changyicheng1234/ai-prediction-evidence/releases/tag/episode-002-20261110-v3)
+- [第002期完整历史资料包](https://github.com/changyicheng1234/xianjian/releases/tag/episode-002-20261110-v3)
 
 本期已公开的技术归档继续保留；以后默认只整理报告、关键来源和冻结记录。普通阅读无需下载完整包。
 

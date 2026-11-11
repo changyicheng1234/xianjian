@@ -1,4 +1,4 @@
-# AI Prediction Journal002: Worlds2026, Gen.G or BLG?
+# 先见系列 · Episode002: Worlds2026, Gen.G or BLG?
 
 [← All episodes](README.en.md) · [中文](issue-002.md)
 
@@ -65,7 +65,7 @@ The final was unresolved when the original evidence was published. Post-event re
 - [English PDF](../episodes/002-lol-worlds-2026/report.en.pdf)
 - [Frozen JSON](../episodes/002-lol-worlds-2026/frozen-probabilities.json)
 - [Version history](../episodes/002-lol-worlds-2026/version-history.json)
-- [Historical full evidence package](https://github.com/changyicheng1234/ai-prediction-evidence/releases/tag/episode-002-20261110-v3)
+- [Historical full evidence package](https://github.com/changyicheng1234/xianjian/releases/tag/episode-002-20261110-v3)
 
 Existing technical archives remain available; future episodes use a concise report, key sources and frozen record. Reading the article requires no package download.
 

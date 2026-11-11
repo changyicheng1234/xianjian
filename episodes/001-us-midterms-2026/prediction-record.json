@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "episodeId": "001-us-midterms-2026",
+  "archiveType": "retrospective_publication_of_prior_forecasts",
+  "isOriginalOctober31File": false,
+  "recordPreparedAtUtc": "2026-11-11T09:32:24.005918+00:00",
+  "originalResearchChronology": "Framed October30; continued and frozen October31,2026",
+  "originalSnapshotRecordedFreezeAtUtc": "2026-10-31T07:22:34.745553+00:00",
+  "publicBackfillDate": "2026-11-11",
+  "earlierGithubPublicationEstablished": false,
+  "publicPublicationTimeSource": "Actual GitHub commit/release records, not the local freeze",
+  "forecasts": [
+    {
+      "component": "house",
+      "eventId": "2026-e2701cf5",
+      "question": "2026年美国中期选举所形成的新一届联邦国会首次完成两院组织安排时，共和党是否失去众议院控制权？",
+      "probabilityYes": 0.7121601142189096,
+      "displayPercent": "71.2%",
+      "nativeStoppingStatus": "converged",
+      "yesMeaning": "Democratic Party or its organizational coalition controls the House at the common observation point."
+    },
+    {
+      "component": "senate",
+      "eventId": "2026-cc941073",
+      "question": "2026年美国中期选举所形成的新一届联邦国会首次完成两院组织安排时，共和党是否失去参议院控制权？",
+      "probabilityYes": 0.656164911883384,
+      "displayPercent": "65.6%",
+      "nativeStoppingStatus": "converged",
+      "yesMeaning": "Democratic Party or its organizational coalition controls the Senate at the common observation point."
+    },
+    {
+      "component": "joint",
+      "eventId": "2026-a877cbd7",
+      "question": "2026年美国中期选举后，新一届联邦国会首次完成两院组织安排时，共和党是否同时失去众议院与参议院的控制权？",
+      "probabilityYes": 0.5904644831773758,
+      "displayPercent": "59.0%",
+      "nativeStoppingStatus": "converged",
+      "yesMeaning": "Democratic Party or its organizational coalition controls both chambers at the common observation point; Republican retention of either chamber means NO."
+    }
+  ],
+  "resolution": {
+    "observationPoint": "When the new Congress resulting from the 2026 elections first completes organization of both chambers, after any legally necessary runoffs, certification and final effective judicial decisions.",
+    "houseControl": "Formal Speaker party and majority organizational arrangements.",
+    "senateControl": "Actual caucus affiliation, organizational arrangements and any necessary vice-presidential tie-breaking authority; include independents by organizational affiliation and all non-contested seats.",
+    "primaryRecordEntrypoints": [
+      "https://clerk.house.gov/",
+      "https://www.senate.gov/",
+      "https://www.congress.gov/congressional-record"
+    ],
+    "resolutionDate": null,
+    "statusAtAudit": "awaiting_formal_organization_evidence",
+    "unresolvedCases": "Wait where elections, shared control or cross-party arrangements do not establish control. Neither election night nor January 3 is an automatic settlement deadline. Later party changes, special elections or leadership changes do not retroactively change the original result.",
+    "retainedAmbiguities": [
+      "Exactly which formal actions complete organization was not exhaustively specified.",
+      "If chambers organize at different times, the treatment of an intervening change needs interpretation from the original rule and official records."
+    ],
+    "forecastSettlementPerformed": false
+  },
+  "method": {
+    "type": "uncalibrated_heuristic_evidence_log_odds",
+    "jointResearchedSeparately": true,
+    "singleChamberProbabilitiesMultiplied": false,
+    "historicalAccuracyEstablished": false,
+    "empiricalCalibrationEstablished": false,
+    "convergedDoesNotValidateAccuracy": true
+  },
+  "marketComparison": {
+    "afterForecastFreeze": true,
+    "referenceDefinition": "Historical bid/ask midpoint, not a simultaneous forecast-time price, transaction price, or exactly identical event.",
+    "house": {
+      "reference": 0.945,
+      "bid": 0.94,
+      "ask": 0.95,
+      "retrievedAtUtc": "2026-10-31T07:55:31.310725+00:00"
+    },
+    "senate": {
+      "reference": 0.715,
+      "bid": 0.71,
+      "ask": 0.72,
+      "retrievedAtUtc": "2026-10-31T07:55:31.684945+00:00"
+    },
+    "joint": {
+      "reference": 0.705,
+      "bid": 0.7,
+      "ask": 0.71,
+      "retrievedAtUtc": "2026-10-31T07:55:31.287985+00:00"
+    },
+    "contractDifference": "Archived comparison notes that market seat attribution retains election party and has an independent-caucus announcement deadline; original AI forecasts use actual organizational control."
+  },
+  "strictZeroExposureEstablished": false,
+  "apRetrospective": {
+    "url": "https://www.ap.org/the-definitive-source/behind-the-news/calling-control-of-congress-in-the-2026-midterm-elections/",
+    "publicationDate": "2026-11-05",
+    "accessDateUtc": "2026-11-11",
+    "supportedInterpretation": "The archived forecast directions align with AP's election calls.",
+    "organizationCompletedEstablished": false,
+    "accuracyRateOrCalibrationInference": false
+  },
+  "originalStateSha256": {
+    "house": "5d828e56c27f65bd1b9446624a8d9e85d05e076885089864db7f2859fcbfdb07",
+    "senate": "b733eb14499a352b36d85680ba1e2847d8874e2503de433dbb68742072b4721d",
+    "joint": "10dac094d810f62a41ee27da48ce2dfcaa184789432c5cb28c937d6bd47ac6ef"
+  },
+  "originalStatesRedistributed": false,
+  "numbersChangedDuringBackfill": false
+}

@@ -19,6 +19,26 @@
       "articlePath": "docs/issue-002.md",
       "articlePathEnglish": "docs/issue-002.en.md",
       "keySourceCount": 7
+    },
+    {
+      "id": "001",
+      "slug": "001-us-midterms-2026",
+      "title": "2026美国中期选举：共和党会同时失去两院吗？",
+      "directory": "episodes/001-us-midterms-2026",
+      "articlePath": "docs/issue-001.md",
+      "articlePathEnglish": "docs/issue-001.en.md",
+      "predictionRecord": "episodes/001-us-midterms-2026/prediction-record.json",
+      "originalPredictionDate": "2026-10-31",
+      "publicBackfillDate": "2026-11-11",
+      "probabilities": {
+        "house": 0.7121601142189096,
+        "senate": 0.656164911883384,
+        "joint": 0.5904644831773758
+      },
+      "isRetrospectivePublication": true,
+      "formalSettlementStatus": "awaiting_new_congress_organization",
+      "keySourceCount": 7,
+      "releaseTag": "episode-001-20261031-backfill-20261111"
     }
   ]
 }

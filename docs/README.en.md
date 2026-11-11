@@ -1,4 +1,4 @@
-# AI Prediction Journal
+# 先见系列
 
 AI forecasts of real events, with key evidence and original estimates preserved for later evaluation.
 
@@ -8,11 +8,15 @@ Click an episode to read its probabilities, main reasons, counterevidence and so
 
 **November**
 
-- Episode002: [Worlds2026: Gen.G or BLG?](issue-002.en.md) (November10)
+- Episode 002: [Worlds 2026: Gen.G or BLG?](issue-002.en.md) (November 10)
+
+**October**
+
+- Episode 001: [Would Republicans lose both chambers?](issue-001.en.md) (October 31 forecast; November 11 retrospective addition)
 
 ---
 
-[中文](../README.md) · [Corrections](https://github.com/changyicheng1234/ai-prediction-evidence/issues)
+[中文](../README.md) · [Corrections](https://github.com/changyicheng1234/xianjian/issues)
 
 <details>
 <summary>Evidence and archiving</summary>

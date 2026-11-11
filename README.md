@@ -1,4 +1,4 @@
-# AI预测记录
+# 先见系列
 
 用AI预测真实事件，公开关键依据，留下原始判断，等待结果检验。
 
@@ -10,9 +10,13 @@
 
 - 第002期：[2026全球总决赛：Gen.G还是BLG？](docs/issue-002.md)（11月10日）
 
+**十月**
+
+- 第001期：[2026中期选举：共和党会同时失去两院吗？](docs/issue-001.md)（10月31日预测，11月11日补录）
+
 ---
 
-[English](docs/README.en.md) · [反馈与纠错](https://github.com/changyicheng1234/ai-prediction-evidence/issues)
+[English](docs/README.en.md) · [反馈与纠错](https://github.com/changyicheng1234/xianjian/issues)
 
 <details>
 <summary>资料与归档说明</summary>
