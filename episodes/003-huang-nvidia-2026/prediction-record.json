@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "episode": "003",
+  "title": "黄仁勋年底前是否会被宣布离任英伟达CEO？",
+  "publicRecordPreparedAtUtc": "2026-11-12T15:02:02.791824+00:00",
+  "isRetrospectivePublication": true,
+  "firstPublicArchiveIsThisGitHubPublication": true,
+  "priorPublicVideoPublicationEstablished": false,
+  "question": "黄仁勋是否会在美东时间2026年12月31日23:59前，被正式宣布辞任或被撤去英伟达CEO职务，或发生符合对应Polymarket规则的实际离任？",
+  "marketId": "6882826",
+  "deadlineET": "2026-12-31 23:59 EST",
+  "deadlineUtc": "2027-01-01T04:59:00Z",
+  "deadlineBjt": "2027-01-01T12:59:00+08:00",
+  "resolutionSummary": "Definitive authorized public CEO resignation/removal announcement by cutoff,intended effect within18months;temporary leave/suspension retainingCEO excluded. Exact frozen market rules govern;no invented last-second boundary or guaranteed actual-only fallback.",
+  "versions": [
+    {
+      "forecastId": "003-huang-yearend-v1",
+      "frozenAtUtc": "2026-11-11T15:20:36.437795+00:00",
+      "frozenAtBjt": "2026-11-11T23:20:36.437795+08:00",
+      "probabilityYes": 0.25,
+      "probabilityNo": 0.75,
+      "sourcePredictionSha256": "5661f1562fa800268dc2296e19165e46a4cca40ddc39a76a2359b89d7e06aa29",
+      "sourceRecordIsLocal": true
+    },
+    {
+      "forecastId": "003-huang-yearend-v3",
+      "frozenAtUtc": "2026-11-12T06:31:13.494309+00:00",
+      "frozenAtBjt": "2026-11-12T14:31:13.494309+08:00",
+      "probabilityYes": 0.7,
+      "probabilityNo": 0.3,
+      "sourcePredictionSha256": "90c9285038becca0c59fb434903012a38d9dfd16f1873264113a8c553534c248",
+      "sourceRecordIsLocal": true
+    },
+    {
+      "forecastId": "003-huang-yearend-v4",
+      "frozenAtUtc": "2026-11-12T07:26:33.588016+00:00",
+      "frozenAtBjt": "2026-11-12T15:26:33.588016+08:00",
+      "probabilityYes": 0.6,
+      "probabilityNo": 0.4,
+      "sourcePredictionSha256": "6f2e73df204b8f5a682e6fefdcef0319aecc9a797410889ec8666e7984446f81",
+      "sourceRecordIsLocal": true
+    }
+  ],
+  "latestResearchForecastId": "003-huang-yearend-v4",
+  "latestResearchProbabilityYes": 0.6,
+  "videoSelectedHistoricalForecastId": "003-huang-yearend-v3",
+  "videoSelectedHistoricalProbabilityYes": 0.7,
+  "videoSelectionIsNewForecast": false,
+  "highestStressTestIsNotMainPrediction": true,
+  "nativeDiagnostic": {
+    "v3ProbabilityYes": 0.2864794645601628,
+    "v4ProbabilityYes": 0.3180941129512307,
+    "statisticallyIndependentValidation": false,
+    "displayedVideoIsScenarioEstimateNotNativeOutput": true
+  },
+  "method": {
+    "type": "AI-assisted judgmental scenario estimates;native subjectiveLLR/logit diagnostic",
+    "empiricallyCalibrated": false,
+    "numericalConfidence": "low",
+    "marketExposureBeforeForecast": true,
+    "pristineBlindnessClaim": false
+  },
+  "marketComparisons": [
+    {
+      "forecastId": "003-huang-yearend-v3",
+      "forecastProbabilityYes": 0.7,
+      "marketHistoricalReference": 0.755,
+      "historicalSample": {
+        "t": 1794465016,
+        "p": 0.755
+      },
+      "historicalNextSample": {
+        "t": 1794465074,
+        "p": 0.76
+      },
+      "sampleAtBjt": "2026-11-12T14:30:16+08:00",
+      "secondsBeforeFreeze": 57.494308948516846,
+      "retrievedAtUtc": "2026-11-12T14:27:25.976607+00:00",
+      "retrievalWasRetrospective": true,
+      "isExactFreezeOrderBook": false,
+      "isConfirmedTrade": false
+    },
+    {
+      "forecastId": "003-huang-yearend-v4",
+      "forecastProbabilityYes": 0.6,
+      "marketHistoricalReference": 0.805,
+      "historicalSample": {
+        "t": 1794468374,
+        "p": 0.805
+      },
+      "historicalNextSample": {
+        "t": 1794468431,
+        "p": 0.805
+      },
+      "sampleAtBjt": "2026-11-12T15:26:14+08:00",
+      "secondsBeforeFreeze": 19.588016033172607,
+      "retrievedAtUtc": "2026-11-12T11:07:27.114840+00:00",
+      "retrievalWasRetrospective": true,
+      "isExactFreezeOrderBook": false,
+      "isConfirmedTrade": false
+    }
+  ],
+  "outcomeReview": {
+    "officialAnnouncementObserved": true,
+    "source": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "officialRssPublishedAtUtc": "2026-11-12T13:48:00+00:00",
+    "secAcceptedAtUtc": "2026-11-12T13:52:41+00:00",
+    "boardAcceptanceEffectiveDate": "2026-11-11",
+    "publicDisclosureDate": "2026-11-12",
+    "earliestDisclosureAcrossEveryChannelEstablished": false,
+    "definitiveCEOResignation": true,
+    "temporaryCEOReplacementDoesNotMeanHuangOnLeave": true,
+    "politicalOrchestrationEstablished": false,
+    "platformSettlementChecked": false,
+    "predictionLedgerChanged": false,
+    "brierScoreComputed": false
+  },
+  "sources": [
+    {
+      "id": "board-support",
+      "title": "NVIDIA:November8board statement",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "scope": "Official investigation and then-existing confidence statement;not a later reaffirmation"
+    },
+    {
+      "id": "new-allegation",
+      "title": "Daniel Howley quoting NYT investigation",
+      "url": "https://www.aol.com/articles/nvidia-ceo-huang-allegedly-involved-221815000.html",
+      "scope": "Readable reporting on another alleged relationship;NYT original full text was restricted;allegation not established misconduct"
+    },
+    {
+      "id": "wsj",
+      "title": "WSJ:reported board removal preparation",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "scope": "Public opening two paragraphs only,not paywalled full text or a corporate decision"
+    },
+    {
+      "id": "bloomberg",
+      "title": "Bloomberg succession-search reporting via Yahoo",
+      "url": "https://uk.finance.yahoo.com/news/nvidia-working-outside-firm-identify-000509874.html",
+      "scope": "Readable syndicated full text;anonymous sources,outside firm not named,source overlap unknown"
+    },
+    {
+      "id": "cramer",
+      "title": "Reuters:Senator Cramer resignation call",
+      "url": "https://www.aol.com/articles/senior-republican-us-senate-banking-034318000.html",
+      "scope": "Public political pressure;not proof of orchestrated disclosures or espionage"
+    },
+    {
+      "id": "announcement",
+      "title": "NVIDIA Announces CEO Transition",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "scope": "Outcome review only:official definitive resignation and interim successor;does not prove political motive"
+    },
+    {
+      "id": "sec",
+      "title": "NVIDIA November12Form8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+      "scope": "Outcome review only:Item5.02acceptance/effective dateNovember11,publicSECacceptanceNovember12"
+    },
+    {
+      "id": "market",
+      "title": "Polymarket year-end CEO announcement market6882826",
+      "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31",
+      "scope": "Same-event rule/comparison reference;historicalt/p samples retrieved retrospectively,not exact-freeze archived books"
+    }
+  ],
+  "videoProducedAfterOfficialAnnouncement": true,
+  "videoSelectionTimeRelativeToAnnouncement": "not_independently_established"
+}
