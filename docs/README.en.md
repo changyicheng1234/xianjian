@@ -8,6 +8,8 @@ Click an episode to read its probabilities, main reasons, counterevidence and so
 
 **November**
 
+- Episode 004: [Could Jensen Huang return? A subjective 25%](issue-004.en.md) (November 13)
+
 - Episode003:[Huang resigns:historical70%,later60%](issue-003.en.md)(November12,post-announcement review)
 
 - Episode 002: [Worlds 2026: Gen.G or BLG?](issue-002.en.md) (November 10)

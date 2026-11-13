@@ -2,6 +2,28 @@
   "schemaVersion": 1,
   "episodes": [
     {
+      "id": "004",
+      "slug": "004-huang-return-2027",
+      "title": "黄仁勋还能回来吗？AI给出25%",
+      "directory": "episodes/004-huang-return-2027",
+      "articlePath": "docs/issue-004.md",
+      "articlePathEnglish": "docs/issue-004.en.md",
+      "predictionRecord": "episodes/004-huang-return-2027/prediction-record.json",
+      "frozenPredictionRecord": "episodes/004-huang-return-2027/prediction-freeze-v2.json",
+      "probabilities": {
+        "yes": 0.25,
+        "no": 0.75
+      },
+      "frozenAtUtc": "2026-11-13T04:05:40Z",
+      "informationCutoffUtc": "2026-11-13T04:04:02Z",
+      "predictionSha256": "312874bcc87dafdaaa91bc2f41ee9cfe98ef9fe12219898d22aaf2ab00e422c3",
+      "releaseTag": "episode-004-20261113-v1",
+      "publicPublicationTimestampSource": "GitHub Releases API published_at; not frozenAtUtc",
+      "result": "unresolved_at_publication",
+      "formalSettlementStatus": "awaiting_2027_deadline_or_qualifying_reappointment",
+      "keySourceCount": 9
+    },
+    {
       "id": "003",
       "slug": "003-huang-nvidia-2026",
       "title": "黄仁勋卸任：AI曾给70%，后来修订为60%",

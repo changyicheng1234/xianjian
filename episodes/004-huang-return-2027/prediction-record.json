@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "episode": "004",
+  "title": "黄仁勋还能回来吗？2027年底前重返英伟达CEO",
+  "forecastId": "004-huang-return-ceo-2027-review-v2",
+  "publicRecordPreparedAtUtc": "2026-11-13T14:48:05.383569+00:00",
+  "question": "黄仁勋是否会在美国东部时间2027年12月31日结束前，重新出任英伟达CEO？",
+  "informationCutoffUtc": "2026-11-13T04:04:02Z",
+  "frozenAtUtc": "2026-11-13T04:05:40Z",
+  "frozenAtBjt": "2026-11-13T12:05:40+08:00",
+  "informationCutoffBjt": "2026-11-13T12:04:02+08:00",
+  "probabilityYes": 0.25,
+  "probabilityNo": 0.75,
+  "subjectiveSensitivityRangeYes": [
+    0.15,
+    0.4
+  ],
+  "rangeMeaning": "主观参数敏感性范围，不是统计置信区间。",
+  "resolution": {
+    "deadlineLocalExclusive": "2028-01-01T00:00:00-05:00",
+    "deadlineUtcExclusive": "2028-01-01T05:00:00Z",
+    "deadlineBjtExclusive": "2028-01-01T13:00:00+08:00",
+    "timeZone": "America/New_York",
+    "yes": "在2026年11月辞任后再次被任命为NVIDIA Corporation正式、临时或共同CEO，任命须在截止前公开确认且已生效。任期在截止前结束仍计YES。",
+    "no": "截止前无上述合格复任事件。只宣布将在2028年生效的任命不计入。",
+    "excluded": [
+      "仅任董事长或董事",
+      "仅任顾问或技术职务",
+      "出席发布会或参与战略讨论",
+      "仅持股或实际影响力",
+      "未正式任命为CEO的代为处理事务"
+    ],
+    "evidencePriority": [
+      "公司授权正式公告",
+      "SEC监管文件",
+      "两家相互独立的可靠媒体直接核实且不与官方记录冲突"
+    ],
+    "scopeNote": "这是本期自定义CEO复任问题，未声明与任何预测市场结算口径相同。"
+  },
+  "sourcePredictionSha256": "312874bcc87dafdaaa91bc2f41ee9cfe98ef9fe12219898d22aaf2ab00e422c3",
+  "sourceRecordIsLocal": true,
+  "sourceFreezeFile": "prediction-freeze-v2.json",
+  "publication": {
+    "firstPublicArchiveIsThisGitHubPublication": true,
+    "priorPublicVideoPublicationEstablished": false,
+    "releaseTag": "episode-004-20261113-v1",
+    "releaseUrl": "https://github.com/changyicheng1234/xianjian/releases/tag/episode-004-20261113-v1",
+    "publicReleaseTimestamp": null,
+    "publicReleaseTimestampSource": "GitHub Releases API published_at",
+    "note": "本地冻结时间、Git提交时间、GitHub实际公开时间分别记录；原冻结文件中的未发布/未制作标记是冻结当时状态，不代表本次发布状态。"
+  },
+  "method": {
+    "type": "同一助手的证据复核、案例机制比较及主观条件概率分解",
+    "independentModelValidation": false,
+    "empiricallyCalibrated": false,
+    "fittedHistoricalBaseRate": null,
+    "selectedCaseFrequencyUsedAsProbability": false,
+    "gateDefinition": "A：截止前调查、治理和外部关系方面的障碍已降至董事会能够接受其再次任CEO的程度；不要求全部调查正式终结或公开宣告无任何问题。",
+    "gateProbability": 0.55,
+    "probabilityActualCEOReappointmentGivenGate": 0.45,
+    "secondGateIncludes": [
+      "董事会或主要利益相关者形成足够强的复任意愿",
+      "相对于其他候选人选择他",
+      "黄本人接受",
+      "CEO任命在截止前生效并公开"
+    ],
+    "rawProbabilityYes": 0.2475,
+    "roundedProbabilityYes": 0.25,
+    "dependenceNote": "第二项以第一项成立为条件，不假设两个事件相互独立。",
+    "parameterJustification": [
+      "55%体现争议仍可能得到足够处理，但调查结论未取得、政治及治理压力存在；是主观评估，不是估计无罪或有罪概率。",
+      "45%体现创始人经验与公司关系的价值，同时考虑稳定继任、非CEO合作及本人另有安排的竞争路径。",
+      "参数只使判断可讨论，算术正确不能证明参数或预测准确。"
+    ],
+    "alternativeParameters": [
+      {
+        "label": "较保守",
+        "gateProbability": 0.4,
+        "conditionalReappointment": 0.35,
+        "probabilityYes": 0.14
+      },
+      {
+        "label": "主判断",
+        "gateProbability": 0.55,
+        "conditionalReappointment": 0.45,
+        "probabilityYes": 0.2475
+      },
+      {
+        "label": "较乐观",
+        "gateProbability": 0.7,
+        "conditionalReappointment": 0.55,
+        "probabilityYes": 0.385
+      }
+    ],
+    "materialLimitations": [
+      "未取得内部调查结论、董事会内部意向、黄本人的复任意愿或完整继任候选名单。",
+      "未找到同时匹配创始人、争议离任、上市大型芯片公司及约13个月窗口的充分历史样本。",
+      "没有把回归后的股票表现研究当作被解职者短期回归概率。",
+      "未把缺乏公开复任动员证据当作确定不存在支持。",
+      "检索触及市场价格，不能称盲测或独立于市场信息。"
+    ]
+  },
+  "priorVersion": {
+    "forecastId": "004-huang-return-ceo-2027-chat-v1",
+    "probabilityYes": 0.3,
+    "origin": "本轮之前的对话答复",
+    "independentlyTimestampedLocalFile": false,
+    "frozenAtUtc": null,
+    "initialModel": [
+      {
+        "weight": 0.25,
+        "conditionalYes": 0.7
+      },
+      {
+        "weight": 0.5,
+        "conditionalYes": 0.2
+      },
+      {
+        "weight": 0.25,
+        "conditionalYes": 0.05
+      }
+    ],
+    "revisionReason": "降低对临时CFO接班的正面解读；增加行为与治理问题的独立障碍；以Domo短期复任案例约束过度悲观，但考虑其控股结构差异。",
+    "precisionWarning": "25%与30%的差异低于当前证据可支撑的精度；两版都将复任视为有实质可能的少数情景。"
+  },
+  "comparativeCases": [
+    {
+      "name": "Sam Altman / OpenAI",
+      "facts": "2023年11月被解除CEO职务，随后复任并重组初始董事会；公司公告记录团队与Microsoft支持。",
+      "relevance": "技术公司关键人物可能借团队及合作方支持迅速回归。",
+      "limits": "未核实英伟达存在同等规模的公开组织压力；OpenAI后续审查对离任原因的说明不能外推至黄。",
+      "sourceIds": [
+        "openai-return",
+        "openai-review"
+      ]
+    },
+    {
+      "name": "Steve Jobs / Apple",
+      "facts": "1985年离开苹果；1996年NeXT交易带来回归，1997年出任临时CEO。",
+      "relevance": "公司困难及创始人价值可能促成回归。",
+      "limits": "离开约12年；1985年前并非苹果CEO，严格不是CEO复任样本。",
+      "sourceIds": [
+        "jobs-archive"
+      ]
+    },
+    {
+      "name": "Brian Krzanich / Intel",
+      "facts": "2018年CEO和董事同时辞任，Intel明确表示内部关系违反本公司政策；CFO Swan临时接任，2019年1月成为正式CEO，2019年年报继续记录其任职。",
+      "relevance": "大型芯片企业、关系争议、CEO及董事退出、CFO代任的结构更接近；CFO代任不蕴含等待前CEO回归。",
+      "limits": "Krzanich不是创始人，Intel已确认的违规不能用于认定黄存在相同违规。",
+      "sourceIds": [
+        "intel-exit",
+        "intel-swan",
+        "intel-2019-annual"
+      ]
+    },
+    {
+      "name": "Josh James / Domo",
+      "facts": "2022年3月辞去CEO及董事等职务，2023年3月重新任CEO；2023年公司文件记载其控制多数投票权，复任同时有股东书面同意及董事会调整。",
+      "relevance": "约12个月的复任先例，说明同时退出CEO及董事并不排除短期回归。",
+      "limits": "控股结构、公司规模、外部监管环境存在重大差异；本记录没有把争议相关指控写成已证实事实。",
+      "sourceIds": [
+        "domo-2022-separation",
+        "domo-2023-return",
+        "domo-2023-proxy",
+        "domo-2023-consent"
+      ]
+    },
+    {
+      "name": "Howard Schultz / Starbucks",
+      "facts": "2022年正式回归担任临时CEO。",
+      "relevance": "只要本题计入临时CEO，就存在短期过渡复任路径。",
+      "limits": "离任背景不同，不用于增加相似争议后回归的历史成功次数。",
+      "sourceIds": [
+        "starbucks-return"
+      ]
+    }
+  ],
+  "marketExposure": {
+    "exposureBeforeThisFreeze": true,
+    "exactRulesVerified": false,
+    "sameQuestionComparisonAllowed": false,
+    "directEventPageAccessible": false,
+    "directApiAccessible": false,
+    "observedSearchDisplays": [
+      {
+        "display": 0.22,
+        "sourceUrl": "https://polymarket.com/predictions/jensen-huang",
+        "type": "搜索摘要，非带交易时间的可执行报价"
+      },
+      {
+        "display": 0.14,
+        "sourceUrl": "https://polymarket.com/predictions/jensen-huang",
+        "type": "后续页面提取显示，非带交易时间的可执行报价"
+      }
+    ],
+    "title": "Jensen Huang rejoins NVIDIA by...?",
+    "inference": "标题可能覆盖其他职务，但完整规则未取得，不能认定其必然覆盖任何职务，也不能当成CEO复任市场。",
+    "videoInstruction": "不得使用这些摘要数值作同口径市场比较或声称AI优于市场。"
+  },
+  "updateTriggers": {
+    "increase": [
+      "调查与治理方面出现具体有利结论，同时董事会或重要股东明确推动CEO复任",
+      "继任安排持续困难，核心团队或关键客户出现可核实的复任要求"
+    ],
+    "decrease": [
+      "永久CEO到任后持续稳定，且没有可核实的复任动员",
+      "公开调查结论增加其重新任CEO的障碍",
+      "本人明确长期退出管理或接受难以兼任的其他职务"
+    ],
+    "insufficientAlone": [
+      "股价单日下跌",
+      "舆论怀念或花束",
+      "再次出席发布会",
+      "政治人物单独称赞",
+      "没有发现商业机密受损但其他治理问题仍未解决"
+    ],
+    "nextScheduledCorporateEvent": "公司公告安排2026年11月17日财报及电话会；这是观察点，不是本轮已知结果。",
+    "automationCreated": false
+  },
+  "sources": [
+    {
+      "id": "nvidia-transition",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/",
+      "date": "2026-11-12",
+      "scope": "官方公告正文已读"
+    },
+    {
+      "id": "nvidia-8k",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+      "date": "2026-11-12",
+      "scope": "Item5.02及生效日期"
+    },
+    {
+      "id": "nvidia-board-nov8",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+      "date": "2026-11-08",
+      "scope": "调查程序及当时支持；非最终结论"
+    },
+    {
+      "id": "nvidia-board-nov10",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+      "date": "2026-11-10",
+      "scope": "外部律师聘任"
+    },
+    {
+      "id": "house-media",
+      "url": "https://chinaselectcommittee.house.gov/media",
+      "date": "2026-11-12",
+      "scope": "官方媒体目录所载完整主席声明；不把政治措辞当公司法定离任方式"
+    },
+    {
+      "id": "reuters-second-employee",
+      "url": "https://uk.marketscreener.com/news/former-nvidia-ceo-huang-had-a-relationship-with-a-second-employee-sources-say-ce785ed8d08ff320",
+      "date": "2026-11-12",
+      "scope": "Reuters转载检索节选；非原站全文，后续open超时；匿名指控未获官方证实"
+    },
+    {
+      "id": "openai-return",
+      "url": "https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board/",
+      "date": "2023-11-29",
+      "scope": "上轮已读官方正文"
+    },
+    {
+      "id": "openai-review",
+      "url": "https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/",
+      "date": "2024-03-08",
+      "scope": "上轮已读官方公布的审查摘要，非律师完整报告"
+    },
+    {
+      "id": "jobs-archive",
+      "url": "https://book.stevejobsarchive.com/",
+      "scope": "档案编辑时间线及乔布斯口述"
+    },
+    {
+      "id": "intel-exit",
+      "url": "https://www.intc.com/news-events/press-releases/detail/146/intel-ceo-brian-krzanich-resigns-board-appoints-bob-swan",
+      "date": "2018-06-21",
+      "scope": "Intel确认自身政策违规及临时接班；不可移用于NVIDIA"
+    },
+    {
+      "id": "intel-swan",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0001193125-19-023301/d702987dex991.htm",
+      "date": "2019-01-31",
+      "scope": "七个月后由临时转正式CEO"
+    },
+    {
+      "id": "intel-2019-annual",
+      "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-20-000011/a12282019q410kdocumentcourte.pdf",
+      "scope": "2019年年报有关Swan任期的官方索引节选"
+    },
+    {
+      "id": "domo-2022-separation",
+      "url": "https://www.sec.gov/Archives/edgar/data/1505952/000150595222000014/domo-2022proxystatement.htm",
+      "scope": "2022年代理声明中CEO及董事离任与过渡约定"
+    },
+    {
+      "id": "domo-2023-return",
+      "url": "https://s26.q4cdn.com/900411403/files/doc_financials/2023/q4/domo-fy23-10-k-final.pdf",
+      "scope": "公司年报索引正文节选确认2022离任及2023复任"
+    },
+    {
+      "id": "domo-2023-proxy",
+      "url": "https://www.sec.gov/Archives/edgar/data/1505952/000150595223000052/domo-20230508.htm",
+      "scope": "2023年代理声明Controlled Company段落，多数投票权"
+    },
+    {
+      "id": "domo-2023-consent",
+      "url": "https://www.sec.gov/Archives/edgar/data/1505952/000150595223000012/domoregfd8-kfy23exhibit993.htm",
+      "date": "2023-03-06",
+      "scope": "2023年3月3日生效的书面同意及董事调整"
+    },
+    {
+      "id": "starbucks-return",
+      "url": "https://investor.starbucks.com/news/financial-releases/news-details/2022/Starbucks-Announces-Leadership-Transition/default.aspx",
+      "date": "2022-03-16",
+      "scope": "上轮已读官方公告，2022年4月4日生效"
+    },
+    {
+      "id": "boomerang-study",
+      "url": "https://sloanreview.mit.edu/article/boomerang-ceos-what-happens-when-the-ceo-comes-back/",
+      "date": "2020-09-17",
+      "scope": "作者研究正文相关部分；不作为短期回归概率基准"
+    },
+    {
+      "id": "dualclass-study",
+      "url": "https://law-economic-studies.law.columbia.edu/sites/law-economic-studies.law.columbia.edu/files/content/Spring%202025%20Paper%20Presentations/CEO%20Turnover%20at%20Dual%20Class%20Firms.pdf",
+      "scope": "论文第22页关于控制权、董事留任及复任案例的原文"
+    }
+  ],
+  "outcome": {
+    "status": "unresolved_at_publication",
+    "deadlinePassed": false,
+    "result": null,
+    "scoreComputed": false
+  },
+  "video": {
+    "revision": "R11",
+    "producedLocally": true,
+    "publishedOnVideoPlatformEstablished": false,
+    "selectedProbabilityYes": 0.25,
+    "sha256": "7c89e4976568a5251309fc426098d5434fc095670f5362d2fb11cd3fde9d32b5",
+    "durationSeconds": 71.7,
+    "aspectRatio": "4:3",
+    "expectationIsNotPredictionCertainty": true
+  }
+}
