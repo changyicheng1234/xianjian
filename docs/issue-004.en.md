@@ -1,76 +1,62 @@
-# Xianjian · Episode 004: Could Jensen Huang return? A subjective 25%
+# Xianjian 004: can Jensen Huang return as CEO? A subjective estimate of about 29%
 
 [← Contents](README.en.md) · [中文](issue-004.md)
 
-**The frozen AI-assisted judgment assigns a 25% probability that Jensen Huang will again become NVIDIA CEO by the end of 2027, and 75% that he will not.** The video expresses hope for a return; that hope is separate from the probability judgment.
+**The subjective AI estimate of a public, effective NVIDIA CEO reinstatement by the end of 2027 is about 29%, roughly three in ten.**
 
-![Episode 004: a subjective 25% probability of returning as NVIDIA CEO by the end of 2027](images/issue-004-cover.jpg)
+![Can Jensen Huang return as CEO? About 29%; end-2027 horizon; AI-extracted 2024 archival portrait](images/issue-004-cover.jpg)
 
-## Question and timing
+Information cutoff: **November 16, 2026 at 08:32:11 UTC** (16:32:11 Beijing). Local freeze: **08:40:14 UTC** (16:40:14 Beijing). This is uncalibrated judgment, not demonstrated accuracy. Actual GitHub publication time comes from this [Release](https://github.com/changyicheng1234/xianjian/releases/tag/episode-004-20261116-v2)'s `published_at`, not the earlier local timestamp.
 
-After his November 2026 resignation, will he again be formally appointed NVIDIA Corporation's permanent, interim or co-CEO before 00:00 on January 1, 2028 in America/New_York? The appointment must be effective and publicly confirmed before that cutoff. A qualifying appointment still counts if he subsequently leaves again.
+## Why is a return possible?
 
-Board, chair, advisory or technical roles, keynote appearances, shareholdings and informal influence do not count. An appointment announced in 2027 but effective only in 2028 does not qualify.
+**The founder's experience and relationships may retain value.** His technical judgment, team cohesion and industry ties could give the board a reason to reconsider if it believes his leadership would benefit the company. This is AI analysis, not a claim that directors support reinstatement. NVIDIA acknowledged his contributions while appointing an interim CEO and starting a permanent succession search ([official announcement](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)).
 
-- Information cutoff: **2026-11-13 04:04:02 UTC**, or 12:04:02 Beijing time.
-- Local freeze: **2026-11-13 04:05:40 UTC**, or 12:05:40 Beijing time.
-- Exclusive resolution cutoff: **2028-01-01 05:00 UTC**, or 13:00 Beijing time.
-- Actual GitHub publication: consult this [Release's published_at](https://github.com/changyicheng1234/xianjian/releases/tag/episode-004-20261113-v1). Local freeze time does not establish earlier public availability.
-- Outcome: unresolved at publication.
+**There is public support and an unfinished succession process.** Technology figures voiced support and some investors asked that a return remain an option. These do not control the appointment, but describe a possible mechanism for reconsideration. Petition identities and totals were not independently verified and are not treated as an internal company vote ([AFP](https://origin-zh9p7m-www.afp.com/en/us-treasury-chief-wants-answers-soon-nvidia-0)).
 
-## Why a return remains possible
+**His willingness has also been reported.** Reuters relayed FT anonymous-source reporting about discussions with confidants and lobbying by allies. It has not been formally confirmed by the company, and multiple rewrites are one originating story ([Reuters relaying FT](https://www.marketscreener.com/news/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports-ce785ededf8bf423)).
 
-The founder's technical judgment, relationships and importance to staff or customers may create reasons to reconsider the CEO position. That value could also be retained through non-CEO roles, which would resolve this question NO.
+## Why is it still below one half?
 
-Altman's OpenAI return illustrates the importance of staff and partner support. Josh James's Domo return after roughly a year shows that leaving both CEO and board positions does not make a short-term comeback impossible. Comparable public mobilization for Huang's reinstatement has not been established.
+Board acceptance remains unestablished. Investigation, governance and outside compliance pressure could impede a return. Treasury Secretary Bessent's call for an outside CEO is pressure, not a finding of wrongdoing or an appointment decision. NVIDIA's statement that it had not formally engaged individual candidates leaves flexibility without proving support for Huang ([AFP](https://origin-zh9p7m-www.afp.com/en/us-treasury-chief-wants-answers-soon-nvidia-0), [Bloomberg public excerpt](https://news.bloomberglaw.com/corporate-governance/nvidia-says-speculation-on-new-ceo-candidates-is-premature)).
 
-NVIDIA's interim succession arrangement leaves future decisions open, but the company is also searching for a permanent successor. An interim CFO replacement is not evidence that a seat is being held for the former CEO.
+A stable permanent replacement or only an advisory/director/technical role can still leave the CEO-return event as NO.
 
-## Why the main estimate remains 25%
+## Resolution
 
-Governance, investigation and external-relationship obstacles must fall to a level acceptable to the board. Earlier board support predates the resignation; it is not subsequent endorsement of reinstatement. An investigation is neither a finding of misconduct nor evidence that the concerns have already been resolved.
+| Item | Rule |
+| --- | --- |
+| YES | After his November 2026 resignation, publicly appointed and taking office as NVIDIA CEO, interim CEO or co-CEO before the deadline; a subsequent departure still counts |
+| NO | No qualifying appointment before the deadline; announcing an appointment effective in 2028 does not qualify |
+| Exclusive deadline | January 1, 2028 00:00 America/New_York; 05:00 UTC; 13:00 Beijing |
+| Excluded | Only director, chair, adviser or technical roles; event appearances, share ownership or informal influence |
+| Sources | Authorized company announcement and SEC filing first; then direct verification by independent reliable reporting |
 
-The roughly thirteen-month horizon is short. A stable permanent successor, Huang's own plans, or cooperation without a CEO appointment could all prevent a qualifying return. The strongest challenge to 25% would be concrete favorable investigative or governance developments accompanied by credible board, staff or shareholder support for reinstatement. Internal findings, board intentions, his willingness and the full succession candidate list were not obtained.
+## Three-scene image post
 
-## What the historical cases do and do not show
+[Scene 1: estimate](images/issue-004-scene-1.png) · [Scene 2: core reason](images/issue-004-scene-2.png) · [Scene 3: return path](images/issue-004-scene-3.png)
 
-| Case | Useful mechanism | Material difference |
-| --- | --- | --- |
-| Sam Altman / OpenAI | Rapid reinstatement with organizational and partner support | Different governance; equivalent NVIDIA support has not been established |
-| Steve Jobs / Apple | A founder's value can be reassessed during company difficulties | Roughly twelve years away; he had not been Apple's CEO before leaving in 1985 |
-| Brian Krzanich / Intel | Chipmaker, CEO and board exit, CFO appointed interim CEO | Not a founder; Intel's confirmed policy findings cannot be transferred to Huang |
-| Josh James / Domo | A return after approximately one year | Majority voting control, company scale and governance arrangements differ |
-| Howard Schultz / Starbucks | Interim CEO reappointment can count under this question | A different departure context, not a comparable scandal-return success count |
-
-These cases explain mechanisms. Their selected success frequency was not used as the forecast probability; no sufficiently matched historical base-rate sample was obtained.
-
-## Method, versions and limits
-
-The same AI assistant reviewed the evidence and assigned subjective conditional parameters: 55% that the relevant obstacles become sufficiently acceptable before the deadline, then 45% that an actual CEO appointment is chosen, accepted, effective and public before the deadline, conditional on that first gate. Their product is 24.75%, rounded to 25%. The gates are not assumed independent.
-
-This is not an empirically calibrated statistical estimate. The approximate 15%–40% subjective sensitivity range is not a confidence interval. An earlier conversation draft gave 30% without an independently timestamped freeze; the frozen review gave 25%. That five-point difference is smaller than the precision the evidence supports. The video and this publication preserve the frozen 25%; editing did not rerun the prediction.
-
-Market search displays were encountered during research, but full rules and contemporaneous executable quotes were not verified. No matched market comparison, strict blindness, proven accuracy or AI outperformance is claimed.
+[4:3 landscape cover](images/issue-004-cover.jpg) · [3:4 portrait cover](images/issue-004-cover-3x4.jpg) · [Short Chinese social copy](../episodes/004-huang-return-2027/social-copy.zh.txt)
 
 ## Key sources
 
-1. [NVIDIA CEO transition announcement](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/) (November 12, 2026): resignation, interim succession and permanent successor search.
-2. [SEC 8-K, Item 5.02](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm): November 11 board acceptance and immediate effectiveness, distinguished from public disclosure.
-3. [Independent NVIDIA board members' statement](https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board) (November 10, 2026): external counsel and investigation process, not final findings.
-4. [OpenAI's Altman return announcement](https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board/) (November 29, 2023): reinstatement and organizational support.
-5. [Steve Jobs Archive](https://book.stevejobsarchive.com/): the departure, return and interim CEO timeline.
-6. [Intel's Krzanich resignation and Swan interim appointment](https://www.intc.com/news-events/press-releases/detail/146/intel-ceo-brian-krzanich-resigns-board-appoints-bob-swan) (June 21, 2018): company-specific findings and succession structure.
-7. [Domo 2023 proxy statement](https://www.sec.gov/Archives/edgar/data/1505952/000150595223000052/domo-20230508.htm): return and majority voting control.
-8. [Domo shareholder consent and board changes](https://www.sec.gov/Archives/edgar/data/1505952/000150595223000012/domoregfd8-kfy23exhibit993.htm) (March 6, 2023): relevant governance arrangements.
-9. [Starbucks leadership transition](https://investor.starbucks.com/news/financial-releases/news-details/2022/Starbucks-Announces-Leadership-Transition/default.aspx) (March 16, 2022): Schultz's April 4 interim CEO return.
+1. [NVIDIA CEO transition](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition), November 12, 2026: resignation, interim leadership and permanent search.
+2. [SEC Form 8-K, Item 5.02](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm), published November 12: November 11 effective resignation and interim appointment.
+3. [Independent NVIDIA directors](https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board), November 10: independent counsel appointment, not final findings.
+4. [AFP](https://origin-zh9p7m-www.afp.com/en/us-treasury-chief-wants-answers-soon-nvidia-0), November 16: support, investor requests and outside pressure.
+5. [Reuters relaying FT](https://www.marketscreener.com/news/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports-ce785ededf8bf423), November 15: anonymous-source comeback reporting; FT original unavailable.
+6. [Bloomberg](https://news.bloomberglaw.com/corporate-governance/nvidia-says-speculation-on-new-ceo-candidates-is-premature), November 13: public excerpt and quoted company statement only; paid continuation not read.
 
 <details>
-<summary>Records, publication and photo credit</summary>
+<summary>Method, frozen record and photo attribution</summary>
 
-- [Public prediction record](../episodes/004-huang-return-2027/prediction-record.json).
-- [Byte-preserved local freeze](../episodes/004-huang-return-2027/prediction-freeze-v2.json), SHA256 `312874bcc87dafdaaa91bc2f41ee9cfe98ef9fe12219898d22aaf2ab00e422c3`. Its unpublished/unproduced flags describe the original freeze, not the present production status.
-- [Immutable episode Release](https://github.com/changyicheng1234/xianjian/releases/tag/episode-004-20261113-v1). Actual publication time is a GitHub platform record, distinct from the local freeze. Public video-platform publication has not been established.
-- Full caches, internal logs, video, music and editing projects remain local. Future revisions and resolution will be separate records.
-- Cover photo: Peter Dasilva / © European Union, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jensen_Huang_(cropped)_(2024).jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Taken May 13, 2024; cropped and typeset, not an actual reinstatement photograph.
+Six actual host-session retrieval/review phases were processed through the existing engine's evidence validation, deduplication and probability accounting. The native CLI did not start in the restricted environment; actual session model identifier is unavailable. Do not interpret this as six successful native model research rounds, empirical calibration, a blind benchmark or demonstrated superiority. Standalone presentation does not alter calculation provenance or freeze time. Full research/logs, video, music and editing project remain local.
+
+- [Reduced prediction record](../episodes/004-huang-return-2027/prediction-record.json) and [public freeze copy](../episodes/004-huang-return-2027/prediction-freeze.json). These are reduced derivatives, not byte-identical private originals; source hashes are retained.
+- This [Release](https://github.com/changyicheng1234/xianjian/releases/tag/episode-004-20261116-v2) archives the current version. The main-branch article and contents present it as current; historical Git and immutable Releases provide provenance, not a probability comparison in this article.
+- Portrait: Peter Dasilva / © European Union, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jensen_Huang_(cropped)_(2024).jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), May 13, 2024 archival photograph. AI-assisted background extraction, cropping, layout and motion compositing; not a reinstatement scene.
+- The creator plans Douyin/Bilibili video and Xiaohongshu image posts; platform URLs and actual public timestamps have not been independently verified.
 
 </details>
+
+[← Contents](README.en.md)

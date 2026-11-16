@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "episode": "004",
+  "question": "黄仁勋是否在美国东部时间2027年12月31日结束前，正式复任英伟达CEO？",
+  "probabilityYes": 0.28985007798613815,
+  "probabilityNo": 0.7101499220138618,
+  "displayProbabilityYes": "约29%",
+  "probabilityType": "uncalibrated subjective AI estimate",
+  "informationCutoffUtc": "2026-11-16T08:32:11.939Z",
+  "frozenAtUtc": "2026-11-16T08:40:14.015589+00:00",
+  "informationCutoffBjt": "2026-11-16T16:32:11.939+08:00",
+  "frozenAtBjt": "2026-11-16T16:40:14.015589+08:00",
+  "resolution": {
+    "deadlineLocalExclusive": "2028-01-01T00:00:00-05:00",
+    "deadlineUtcExclusive": "2028-01-01T05:00:00Z",
+    "deadlineBjtExclusive": "2028-01-01T13:00:00+08:00",
+    "timeZone": "America/New_York",
+    "yes": "在2026年11月辞任后再次被任命为NVIDIA Corporation正式、临时或共同CEO，任命须在截止前公开确认且已生效。任期在截止前结束仍计YES。",
+    "no": "截止前无上述合格复任事件。只宣布将在2028年生效的任命不计入。",
+    "excluded": [
+      "仅任董事长或董事",
+      "仅任顾问或技术职务",
+      "出席发布会或参与战略讨论",
+      "仅持股或实际影响力",
+      "未正式任命为CEO的代为处理事务"
+    ],
+    "evidencePriority": [
+      "公司授权正式公告",
+      "SEC监管文件",
+      "两家相互独立的可靠媒体直接核实且不与官方记录冲突"
+    ]
+  },
+  "method": {
+    "research": "Actual host-session source review with existing forecast-engine validation, source deduplication and probability accounting.",
+    "researchReviewPhases": 6,
+    "nativeCoreAccountingRounds": 6,
+    "independentModelReplications": false,
+    "nativeCliModelRunCompleted": false,
+    "requestedModel": "gpt-6.1-sol",
+    "requestedReasoningEffort": "high",
+    "actualModel": null,
+    "expandedLibraryUsed": false,
+    "calibrated": false,
+    "limitations": "The specified native model CLI did not start in the restricted environment. The result is not six successful native model research rounds, an independently fitted statistical probability, demonstrated accuracy or a blind benchmark. Standalone presentation does not alter calculation provenance or timing."
+  },
+  "keyReasons": [
+    "Founder experience and relationships could give the board a reason to reconsider.",
+    "Public supporters and investors advocate keeping reinstatement possible.",
+    "Interim leadership and an unfinished permanent succession leave an available path."
+  ],
+  "counterevidence": [
+    "Board acceptance of CEO reinstatement is not established.",
+    "Investigation, governance and external compliance pressure could block reinstatement.",
+    "A permanent replacement or a return only to a non-CEO role could leave the event as NO at the deadline."
+  ],
+  "sources": [
+    {
+      "id": "nvidia-transition",
+      "title": "NVIDIA Announces CEO Transition",
+      "date": "2026-11-12",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "scope": "Official announcement: resignation, interim CEO, permanent successor search and acknowledgment of founder contributions."
+    },
+    {
+      "id": "sec-transition",
+      "title": "NVIDIA Form 8-K, Item 5.02",
+      "date": "2026-11-12",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+      "scope": "Read Item 5.02: resignation effective November 11, Kress interim appointment and board chair."
+    },
+    {
+      "id": "nvidia-investigation",
+      "title": "Statement From the Independent Members of the NVIDIA Board",
+      "date": "2026-11-10",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-the-independent-members-of-the-nvidia-board",
+      "scope": "Official appointment of independent investigation counsel; not a final finding."
+    },
+    {
+      "id": "afp-support-and-pressure",
+      "title": "US Treasury chief wants answers soon from Nvidia",
+      "date": "2026-11-16",
+      "url": "https://origin-zh9p7m-www.afp.com/en/us-treasury-chief-wants-answers-soon-nvidia-0",
+      "scope": "Read AFP article: public support/investor requests and Bessent outside-CEO/compliance pressure. Petition identity/counts not independently verified and not used."
+    },
+    {
+      "id": "reuters-ft-comeback",
+      "title": "Jensen Huang discusses comeback as Nvidia CEO with allies, FT reports",
+      "date": "2026-11-15",
+      "url": "https://www.marketscreener.com/news/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports-ce785ededf8bf423",
+      "scope": "Reuters syndicated article relaying FT anonymous-source reporting; not an independent confirmation of FT. FT original inaccessible."
+    },
+    {
+      "id": "bloomberg-candidates",
+      "title": "Nvidia Says Speculation on New CEO Candidates Is Premature",
+      "date": "2026-11-13",
+      "url": "https://news.bloomberglaw.com/corporate-governance/nvidia-says-speculation-on-new-ceo-candidates-is-premature",
+      "scope": "Public excerpt and quoted company statement only; subscription continuation not read."
+    }
+  ],
+  "sourceLimitations": [
+    "No independently verified petition identities or employee percentages.",
+    "Reuters comeback reporting originates from FT anonymous sources; original FT and Fox interview unavailable.",
+    "Only the publicly accessible Bloomberg excerpt was read."
+  ],
+  "publicExport": {
+    "preparedAtUtc": "2026-11-16T12:49:32.848725+00:00",
+    "kind": "Derived, reduced public record; not byte-identical to the private original freeze.",
+    "sourcePrivateFreezeSha256": "ce1c45f1205fd443e9615dbb7892c434db79b6c1395fb5f2afb6f6c2dab542d3",
+    "sourceLocalDisplayRecordSha256": "759a7b6dcd5155fca25991d510fb52d57097f87c1515363166b80d87906c9dc0",
+    "sourceVideoSha256": "cddf65ebe5646f1c1dcb72e540cd6c1462cc9459749f494deba15f689289bc31",
+    "releaseTag": "episode-004-20261116-v2",
+    "actualPublicationTimeSource": "GitHub Release published_at; local freeze time is not first public time."
+  }
+}

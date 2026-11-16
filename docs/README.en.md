@@ -8,7 +8,7 @@ Click an episode to read its probabilities, main reasons, counterevidence and so
 
 **November**
 
-- Episode 004: [Could Jensen Huang return? A subjective 25%](issue-004.en.md) (November 13)
+- Episode 004: [Can Jensen Huang return as CEO? About 29%](issue-004.en.md) (November 16 information cutoff)
 
 - Episode003:[Huang resigns:historical70%,later60%](issue-003.en.md)(November12,post-announcement review)
 

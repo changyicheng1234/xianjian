@@ -4,24 +4,30 @@
     {
       "id": "004",
       "slug": "004-huang-return-2027",
-      "title": "黄仁勋还能回来吗？AI给出25%",
+      "title": "黄仁勋还能重返CEO吗？AI给出约29%",
       "directory": "episodes/004-huang-return-2027",
       "articlePath": "docs/issue-004.md",
       "articlePathEnglish": "docs/issue-004.en.md",
       "predictionRecord": "episodes/004-huang-return-2027/prediction-record.json",
-      "frozenPredictionRecord": "episodes/004-huang-return-2027/prediction-freeze-v2.json",
+      "frozenPredictionRecord": "episodes/004-huang-return-2027/prediction-freeze.json",
       "probabilities": {
-        "yes": 0.25,
-        "no": 0.75
+        "yes": 0.28985007798613815,
+        "no": 0.7101499220138618
       },
-      "frozenAtUtc": "2026-11-13T04:05:40Z",
-      "informationCutoffUtc": "2026-11-13T04:04:02Z",
-      "predictionSha256": "312874bcc87dafdaaa91bc2f41ee9cfe98ef9fe12219898d22aaf2ab00e422c3",
-      "releaseTag": "episode-004-20261113-v1",
+      "frozenAtUtc": "2026-11-16T08:40:14.015589+00:00",
+      "informationCutoffUtc": "2026-11-16T08:32:11.939Z",
+      "predictionSha256": "a5c1458d350655694653e5cf048bf09bc7cd2f5b896a1753118eb1501965fd70",
+      "releaseTag": "episode-004-20261116-v2",
       "publicPublicationTimestampSource": "GitHub Releases API published_at; not frozenAtUtc",
       "result": "unresolved_at_publication",
       "formalSettlementStatus": "awaiting_2027_deadline_or_qualifying_reappointment",
-      "keySourceCount": 9
+      "keySourceCount": 6,
+      "videoRevision": "R16",
+      "coverRatios": [
+        "4:3",
+        "3:4"
+      ],
+      "currentPublicVersion": "episode-004-20261116-v2"
     },
     {
       "id": "003",
