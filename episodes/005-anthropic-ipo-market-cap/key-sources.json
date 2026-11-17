@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Anthropic S-1/A No.2",
+    "date": "2026-11-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "scope": "发行结构、股数、财务和风险；仅核验相关段落和表格，未称全文审计。"
+  },
+  {
+    "title": "Anthropic IPO 官网",
+    "date": "2026-11-17访问",
+    "url": "https://ipo.anthropic.com/us/",
+    "scope": "计划定价与交易日期，尚附监管条件。"
+  },
+  {
+    "title": "Reuters：订单簿与估值争议",
+    "date": "2026-11-13",
+    "url": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-flock-to-anthropic-ipo-but-question-durability-of-ai-lead-5026644",
+    "scope": "匿名知情人士报道，不是已确认配售。"
+  },
+  {
+    "title": "Jay Ritter IPO Statistics",
+    "date": "2026-11-05",
+    "url": "https://site.warrington.ufl.edu/ritter/files/IPO-Statistics.pdf",
+    "scope": "读取表1和表7；历史普通IPO不是本题校准样本。"
+  },
+  {
+    "title": "美联储金融稳定报告",
+    "date": "2026-11-13",
+    "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+    "scope": "选读风险摘要和Box5.1；主要信息截点为10月28日。"
+  },
+  {
+    "title": "Fidelity IPO时间表",
+    "date": "2026-11-10",
+    "url": "https://www.fidelity.com/learning-center/trading-investing/how-to-buy-anthropic-stock",
+    "scope": "券商操作时间表。"
+  },
+  {
+    "title": "Google N类股购买协议",
+    "date": "2026-11-10",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/exhibit1015-sx1ax2.htm",
+    "scope": "私募配售按最终发行价换算股数。"
+  },
+  {
+    "title": "Polymarket 原题及网页快照",
+    "date": "2026-11-17抓取",
+    "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-979",
+    "scope": "七档结构；报价更新时间未提供，非实时交易数据。"
+  }
+]

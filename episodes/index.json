@@ -2,6 +2,65 @@
   "schemaVersion": 1,
   "episodes": [
     {
+      "id": "005",
+      "slug": "005-anthropic-ipo-market-cap",
+      "title": "Anthropic上市首日收盘市值：七档概率对比",
+      "directory": "episodes/005-anthropic-ipo-market-cap",
+      "articlePath": "docs/issue-005.md",
+      "articlePathEnglish": "docs/issue-005.en.md",
+      "predictionRecord": "episodes/005-anthropic-ipo-market-cap/prediction-record.json",
+      "answerType": "categorical",
+      "probabilities": [
+        {
+          "id": "lt06",
+          "label": "低于0.6万亿美元",
+          "probability": 0.0021083112822369845,
+          "displayPercent": 0.2
+        },
+        {
+          "id": "06to09",
+          "label": "0.6万亿—0.9万亿美元",
+          "probability": 0.052236960893027616,
+          "displayPercent": 5.2
+        },
+        {
+          "id": "09to12",
+          "label": "0.9万亿—1.2万亿美元",
+          "probability": 0.5240670113638708,
+          "displayPercent": 52.4
+        },
+        {
+          "id": "12to15",
+          "label": "1.2万亿—1.5万亿美元",
+          "probability": 0.3358336443246402,
+          "displayPercent": 33.6
+        },
+        {
+          "id": "15to18",
+          "label": "1.5万亿—1.8万亿美元",
+          "probability": 0.07014997001528023,
+          "displayPercent": 7.0
+        },
+        {
+          "id": "ge18",
+          "label": "1.8万亿美元及以上",
+          "probability": 0.013029004905759619,
+          "displayPercent": 1.3
+        },
+        {
+          "id": "noipo",
+          "label": "截至2027年12月31日仍未IPO",
+          "probability": 0.002575097215184455,
+          "displayPercent": 0.3
+        }
+      ],
+      "frozenAtUtc": "2026-11-17T12:25:37.188998+00:00",
+      "publicPublishedAtUtc": null,
+      "publicationStatus": "prepared_locally",
+      "keySourceCount": 8,
+      "releaseTag": "episode-005-20261117-v1"
+    },
+    {
       "id": "004",
       "slug": "004-huang-return-2027",
       "title": "黄仁勋还能重返CEO吗？AI给出约29%",

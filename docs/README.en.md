@@ -8,6 +8,8 @@ Click an episode to read its probabilities, main reasons, counterevidence and so
 
 **November**
 
+- Episode005: [Anthropic IPO: seven market-cap probabilities](issue-005.en.md) (November17 local freeze)
+
 - Episode 004: [Can Jensen Huang return as CEO? About 29%](issue-004.en.md) (November 16 information cutoff)
 
 - Episode003:[Huang resigns:historical70%,later60%](issue-003.en.md)(November12,post-announcement review)
