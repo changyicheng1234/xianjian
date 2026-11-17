@@ -4,7 +4,7 @@
 
 **The AI distribution favors $0.9T–$1.2T (52.4%); the normalized market webpage snapshot favors $1.2T–$1.5T (47.0%).**
 
-![Episode005 comparison](images/issue-005-cover.jpg)
+![AI forecast of Anthropic IPO market capitalization](images/issue-005-cover.jpg)
 
 | First-day closing market cap | AI estimate | Normalized Polymarket snapshot |
 | --- | ---: | ---: |

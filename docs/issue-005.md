@@ -4,7 +4,7 @@
 
 **AI最看好0.9—1.2万亿美元：52.4%；市场归一化快照最看好1.2—1.5万亿美元：47.0%。**
 
-![第五期七档预测与市场对比](images/issue-005-cover.jpg)
+![AI预测Anthropic上市市值](images/issue-005-cover.jpg)
 
 | 首日收盘市值 | AI预测 | Polymarket快照* |
 | --- | ---: | ---: |
